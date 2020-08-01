@@ -1,0 +1,17 @@
+[package]
+name = "rdr-prototype"
+version = "0.1.0"
+authors = ["jethrosun <jethro.sun7@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+failure = "*"
+tiny_http = "0.6"
+base64 = "0.10"
+# headless_chrome = { git = "https://github.com/jethrosun/rust-headless-chrome", branch = "pvn" }
+# headless_chrome = { git = "https://github.com/jethrosun/rust-headless-chrome", branch = "pvn-rdr" }
+headless_chrome = { git = "https://github.com/jethrosun/rust-headless-chrome", branch = "pvn-july-20" }
+# headless_chrome = "0.9"
+serde_json = "*"
