@@ -1,15 +1,16 @@
+extern crate base64;
+extern crate tiny_http;
+
 use failure::Fallible;
-use headless_chrome::LaunchOptions;
+use headless_chrome::LaunchOptionsBuilder;
 use headless_chrome::{browser::context::Context, Browser, Tab};
 use serde_json::{from_reader, Result, Value};
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::fs::File;
-use std::path::PathBuf;
 use std::sync::Arc;
 use std::thread::sleep;
 use std::time::{Duration, Instant};
-use std::vec::Vec;
 
 /// Construct the workload from the session file.
 ///
@@ -231,37 +232,37 @@ pub fn rdr_load_workload(
             broken_urls.insert("viddler.com");
             broken_urls.insert("msnsc.allyes.com");
             broken_urls.insert("poll.hanafos.com");
-            broken_urls.insert("image.baidu.com");
-            broken_urls.insert("item.taobao.com");
-            broken_urls.insert("baike.baidu.com");
-            broken_urls.insert("slirsredirect.search.aol.com");
-            broken_urls.insert("highschoolsports.net");
-            broken_urls.insert("springerlink.com");
-            broken_urls.insert("news3.xinhuanet.com");
-            broken_urls.insert("10902064121.baseball.cbssports.com");
-            broken_urls.insert("video.od.visiblemeasures.com");
-            broken_urls.insert("334.webim0444.webim.myspace.com");
-            broken_urls.insert("bid.openx.net");
-            broken_urls.insert("baidu.com");
-            broken_urls.insert("xiaoyou.qq.com");
-            broken_urls.insert("games.qq.com");
-            broken_urls.insert("businessmajors.about.com");
-            broken_urls.insert("msn.100du.com");
-            broken_urls.insert("h21.hani.co.kr");
-            broken_urls.insert("ovidsp.tx.ovid.com.proxy.medlib.iupui.edu");
-            broken_urls.insert("rhapsody.com");
-            broken_urls.insert("addirector.vindicosuite.com");
-            broken_urls.insert("aes.iupui.edu");
-            broken_urls.insert("reddit.com");
-            broken_urls.insert("357.webim0018.webim.myspace.com");
-            broken_urls.insert("youku.com");
-            broken_urls.insert("en.wikipedia.org");
-            broken_urls.insert("news.aol.com");
-            broken_urls.insert("xvideos.com");
-            broken_urls.insert("news.search.yahoo.com");
-            broken_urls.insert("boost.org");
-            broken_urls.insert("tienganh.com.vn");
-            broken_urls.insert("jobview.usajobs.gov");
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
             // broken_urls.insert();
             // broken_urls.insert();
             // broken_urls.insert();
@@ -317,10 +318,9 @@ pub fn rdr_load_workload(
 pub fn browser_create() -> Fallible<Browser> {
     let timeout = Duration::new(1000, 0);
 
-    let driver_path = PathBuf::from(r"/usr/bin/chromium-browser");
     // .path(Some(driver_path)) //
 
-    let options = LaunchOptions::default_builder()
+    let options = LaunchOptionsBuilder::default()
         .headless(true)
         .idle_browser_timeout(timeout)
         .build()
@@ -382,7 +382,7 @@ pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()>
 
 pub fn browser_tab_create() -> Fallible<Arc<Tab>> {
     let browser = Browser::new(
-        LaunchOptions::default_builder()
+        LaunchOptionsBuilder::default()
             .build()
             .expect("Could not find chrome-executable"),
     )?;
@@ -477,9 +477,6 @@ pub fn rdr_scheduler(
     // println!("current work {:?}", current_work);
 
     for (milli, url, user) in current_work.into_iter() {
-        if milli >= 500 {
-            break;
-        }
         println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
         println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
 
@@ -552,6 +549,82 @@ pub fn rdr_scheduler_ng(
                     // println!("User {} caused an error", user,);
                 }
             }
+        }
+    }
+}
+
+fn main() {
+    // Workloads:
+
+    // "/home/jethros/dev/projects/silver-octo-spoon/workload_tempaltes/rdr_pvn_workload.json";
+    // "/home/jethros/dev/silver-octo-spoon/workload_tempaltes/rdr_pvn_workload.json";
+    // let workload_path = "/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workload.json";
+    // "/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_1.json";
+    let workload_path =
+        "/home/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
+
+    let num_of_users = 10;
+    let num_of_secs = 600;
+
+    let mut rdr_workload =
+        rdr_load_workload(workload_path.to_string(), num_of_secs, num_of_users).unwrap();
+    println!("Workload is generated",);
+
+    // Browser list.
+    let mut browser_list: Vec<Browser> = Vec::new();
+    // Tab list
+    let mut tab_list: Vec<Arc<Tab>> = Vec::new();
+    // Context list
+    let mut ctx_list: Vec<Arc<Context>> = Vec::new();
+
+    for _ in 0..num_of_users {
+        let browser = browser_create().unwrap();
+        browser_list.push(browser);
+
+        // let ctx = browser_ctx_create().unwrap();
+        // ctx_list.push(ctx);
+    }
+    println!("{} browsers are created ", num_of_users);
+
+    let mut pivot = 1 as usize;
+
+    let mut num_of_ok = 0;
+    let mut num_of_err = 0;
+    let mut elapsed_time: Vec<u128> = Vec::new();
+
+    let now = Instant::now();
+
+    loop {
+        if now.elapsed().as_secs() == pivot as u64 {
+            let min = pivot / 60;
+            let rest_sec = pivot % 60;
+            println!("\n{:?} min, {:?} second", min, rest_sec);
+            match rdr_workload.remove(&pivot) {
+                Some(wd) => {
+                    rdr_scheduler(
+                        now.clone(),
+                        &pivot,
+                        &mut num_of_ok,
+                        &mut num_of_err,
+                        &mut elapsed_time,
+                        &num_of_users,
+                        wd,
+                        &browser_list,
+                    );
+                    // rdr_scheduler(
+                    //     now.clone(),
+                    //     &pivot,
+                    //     &mut num_of_ok,
+                    //     &mut num_of_err,
+                    //     &mut elapsed_time,
+                    //     &num_of_users,
+                    //     wd,
+                    //     &browser_list,
+                    // );
+                }
+                None => println!("No workload for second {:?}", pivot),
+            }
+            pivot += 1;
         }
     }
 }

@@ -1,15 +1,17 @@
+extern crate base64;
+extern crate tiny_http;
+
 use failure::Fallible;
-use headless_chrome::LaunchOptions;
+use headless_chrome::LaunchOptionsBuilder;
 use headless_chrome::{browser::context::Context, Browser, Tab};
+use rand::{thread_rng, Rng};
 use serde_json::{from_reader, Result, Value};
 use std::collections::HashMap;
 use std::collections::HashSet;
 use std::fs::File;
-use std::path::PathBuf;
 use std::sync::Arc;
 use std::thread::sleep;
 use std::time::{Duration, Instant};
-use std::vec::Vec;
 
 /// Construct the workload from the session file.
 ///
@@ -231,37 +233,37 @@ pub fn rdr_load_workload(
             broken_urls.insert("viddler.com");
             broken_urls.insert("msnsc.allyes.com");
             broken_urls.insert("poll.hanafos.com");
-            broken_urls.insert("image.baidu.com");
-            broken_urls.insert("item.taobao.com");
-            broken_urls.insert("baike.baidu.com");
-            broken_urls.insert("slirsredirect.search.aol.com");
-            broken_urls.insert("highschoolsports.net");
-            broken_urls.insert("springerlink.com");
-            broken_urls.insert("news3.xinhuanet.com");
-            broken_urls.insert("10902064121.baseball.cbssports.com");
-            broken_urls.insert("video.od.visiblemeasures.com");
-            broken_urls.insert("334.webim0444.webim.myspace.com");
-            broken_urls.insert("bid.openx.net");
-            broken_urls.insert("baidu.com");
-            broken_urls.insert("xiaoyou.qq.com");
-            broken_urls.insert("games.qq.com");
-            broken_urls.insert("businessmajors.about.com");
-            broken_urls.insert("msn.100du.com");
-            broken_urls.insert("h21.hani.co.kr");
-            broken_urls.insert("ovidsp.tx.ovid.com.proxy.medlib.iupui.edu");
-            broken_urls.insert("rhapsody.com");
-            broken_urls.insert("addirector.vindicosuite.com");
-            broken_urls.insert("aes.iupui.edu");
-            broken_urls.insert("reddit.com");
-            broken_urls.insert("357.webim0018.webim.myspace.com");
-            broken_urls.insert("youku.com");
-            broken_urls.insert("en.wikipedia.org");
-            broken_urls.insert("news.aol.com");
-            broken_urls.insert("xvideos.com");
-            broken_urls.insert("news.search.yahoo.com");
-            broken_urls.insert("boost.org");
-            broken_urls.insert("tienganh.com.vn");
-            broken_urls.insert("jobview.usajobs.gov");
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
+            // broken_urls.insert();
             // broken_urls.insert();
             // broken_urls.insert();
             // broken_urls.insert();
@@ -317,10 +319,9 @@ pub fn rdr_load_workload(
 pub fn browser_create() -> Fallible<Browser> {
     let timeout = Duration::new(1000, 0);
 
-    let driver_path = PathBuf::from(r"/usr/bin/chromium-browser");
     // .path(Some(driver_path)) //
 
-    let options = LaunchOptions::default_builder()
+    let options = LaunchOptionsBuilder::default()
         .headless(true)
         .idle_browser_timeout(timeout)
         .build()
@@ -373,185 +374,31 @@ pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()>
     Ok(())
 }
 
-// pub fn browser_ctx_create() -> Fallible<Context<'static>> {
-//     let browser = browser_create().unwrap();
-//     let ctx = browser.new_context().unwrap();
-//
-//     Ok(ctx)
-// }
+fn main() {
+    let num_of_users = 10;
+    let num_of_secs = 600;
 
-pub fn browser_tab_create() -> Fallible<Arc<Tab>> {
-    let browser = Browser::new(
-        LaunchOptions::default_builder()
-            .build()
-            .expect("Could not find chrome-executable"),
-    )?;
-    let tab = browser.wait_for_initial_tab()?;
+    // Browser list.
+    let mut browser_list: Vec<Browser> = Vec::new();
 
-    // println!("Browser created",);
-    Ok(tab)
-}
+    for _ in 0..num_of_users {
+        let browser = browser_create().unwrap();
+        browser_list.push(browser);
 
-pub fn user_tab_browse(
-    current_tab: &Tab,
-    hostname: &String,
-) -> std::result::Result<(u128), (u128, failure::Error)> {
-    let now = Instant::now();
-    // println!("Entering user browsing",);
-    // Doesn't use incognito mode
-    //
-    // let current_tab = match current_browser.new_tab() {
-    //     Ok(tab) => tab,
-    //     Err(e) => return Err((now.elapsed().as_micros(), e)),
-    // };
-
-    // Incogeneto mode
-    //
-    // let incognito_cxt = current_browser.new_context()?;
-    // let current_tab: Arc<Tab> = incognito_cxt.new_tab()?;
-
-    let https_hostname = "https://".to_string() + &hostname;
-
-    // wait until navigated or not
-    let navigate_to = match current_tab.navigate_to(&https_hostname) {
-        Ok(tab) => tab,
-        Err(e) => {
-            return Err((now.elapsed().as_micros(), e));
-        }
-    };
-    // let _ = current_tab.navigate_to(&https_hostname)?;
-    let result = match navigate_to.wait_until_navigated() {
-        Ok(_) => Ok(now.elapsed().as_micros()),
-        Err(e) => Err((now.elapsed().as_micros(), e)),
-    };
-
-    result
-}
-
-pub fn simple_user_browse(
-    current_browser: &Browser,
-    hostname: &String,
-) -> std::result::Result<(u128), (u128, failure::Error)> {
-    let now = Instant::now();
-    // println!("Entering user browsing",);
-    // Doesn't use incognito mode
-    //
-    let current_tab = match current_browser.new_tab() {
-        Ok(tab) => tab,
-        Err(e) => return Err((now.elapsed().as_micros(), e)),
-    };
-
-    // Incogeneto mode
-    //
-    // let incognito_cxt = current_browser.new_context()?;
-    // let current_tab: Arc<Tab> = incognito_cxt.new_tab()?;
-
-    let https_hostname = "https://".to_string() + &hostname;
-
-    // wait until navigated or not
-    let result = match current_tab.navigate_to(&https_hostname) {
-        Ok(_) => Ok(now.elapsed().as_micros()),
-        // Err(e) => Err((now.elapsed().as_micros(), e)),
-        Err(e) => Err((now.elapsed().as_micros(), e)),
-    };
-
-    // println!("{:?}", result);
-    result
-}
-
-/// RDR proxy browsing scheduler.
-///
-///
-// 4 [(4636, "fanfiction.net"), (9055, "bs.serving-sys.com")]
-pub fn rdr_scheduler(
-    now: Instant,
-    pivot: &usize,
-    num_of_ok: &mut usize,
-    num_of_err: &mut usize,
-    elapsed_time: &mut Vec<u128>,
-    _num_of_users: &usize,
-    current_work: Vec<(u64, String, usize)>,
-    browser_list: &Vec<Browser>,
-) {
-    // println!("\npivot: {:?}", pivot);
-    // println!("current work {:?}", current_work);
-
-    for (milli, url, user) in current_work.into_iter() {
-        if milli >= 500 {
-            break;
-        }
-        println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
-        println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
-
-        // if now.elapsed().as_millis() < milli as u128 {
-        //     println!("DEBUG: waiting");
-        //     let one_millis = Duration::from_millis(1);
-        //     std::thread::sleep(one_millis);
-        // } else {
-        println!("DEBUG: matched");
-        match user_browse(&browser_list[user], &url) {
-            Ok(elapsed) => {
-                println!("ok");
-                // *num_of_ok += 1;
-                // elapsed_time.push(elapsed);
-            }
-            // Err((elapsed, e)) => {
-            Err(e) => {
-                // println!("err");
-                // *num_of_err += 1;
-                // elapsed_time.push(elapsed);
-                // println!("User {} caused an error: {:?}", user, e);
-                println!("User {} caused an error", user,);
-            }
-        }
-        println!("match done");
-        // }
+        // let ctx = browser_ctx_create().unwrap();
+        // ctx_list.push(ctx);
     }
+    println!("{} browsers are created ", num_of_users);
 
-    // println!(
-    //     "(pivot {}) RDR Scheduling: {:?} {:?}",
-    //     pivot, num_of_ok, num_of_err
-    // );
-    // println!("(pivot {}) RDR Elapsed Time:  {:?}", pivot, elapsed_time);
-}
+    for i in 1..num_of_secs {
+        println!("DEBUG: second {:?}", i);
+        let mut rng = thread_rng();
+        let n: usize = rng.gen_range(0, 10);
+        println!("{}", n);
 
-pub fn rdr_scheduler_ng(
-    now: Instant,
-    pivot: &usize,
-    num_of_ok: &mut usize,
-    num_of_err: &mut usize,
-    elapsed_time: &mut Vec<u128>,
-    _num_of_users: &usize,
-    current_work: Vec<(u64, String, usize)>,
-    tab_list: &Vec<Arc<Tab>>,
-) {
-    // println!("\npivot: {:?}", pivot);
-    // println!("current work {:?}", current_work);
+        let _ = user_browse(&browser_list[n], &"google.com".to_string());
 
-    for (milli, url, user) in current_work.into_iter() {
-        println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
-        println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
-
-        if now.elapsed().as_millis() < milli as u128 {
-            println!("DEBUG: waiting");
-            let one_millis = Duration::from_millis(1);
-            std::thread::sleep(one_millis);
-        } else {
-            println!("DEBUG: matched");
-            match user_tab_browse(&tab_list[user], &url) {
-                Ok(elapsed) => {
-                    println!("ok");
-                    // *num_of_ok += 1;
-                    // elapsed_time.push(elapsed);
-                }
-                Err((elapsed, e)) => {
-                    println!("err");
-                    // *num_of_err += 1;
-                    // elapsed_time.push(elapsed);
-                    println!("User {} caused an error: {:?}", user, e);
-                    // println!("User {} caused an error", user,);
-                }
-            }
-        }
+        let millis = Duration::from_millis(1500);
+        std::thread::sleep(millis);
     }
 }

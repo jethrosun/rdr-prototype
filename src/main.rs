@@ -31,7 +31,7 @@ fn main() {
     let workload_path =
         "/home/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
 
-    let num_of_users = 20;
+    let num_of_users = 10;
     let num_of_secs = 600;
 
     let mut rdr_workload =
