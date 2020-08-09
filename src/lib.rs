@@ -1,5 +1,6 @@
 use failure::Fallible;
 use headless_chrome::LaunchOptions;
+use headless_chrome::LaunchOptionsBuilder;
 use headless_chrome::{browser::context::Context, Browser, Tab};
 use serde_json::{from_reader, Result, Value};
 use std::collections::HashMap;
@@ -317,10 +318,9 @@ pub fn rdr_load_workload(
 pub fn browser_create() -> Fallible<Browser> {
     let timeout = Duration::new(1000, 0);
 
-    let driver_path = PathBuf::from(r"/usr/bin/chromium-browser");
-    // .path(Some(driver_path)) //
 
-    let options = LaunchOptions::default_builder()
+    // let options = LaunchOptions::default_builder()
+    let options = LaunchOptionsBuilder::default()
         .headless(true)
         .idle_browser_timeout(timeout)
         .build()
