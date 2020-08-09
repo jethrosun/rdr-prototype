@@ -209,6 +209,45 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("boost.org");
     broken_urls.insert("tienganh.com.vn");
     broken_urls.insert("jobview.usajobs.gov");
+    broken_urls.insert("match.com");
+    broken_urls.insert("kr.insider.msg.yahoo.com");
+    broken_urls.insert("cache.trafficmp.com");
+    broken_urls.insert("play.mgoon.com");
+    broken_urls.insert("blog.sina.com.cn");
+    broken_urls.insert("home.live.com");
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+
     // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();

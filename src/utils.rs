@@ -1,4 +1,4 @@
-use broken_urls::curate_broken_records;
+use crate::broken_urls::curate_broken_records;
 use failure::Fallible;
 use headless_chrome::LaunchOptions;
 use headless_chrome::LaunchOptionsBuilder;
@@ -12,9 +12,6 @@ use std::thread::sleep;
 use std::time::{Duration, Instant};
 use std::vec::Vec;
 
-mod broken_urls;
-
-/// Construct the workload from the session file.
 ///
 /// https://kbknapp.github.io/doapi-rs/docs/serde/json/index.html
 
