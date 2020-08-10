@@ -273,13 +273,13 @@ pub fn rdr_scheduler(
         // } else {
         println!("DEBUG: matched");
         match user_browse(&browser_list[user], &url) {
-            Ok(elapsed) => {
+            Ok(_) => {
                 println!("ok");
                 // *num_of_ok += 1;
                 // elapsed_time.push(elapsed);
             }
             // Err((elapsed, e)) => {
-            Err(e) => {
+            Err(_) => {
                 // println!("err");
                 // *num_of_err += 1;
                 // elapsed_time.push(elapsed);

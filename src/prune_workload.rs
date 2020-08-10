@@ -277,8 +277,32 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
 );
     broken_urls.insert("secure-us.imrworldwide.com"
 );
+    broken_urls.insert("thumb.brandreachsys.com"
+);
+    broken_urls.insert("amsv2.daum.net"
+);
+    broken_urls.insert("myspace.com");
+    broken_urls.insert("elpais.com"
+);
+    broken_urls.insert("microsoft.com"
+);
+    broken_urls.insert("kongregate.com"
+);
+    broken_urls.insert("chem.indiana.edu"
+);
+    broken_urls.insert("walmart.com"
+);
+    broken_urls.insert("baidu.com"
+);
+    broken_urls.insert("ads.revsci.net"
+);
+    broken_urls.insert("bossip.com"
+);
+    broken_urls.insert("foto.radar.imgsmail.ru");
+    broken_urls.insert("122.webim0265.webim.myspace.com"
+);
+    broken_urls.insert("10910258100.basketball.cbssports.com");
     // broken_urls.insert();
-
     // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();
@@ -290,6 +314,23 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+   
+    // rate limiting
+    broken_urls.insert("google.com");
+    broken_urls.insert("youtube.com");
 
     broken_urls
 }

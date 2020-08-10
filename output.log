@@ -1,0 +1,1716 @@
+Workload is generated
+20 browsers are created 
+
+0 min, 1 second
+
+0 min, 2 second
+
+0 min, 3 second
+
+0 min, 4 second
+
+0 min, 5 second
+
+0 min, 6 second
+
+0 min, 7 second
+
+0 min, 8 second
+
+0 min, 9 second
+
+0 min, 10 second
+
+0 min, 11 second
+
+0 min, 12 second
+User 1: milli: 56 url: "aim.search.aol.com"
+DEBUG: 12000 56
+DEBUG: matched
+1
+"http://aim.search.aol.com"
+2
+ok
+match done
+
+0 min, 13 second
+
+0 min, 14 second
+User 13: milli: 79 url: "global.thenest.com"
+DEBUG: 14000 79
+DEBUG: matched
+1
+"http://global.thenest.com"
+2
+ok
+match done
+
+0 min, 15 second
+
+0 min, 16 second
+User 15: milli: 198 url: "images.google.com"
+DEBUG: 16000 198
+DEBUG: matched
+1
+"http://images.google.com"
+2
+ok
+match done
+
+0 min, 17 second
+
+0 min, 18 second
+User 5: milli: 452 url: "rss.livesearchapps.com"
+DEBUG: 18000 452
+DEBUG: matched
+1
+"http://rss.livesearchapps.com"
+2
+User 5 caused an error
+match done
+
+0 min, 19 second
+User 5: milli: 400 url: "ad.doubleclick.net"
+DEBUG: 19000 400
+DEBUG: matched
+1
+"http://ad.doubleclick.net"
+2
+ok
+match done
+
+0 min, 20 second
+
+0 min, 21 second
+User 1: milli: 149 url: "search.netscape.com"
+DEBUG: 21000 149
+DEBUG: matched
+1
+"http://search.netscape.com"
+2
+ok
+match done
+
+0 min, 22 second
+
+0 min, 23 second
+
+0 min, 24 second
+User 5: milli: 182 url: "beacon.securestudies.com"
+DEBUG: 24000 182
+DEBUG: matched
+1
+"http://beacon.securestudies.com"
+2
+ok
+match done
+
+0 min, 25 second
+
+0 min, 26 second
+
+0 min, 27 second
+
+0 min, 28 second
+
+0 min, 29 second
+
+0 min, 30 second
+
+0 min, 31 second
+User 16: milli: 282 url: "gamespot.com"
+DEBUG: 31000 282
+DEBUG: matched
+1
+"http://gamespot.com"
+2
+ok
+match done
+
+0 min, 32 second
+
+0 min, 33 second
+
+0 min, 34 second
+
+0 min, 35 second
+
+0 min, 36 second
+
+0 min, 37 second
+
+0 min, 38 second
+
+0 min, 39 second
+
+0 min, 40 second
+
+0 min, 41 second
+
+0 min, 42 second
+
+0 min, 43 second
+
+0 min, 44 second
+
+0 min, 45 second
+
+0 min, 46 second
+
+0 min, 47 second
+User 14: milli: 276 url: "waterjet.net"
+DEBUG: 47000 276
+DEBUG: matched
+1
+"http://waterjet.net"
+2
+ok
+match done
+
+0 min, 48 second
+
+0 min, 49 second
+User 2: milli: 126 url: "trumba.com"
+DEBUG: 49000 126
+DEBUG: matched
+1
+"http://trumba.com"
+2
+ok
+match done
+
+0 min, 50 second
+User 15: milli: 374 url: "facebook.com"
+DEBUG: 50030 374
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+0 min, 51 second
+
+0 min, 52 second
+
+0 min, 53 second
+
+0 min, 54 second
+User 14: milli: 113 url: "s.ytimg.com"
+DEBUG: 54000 113
+DEBUG: matched
+1
+"http://s.ytimg.com"
+2
+ok
+match done
+
+0 min, 55 second
+
+0 min, 56 second
+
+0 min, 57 second
+
+0 min, 58 second
+
+0 min, 59 second
+User 5: milli: 278 url: "server.cpmstar.com"
+DEBUG: 59000 278
+DEBUG: matched
+1
+"http://server.cpmstar.com"
+2
+ok
+match done
+
+1 min, 0 second
+
+1 min, 1 second
+
+1 min, 2 second
+
+1 min, 3 second
+
+1 min, 4 second
+User 15: milli: 391 url: "hulu.com"
+DEBUG: 64000 391
+DEBUG: matched
+1
+"http://hulu.com"
+2
+ok
+match done
+
+1 min, 5 second
+
+1 min, 6 second
+User 13: milli: 487 url: "c13.zedo.com"
+DEBUG: 66000 487
+DEBUG: matched
+1
+"http://c13.zedo.com"
+2
+ok
+match done
+
+1 min, 7 second
+
+1 min, 8 second
+
+1 min, 9 second
+User 2: milli: 404 url: "indianapublicmedia.org"
+DEBUG: 69000 404
+DEBUG: matched
+1
+"http://indianapublicmedia.org"
+2
+ok
+match done
+
+1 min, 10 second
+
+1 min, 11 second
+
+1 min, 12 second
+
+1 min, 13 second
+
+1 min, 14 second
+User 13: milli: 246 url: "mlb.mlb.com"
+DEBUG: 74000 246
+DEBUG: matched
+1
+"http://mlb.mlb.com"
+2
+ok
+match done
+
+1 min, 15 second
+
+1 min, 16 second
+
+1 min, 17 second
+User 15: milli: 497 url: "anymobileanytime.sprint.com"
+DEBUG: 77000 497
+DEBUG: matched
+1
+"http://anymobileanytime.sprint.com"
+2
+User 15 caused an error
+match done
+
+1 min, 18 second
+
+1 min, 19 second
+
+1 min, 20 second
+
+1 min, 21 second
+User 5: milli: 254 url: "delivery.trafficjunky.net"
+DEBUG: 81000 254
+DEBUG: matched
+1
+"http://delivery.trafficjunky.net"
+2
+ok
+match done
+
+1 min, 22 second
+
+1 min, 23 second
+User 5: milli: 201 url: "newgrounds.com"
+DEBUG: 83000 201
+DEBUG: matched
+1
+"http://newgrounds.com"
+2
+ok
+match done
+
+1 min, 24 second
+
+1 min, 25 second
+
+1 min, 26 second
+
+1 min, 27 second
+
+1 min, 28 second
+User 2: milli: 1 url: "rottentomatoes.com"
+DEBUG: 88000 1
+DEBUG: matched
+1
+"http://rottentomatoes.com"
+2
+ok
+match done
+
+1 min, 29 second
+
+1 min, 30 second
+
+1 min, 31 second
+
+1 min, 32 second
+
+1 min, 33 second
+User 14: milli: 217 url: "bing.com"
+DEBUG: 93000 217
+DEBUG: matched
+1
+"http://bing.com"
+2
+ok
+match done
+
+1 min, 34 second
+User 5: milli: 114 url: "ad.adlegend.com"
+DEBUG: 94000 114
+DEBUG: matched
+1
+"http://ad.adlegend.com"
+2
+User 5 caused an error
+match done
+User 14: milli: 143 url: "i1.ytimg.com"
+DEBUG: 94130 143
+DEBUG: matched
+1
+"http://i1.ytimg.com"
+2
+ok
+match done
+
+1 min, 35 second
+User 13: milli: 412 url: "nba.com"
+DEBUG: 95000 412
+DEBUG: matched
+1
+"http://nba.com"
+2
+ok
+match done
+
+1 min, 36 second
+User 6: milli: 145 url: "club.cyworld.com"
+DEBUG: 96000 145
+DEBUG: matched
+1
+"http://club.cyworld.com"
+2
+ok
+match done
+
+1 min, 37 second
+User 5: milli: 269 url: "ec.atdmt.com"
+DEBUG: 97000 269
+DEBUG: matched
+1
+"http://ec.atdmt.com"
+2
+ok
+match done
+User 1: milli: 286 url: "search.yahoo.com"
+DEBUG: 97135 286
+DEBUG: matched
+1
+"http://search.yahoo.com"
+2
+ok
+match done
+
+1 min, 38 second
+
+1 min, 39 second
+
+1 min, 40 second
+
+1 min, 41 second
+
+1 min, 42 second
+
+1 min, 43 second
+
+1 min, 44 second
+
+1 min, 45 second
+
+1 min, 46 second
+User 2: milli: 457 url: "delivery.trafficjunky.net"
+DEBUG: 106000 457
+DEBUG: matched
+1
+"http://delivery.trafficjunky.net"
+2
+ok
+match done
+
+1 min, 47 second
+
+1 min, 48 second
+
+1 min, 49 second
+
+1 min, 50 second
+
+1 min, 51 second
+User 1: milli: 465 url: "cs.indiana.edu"
+DEBUG: 111000 465
+DEBUG: matched
+1
+"http://cs.indiana.edu"
+2
+ok
+match done
+
+1 min, 52 second
+
+1 min, 53 second
+
+1 min, 54 second
+User 1: milli: 212 url: "images.google.com"
+DEBUG: 114000 212
+DEBUG: matched
+1
+"http://images.google.com"
+2
+ok
+match done
+
+1 min, 55 second
+
+1 min, 56 second
+
+1 min, 57 second
+
+1 min, 58 second
+
+1 min, 59 second
+
+2 min, 0 second
+
+2 min, 1 second
+
+2 min, 2 second
+User 5: milli: 85 url: "washingtontimes.com"
+DEBUG: 122000 85
+DEBUG: matched
+1
+"http://washingtontimes.com"
+2
+ok
+match done
+
+2 min, 3 second
+User 2: milli: 180 url: "pricegrabber.com"
+DEBUG: 123000 180
+DEBUG: matched
+1
+"http://pricegrabber.com"
+2
+ok
+match done
+
+2 min, 4 second
+
+2 min, 5 second
+
+2 min, 6 second
+User 1: milli: 208 url: "sports.espn.go.com"
+DEBUG: 126000 208
+DEBUG: matched
+1
+"http://sports.espn.go.com"
+2
+ok
+match done
+
+2 min, 7 second
+User 1: milli: 494 url: "ilovecheating.com"
+DEBUG: 127000 494
+DEBUG: matched
+1
+"http://ilovecheating.com"
+2
+User 1 caused an error
+match done
+
+2 min, 8 second
+
+2 min, 9 second
+User 14: milli: 464 url: "newegg.com"
+DEBUG: 129000 464
+DEBUG: matched
+1
+"http://newegg.com"
+2
+ok
+match done
+
+2 min, 10 second
+
+2 min, 11 second
+
+2 min, 12 second
+
+2 min, 13 second
+
+2 min, 14 second
+
+2 min, 15 second
+User 10: milli: 305 url: "profile.myspace.com"
+DEBUG: 135000 305
+DEBUG: matched
+1
+"http://profile.myspace.com"
+2
+ok
+match done
+
+2 min, 16 second
+User 2: milli: 17 url: "anymobileanytime.sprint.com"
+DEBUG: 136000 17
+DEBUG: matched
+1
+"http://anymobileanytime.sprint.com"
+2
+User 2 caused an error
+match done
+User 16: milli: 137 url: "wesc.k12.in.us"
+DEBUG: 136125 137
+DEBUG: matched
+1
+"http://wesc.k12.in.us"
+2
+ok
+match done
+
+2 min, 17 second
+User 8: milli: 435 url: "c.microsoft.com"
+DEBUG: 137000 435
+DEBUG: matched
+1
+"http://c.microsoft.com"
+2
+User 8 caused an error
+match done
+
+2 min, 18 second
+User 1: milli: 337 url: "slutload.com"
+DEBUG: 138000 337
+DEBUG: matched
+1
+"http://slutload.com"
+2
+ok
+match done
+
+2 min, 19 second
+
+2 min, 20 second
+User 16: milli: 60 url: "cdn.blinkx.com"
+DEBUG: 140000 60
+DEBUG: matched
+1
+"http://cdn.blinkx.com"
+2
+User 16 caused an error
+match done
+User 13: milli: 60 url: "facebook.com"
+DEBUG: 140140 60
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+2 min, 21 second
+User 8: milli: 434 url: "ads.vrx.adbrite.com"
+DEBUG: 141000 434
+DEBUG: matched
+1
+"http://ads.vrx.adbrite.com"
+2
+User 8 caused an error
+match done
+
+2 min, 22 second
+User 16: milli: 62 url: "portal.acm.org"
+DEBUG: 142000 62
+DEBUG: matched
+1
+"http://portal.acm.org"
+2
+ok
+match done
+
+2 min, 23 second
+User 8: milli: 89 url: "blogs.msdn.com"
+DEBUG: 143000 89
+DEBUG: matched
+1
+"http://blogs.msdn.com"
+2
+ok
+match done
+
+2 min, 24 second
+
+2 min, 25 second
+
+2 min, 26 second
+
+2 min, 27 second
+
+2 min, 28 second
+User 17: milli: 285 url: "ticketmaster.com"
+DEBUG: 148000 285
+DEBUG: matched
+1
+"http://ticketmaster.com"
+2
+ok
+match done
+
+2 min, 29 second
+
+2 min, 30 second
+User 8: milli: 0 url: "reviews.samsclub.com"
+DEBUG: 150000 0
+DEBUG: matched
+1
+"http://reviews.samsclub.com"
+2
+User 8 caused an error
+match done
+
+2 min, 31 second
+
+2 min, 32 second
+User 16: milli: 409 url: "buddhaweb.googlepages.com"
+DEBUG: 152000 409
+DEBUG: matched
+1
+"http://buddhaweb.googlepages.com"
+2
+ok
+match done
+
+2 min, 33 second
+User 2: milli: 296 url: "mitbbs.com"
+DEBUG: 153000 296
+DEBUG: matched
+1
+"http://mitbbs.com"
+2
+User 2 caused an error
+match done
+
+2 min, 34 second
+
+2 min, 35 second
+
+2 min, 36 second
+
+2 min, 37 second
+User 2: milli: 168 url: "facebook.com"
+DEBUG: 157000 168
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+2 min, 38 second
+
+2 min, 39 second
+User 8: milli: 177 url: "nba.com"
+DEBUG: 159000 177
+DEBUG: matched
+1
+"http://nba.com"
+2
+ok
+match done
+
+2 min, 40 second
+
+2 min, 41 second
+User 13: milli: 173 url: "click2.5j.com"
+DEBUG: 161000 173
+DEBUG: matched
+1
+"http://click2.5j.com"
+2
+User 13 caused an error
+match done
+
+2 min, 42 second
+
+2 min, 43 second
+
+2 min, 44 second
+User 8: milli: 448 url: "flybase.net"
+DEBUG: 164000 448
+DEBUG: matched
+1
+"http://flybase.net"
+2
+ok
+match done
+
+2 min, 45 second
+
+2 min, 46 second
+
+2 min, 47 second
+User 8: milli: 15 url: "fanfiction.net"
+DEBUG: 167000 15
+DEBUG: matched
+1
+"http://fanfiction.net"
+2
+ok
+match done
+User 1: milli: 320 url: "cgi.4chan.org"
+DEBUG: 167520 320
+DEBUG: matched
+1
+"http://cgi.4chan.org"
+2
+ok
+match done
+
+2 min, 48 second
+
+2 min, 49 second
+User 3: milli: 119 url: "nba.com"
+DEBUG: 169000 119
+DEBUG: matched
+1
+"http://nba.com"
+2
+ok
+match done
+
+2 min, 50 second
+
+2 min, 51 second
+
+2 min, 52 second
+User 13: milli: 478 url: "facebook.com"
+DEBUG: 172000 478
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+2 min, 53 second
+
+2 min, 54 second
+User 10: milli: 191 url: "images.google.com"
+DEBUG: 174000 191
+DEBUG: matched
+1
+"http://images.google.com"
+2
+ok
+match done
+User 2: milli: 241 url: "farm.game.playfish.com"
+DEBUG: 174267 241
+DEBUG: matched
+1
+"http://farm.game.playfish.com"
+2
+User 2 caused an error
+match done
+
+2 min, 55 second
+User 8: milli: 251 url: "player.targetspot.com"
+DEBUG: 175000 251
+DEBUG: matched
+1
+"http://player.targetspot.com"
+2
+ok
+match done
+
+2 min, 56 second
+User 3: milli: 258 url: "target.com"
+DEBUG: 176000 258
+DEBUG: matched
+1
+"http://target.com"
+2
+ok
+match done
+User 8: milli: 285 url: "player.cdn.targetspot.com"
+DEBUG: 176267 285
+DEBUG: matched
+1
+"http://player.cdn.targetspot.com"
+2
+ok
+match done
+
+2 min, 57 second
+User 1: milli: 75 url: "ovidsp.tx.ovid.com"
+DEBUG: 177000 75
+DEBUG: matched
+1
+"http://ovidsp.tx.ovid.com"
+2
+ok
+match done
+
+2 min, 58 second
+
+2 min, 59 second
+
+3 min, 0 second
+
+3 min, 1 second
+User 16: milli: 288 url: "nexplore.com"
+DEBUG: 181000 288
+DEBUG: matched
+1
+"http://nexplore.com"
+2
+ok
+match done
+User 17: milli: 482 url: "facebook.com"
+DEBUG: 181297 482
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+3 min, 2 second
+
+3 min, 3 second
+
+3 min, 4 second
+User 2: milli: 252 url: "minihp.cyworld.com"
+DEBUG: 184000 252
+DEBUG: matched
+1
+"http://minihp.cyworld.com"
+2
+ok
+match done
+User 17: milli: 262 url: "mail.yahoo.com"
+DEBUG: 185297 262
+DEBUG: matched
+1
+"http://mail.yahoo.com"
+2
+ok
+match done
+
+3 min, 5 second
+
+3 min, 6 second
+
+3 min, 7 second
+User 7: milli: 450 url: "context3.kanoodle.com"
+DEBUG: 187000 450
+DEBUG: matched
+1
+"http://context3.kanoodle.com"
+2
+User 7 caused an error
+match done
+
+3 min, 8 second
+
+3 min, 9 second
+
+3 min, 10 second
+
+3 min, 11 second
+
+3 min, 12 second
+
+3 min, 13 second
+
+3 min, 14 second
+User 9: milli: 317 url: "learn.genetics.utah.edu"
+DEBUG: 194000 317
+DEBUG: matched
+1
+"http://learn.genetics.utah.edu"
+2
+ok
+match done
+
+3 min, 15 second
+
+3 min, 16 second
+
+3 min, 17 second
+
+3 min, 18 second
+User 8: milli: 108 url: "facebook.com"
+DEBUG: 198000 108
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+3 min, 19 second
+
+3 min, 20 second
+
+3 min, 21 second
+
+3 min, 22 second
+
+3 min, 23 second
+User 14: milli: 60 url: "msn.com"
+DEBUG: 203000 60
+DEBUG: matched
+1
+"http://msn.com"
+2
+ok
+match done
+
+3 min, 24 second
+
+3 min, 25 second
+User 18: milli: 173 url: "ad.ae.doubleclick.net"
+DEBUG: 205000 173
+DEBUG: matched
+1
+"http://ad.ae.doubleclick.net"
+2
+ok
+match done
+User 10: milli: 301 url: "meta.wikimedia.org"
+DEBUG: 205217 301
+DEBUG: matched
+1
+"http://meta.wikimedia.org"
+2
+ok
+match done
+
+3 min, 26 second
+
+3 min, 27 second
+
+3 min, 28 second
+
+3 min, 29 second
+
+3 min, 30 second
+
+3 min, 31 second
+
+3 min, 32 second
+User 15: milli: 236 url: "travel.ian.com"
+DEBUG: 212000 236
+DEBUG: matched
+1
+"http://travel.ian.com"
+2
+User 15 caused an error
+match done
+
+3 min, 33 second
+
+3 min, 34 second
+
+3 min, 35 second
+User 16: milli: 315 url: "facebook.com"
+DEBUG: 215000 315
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+3 min, 36 second
+
+3 min, 37 second
+User 16: milli: 42 url: "ditu.google.cn"
+DEBUG: 217000 42
+DEBUG: matched
+1
+"http://ditu.google.cn"
+2
+ok
+match done
+
+3 min, 38 second
+User 9: milli: 457 url: "player.xmradio.com"
+DEBUG: 218000 457
+DEBUG: matched
+1
+"http://player.xmradio.com"
+2
+ok
+match done
+
+3 min, 39 second
+User 9: milli: 401 url: "rivals.com"
+DEBUG: 219000 401
+DEBUG: matched
+1
+"http://rivals.com"
+2
+ok
+match done
+
+3 min, 40 second
+User 16: milli: 49 url: "static.addtoany.com"
+DEBUG: 220000 49
+DEBUG: matched
+1
+"http://static.addtoany.com"
+2
+ok
+match done
+
+3 min, 41 second
+
+3 min, 42 second
+
+3 min, 43 second
+
+3 min, 44 second
+
+3 min, 45 second
+
+3 min, 46 second
+
+3 min, 47 second
+
+3 min, 48 second
+User 18: milli: 373 url: "weather.com"
+DEBUG: 228000 373
+DEBUG: matched
+1
+"http://weather.com"
+2
+ok
+match done
+
+3 min, 49 second
+User 11: milli: 202 url: "target.com"
+DEBUG: 229000 202
+DEBUG: matched
+1
+"http://target.com"
+2
+ok
+match done
+
+3 min, 50 second
+User 8: milli: 21 url: "images.google.com"
+DEBUG: 230000 21
+DEBUG: matched
+1
+"http://images.google.com"
+2
+ok
+match done
+
+3 min, 51 second
+User 13: milli: 106 url: "msn.com"
+DEBUG: 231000 106
+DEBUG: matched
+1
+"http://msn.com"
+2
+ok
+match done
+
+3 min, 52 second
+
+3 min, 53 second
+User 6: milli: 16 url: "fe.br"
+DEBUG: 233000 16
+DEBUG: matched
+1
+"http://fe.br"
+2
+User 6 caused an error
+match done
+
+3 min, 54 second
+
+3 min, 55 second
+
+3 min, 56 second
+
+3 min, 57 second
+User 8: milli: 271 url: "betacycling.blogspot.com"
+DEBUG: 237000 271
+DEBUG: matched
+1
+"http://betacycling.blogspot.com"
+2
+ok
+match done
+
+3 min, 58 second
+
+3 min, 59 second
+
+4 min, 0 second
+
+4 min, 1 second
+
+4 min, 2 second
+User 6: milli: 191 url: "msn.com"
+DEBUG: 242000 191
+DEBUG: matched
+1
+"http://msn.com"
+2
+ok
+match done
+
+4 min, 3 second
+User 16: milli: 119 url: "officedepot.com"
+DEBUG: 243000 119
+DEBUG: matched
+1
+"http://officedepot.com"
+2
+ok
+match done
+User 19: milli: 403 url: "cnn.com"
+DEBUG: 243509 403
+DEBUG: matched
+1
+"http://cnn.com"
+2
+ok
+match done
+
+4 min, 4 second
+
+4 min, 5 second
+
+4 min, 6 second
+User 14: milli: 217 url: "minihp.cyworld.com"
+DEBUG: 246000 217
+DEBUG: matched
+1
+"http://minihp.cyworld.com"
+2
+ok
+match done
+
+4 min, 7 second
+
+4 min, 8 second
+
+4 min, 9 second
+User 19: milli: 431 url: "p.opt.fimserve.com"
+DEBUG: 249000 431
+DEBUG: matched
+1
+"http://p.opt.fimserve.com"
+2
+User 19 caused an error
+match done
+
+4 min, 10 second
+User 6: milli: 375 url: "action.media6degrees.com"
+DEBUG: 250000 375
+DEBUG: matched
+1
+"http://action.media6degrees.com"
+2
+ok
+match done
+
+4 min, 11 second
+
+4 min, 12 second
+
+4 min, 13 second
+
+4 min, 14 second
+
+4 min, 15 second
+User 1: milli: 290 url: "weather.com"
+DEBUG: 255000 290
+DEBUG: matched
+1
+"http://weather.com"
+2
+ok
+match done
+
+4 min, 16 second
+
+4 min, 17 second
+User 8: milli: 239 url: "kuaile.dict.cn"
+DEBUG: 257000 239
+DEBUG: matched
+1
+"http://kuaile.dict.cn"
+2
+User 8 caused an error
+match done
+User 1: milli: 427 url: "support.xbox.com"
+DEBUG: 257348 427
+DEBUG: matched
+1
+"http://support.xbox.com"
+2
+ok
+match done
+
+4 min, 18 second
+
+4 min, 19 second
+
+4 min, 20 second
+
+4 min, 21 second
+
+4 min, 22 second
+
+4 min, 23 second
+
+4 min, 24 second
+
+4 min, 25 second
+
+4 min, 26 second
+User 8: milli: 493 url: "indianapublicmedia.org"
+DEBUG: 266000 493
+DEBUG: matched
+1
+"http://indianapublicmedia.org"
+2
+ok
+match done
+
+4 min, 27 second
+
+4 min, 28 second
+
+4 min, 29 second
+User 4: milli: 151 url: "maps.google.com"
+DEBUG: 269000 151
+DEBUG: matched
+1
+"http://maps.google.com"
+2
+ok
+match done
+
+4 min, 30 second
+User 10: milli: 35 url: "adready.com"
+DEBUG: 270390 35
+DEBUG: matched
+1
+"http://adready.com"
+2
+ok
+match done
+
+4 min, 31 second
+
+4 min, 32 second
+
+4 min, 33 second
+
+4 min, 34 second
+User 13: milli: 382 url: "syndication.mmismm.com"
+DEBUG: 274000 382
+DEBUG: matched
+1
+"http://syndication.mmismm.com"
+2
+User 13 caused an error
+match done
+
+4 min, 35 second
+
+4 min, 36 second
+User 9: milli: 407 url: "rivals.yahoo.com"
+DEBUG: 276000 407
+DEBUG: matched
+1
+"http://rivals.yahoo.com"
+2
+ok
+match done
+
+4 min, 37 second
+User 4: milli: 150 url: "tag.contextweb.com"
+DEBUG: 277000 150
+DEBUG: matched
+1
+"http://tag.contextweb.com"
+2
+ok
+match done
+User 3: milli: 255 url: "thebananablog.com"
+DEBUG: 277141 255
+DEBUG: matched
+1
+"http://thebananablog.com"
+2
+ok
+match done
+
+4 min, 38 second
+User 16: milli: 91 url: "static.addtoany.com"
+DEBUG: 278000 91
+DEBUG: matched
+1
+"http://static.addtoany.com"
+2
+ok
+match done
+
+4 min, 39 second
+User 4: milli: 104 url: "cid-eef99c11571b4d82.skydrive.live.com"
+DEBUG: 279000 104
+DEBUG: matched
+1
+"http://cid-eef99c11571b4d82.skydrive.live.com"
+2
+ok
+match done
+
+4 min, 40 second
+User 19: milli: 191 url: "gaiaonline.com"
+DEBUG: 280000 191
+DEBUG: matched
+1
+"http://gaiaonline.com"
+2
+ok
+match done
+
+4 min, 41 second
+
+4 min, 42 second
+
+4 min, 43 second
+
+4 min, 44 second
+
+4 min, 45 second
+
+4 min, 46 second
+
+4 min, 47 second
+User 1: milli: 339 url: "mangafox.com"
+DEBUG: 287000 339
+DEBUG: matched
+1
+"http://mangafox.com"
+2
+ok
+match done
+
+4 min, 48 second
+
+4 min, 49 second
+User 10: milli: 136 url: "ulib.iupui.edu"
+DEBUG: 289000 136
+DEBUG: matched
+1
+"http://ulib.iupui.edu"
+2
+ok
+match done
+User 15: milli: 441 url: "cgi.4chan.org"
+DEBUG: 289437 441
+DEBUG: matched
+1
+"http://cgi.4chan.org"
+2
+ok
+match done
+
+4 min, 50 second
+
+4 min, 51 second
+User 11: milli: 356 url: "twitter.com"
+DEBUG: 291000 356
+DEBUG: matched
+1
+"http://twitter.com"
+2
+ok
+match done
+
+4 min, 52 second
+User 15: milli: 122 url: "facebook.com"
+DEBUG: 292000 122
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+4 min, 53 second
+User 11: milli: 462 url: "mail.yahoo.com"
+DEBUG: 293000 462
+DEBUG: matched
+1
+"http://mail.yahoo.com"
+2
+ok
+match done
+
+4 min, 54 second
+
+4 min, 55 second
+
+4 min, 56 second
+
+4 min, 57 second
+User 11: milli: 349 url: "medicine.iu.edu"
+DEBUG: 297000 349
+DEBUG: matched
+1
+"http://medicine.iu.edu"
+2
+ok
+match done
+
+4 min, 58 second
+User 5: milli: 220 url: "apple.com"
+DEBUG: 298000 220
+DEBUG: matched
+1
+"http://apple.com"
+2
+ok
+match done
+
+4 min, 59 second
+
+5 min, 0 second
+User 18: milli: 283 url: "fridayzone.org"
+DEBUG: 300000 283
+DEBUG: matched
+1
+"http://fridayzone.org"
+2
+ok
+match done
+
+5 min, 1 second
+
+5 min, 2 second
+User 15: milli: 437 url: "cmps.somrapi.com"
+DEBUG: 302000 437
+DEBUG: matched
+1
+"http://cmps.somrapi.com"
+2
+User 15 caused an error
+match done
+
+5 min, 3 second
+User 0: milli: 235 url: "facebook.com"
+DEBUG: 303000 235
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+5 min, 4 second
+
+5 min, 5 second
+
+5 min, 6 second
+
+5 min, 7 second
+User 10: milli: 330 url: "libtool.ulib.iupui.edu"
+DEBUG: 307000 330
+DEBUG: matched
+1
+"http://libtool.ulib.iupui.edu"
+2
+User 10 caused an error
+match done
+
+5 min, 8 second
+
+5 min, 9 second
+
+5 min, 10 second
+User 3: milli: 99 url: "opt.indiana.edu"
+DEBUG: 310000 99
+DEBUG: matched
+1
+"http://opt.indiana.edu"
+2
+User 3 caused an error
+match done
+User 1: milli: 490 url: "tcla.mmismm.com"
+DEBUG: 310110 490
+DEBUG: matched
+1
+"http://tcla.mmismm.com"
+2
+User 1 caused an error
+match done
+
+5 min, 11 second
+
+5 min, 12 second
+
+5 min, 13 second
+
+5 min, 14 second
+
+5 min, 15 second
+
+5 min, 16 second
+
+5 min, 17 second
+
+5 min, 18 second
+
+5 min, 19 second
+
+5 min, 20 second
+
+5 min, 21 second
+User 8: milli: 74 url: "cdn.picnik.com"
+DEBUG: 321000 74
+DEBUG: matched
+1
+"http://cdn.picnik.com"
+2
+User 8 caused an error
+match done
+
+5 min, 22 second
+
+5 min, 23 second
+User 5: milli: 214 url: "creatives.livejasmin.com"
+DEBUG: 323000 214
+DEBUG: matched
+1
+"http://creatives.livejasmin.com"
+2
+ok
+match done
+
+5 min, 24 second
+
+5 min, 25 second
+User 3: milli: 277 url: "htosports.com"
+DEBUG: 325000 277
+DEBUG: matched
+1
+"http://htosports.com"
+2
+ok
+match done
+
+5 min, 26 second
+
+5 min, 27 second
+User 5: milli: 312 url: "assets.espn.go.com"
+DEBUG: 327000 312
+DEBUG: matched
+1
+"http://assets.espn.go.com"
+2
+ok
+match done
+
+5 min, 28 second
+
+5 min, 29 second
+
+5 min, 30 second
+
+5 min, 31 second
+
+5 min, 32 second
+User 15: milli: 69 url: "s.ytimg.com"
+DEBUG: 332000 69
+DEBUG: matched
+1
+"http://s.ytimg.com"
+2
+ok
+match done
+
+5 min, 33 second
+User 10: milli: 87 url: "news.google.com"
+DEBUG: 333000 87
+DEBUG: matched
+1
+"http://news.google.com"
+2
+ok
+match done
+User 15: milli: 440 url: "apps.new.facebook.com"
+DEBUG: 333270 440
+DEBUG: matched
+1
+"http://apps.new.facebook.com"
+2
+User 15 caused an error
+match done
+
+5 min, 34 second
+User 5: milli: 244 url: "ws.amazon.com"
+DEBUG: 334000 244
+DEBUG: matched
+1
+"http://ws.amazon.com"
+2
+ok
+match done
+
+5 min, 35 second
+User 3: milli: 353 url: "facebook.com"
+DEBUG: 335000 353
+DEBUG: matched
+1
+"http://facebook.com"
+2
+ok
+match done
+
+5 min, 36 second
+
+5 min, 37 second
+User 15: milli: 32 url: "platform.ak.fbcdn.net"
+DEBUG: 337000 32
+DEBUG: matched
+1
+"http://platform.ak.fbcdn.net"
+2
+User 15 caused an error
+match done
+User 5: milli: 97 url: "122.webim0265.webim.myspace.com"
+DEBUG: 337110 97
+DEBUG: matched
+1
+"http://122.webim0265.webim.myspace.com"
+2
+ok
+match done
