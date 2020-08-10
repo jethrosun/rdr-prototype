@@ -238,6 +238,53 @@ broken_urls.insert("netv.sbs.co.kr"
 );
     broken_urls.insert("graphics.fansonly.com"
 );
+ broken_urls.insert("tv.msn.com"
+);
+ broken_urls.insert("results.freeze.com"
+);
+     broken_urls.insert("tbskip.taobao.com"
+);
+   broken_urls.insert("newsiframe.hanafos.com"
+);
+    broken_urls.insert("cm.nursing.iupui.edu"
+);
+    broken_urls.insert("media.fastclick.net"
+);
+    broken_urls.insert("cbssports.com"
+);
+
+    broken_urls.insert("mrd.mail.yahoo.com"
+);
+    broken_urls.insert("reviews.hsn.com"
+);
+    broken_urls.insert("news.hanafos.com"
+);
+    broken_urls.insert("photos-h.ak.fbcdn.net"
+);
+    broken_urls.insert("hanafos.com"
+);
+    broken_urls.insert("micro.medicine.iu.edu"
+);
+    broken_urls.insert("gazzetta.it"
+);
+    broken_urls.insert("site.abc.go.com"
+);
+    broken_urls.insert("a.espncdn.com"
+);
+
+    broken_urls.insert("tw.money.yahoo.com"
+);
+    broken_urls.insert("http300.edge.ru4.com"
+);
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+// broken_urls.insert();
+    // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();
@@ -246,25 +293,6 @@ broken_urls.insert("netv.sbs.co.kr"
     // broken_urls.insert();
     // broken_urls.insert();
 
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
 
     broken_urls
 }
