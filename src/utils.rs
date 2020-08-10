@@ -1,4 +1,4 @@
-use crate::broken_urls::curate_broken_records;
+use crate::prune_workload::curate_broken_records;
 use failure::Fallible;
 use headless_chrome::LaunchOptions;
 use headless_chrome::LaunchOptionsBuilder;

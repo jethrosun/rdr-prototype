@@ -1,7 +1,6 @@
 extern crate base64;
 extern crate tiny_http;
 
-use broken_urls::*;
 use failure::Fallible;
 use headless_chrome::browser::tab::RequestInterceptionDecision;
 use headless_chrome::protocol::network::methods::RequestPattern;
@@ -20,7 +19,7 @@ use std::thread::sleep;
 use std::time::{Duration, Instant};
 use utils::*;
 
-mod broken_urls;
+mod prune_workload;
 mod utils;
 
 fn main() {
