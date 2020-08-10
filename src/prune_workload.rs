@@ -276,8 +276,8 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("informatics.indiana.edu");
     broken_urls.insert("giveawayoftheday.com");
     broken_urls.insert("veoh.com");
-    // broken_urls.insert();
-    // broken_urls.insert();
+    broken_urls.insert("blogs.medicine.iu.edu");
+    broken_urls.insert("loginsvc.cyworld.com");
     // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();
