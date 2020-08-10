@@ -47,7 +47,7 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("lg15.com");
     broken_urls.insert("nate.com");
     broken_urls.insert("talkonsex.com");
-    broken_urls.insert("hulu.com");
+    // broken_urls.insert("hulu.com");
     broken_urls.insert("proxy.medlib.iupui.edu");
     broken_urls.insert("ad.insightexpressai.com");
     broken_urls.insert("bs.serving-sys.com");
@@ -58,11 +58,10 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("idcs.interclick.com");
     broken_urls.insert("fpsgameservers.com");
     broken_urls.insert("byfiles.storage.live.com");
-
     broken_urls.insert("imx.comedycentral.com");
     broken_urls.insert("lovine.com");
     broken_urls.insert("stoo.asiae.co.kr");
-    broken_urls.insert("bing.com");
+    // broken_urls.insert("bing.com");
     broken_urls.insert("espn-www.baynote.net");
     broken_urls.insert("ad.scanmedios.com");
     broken_urls.insert("graphics.ocsn.com");
@@ -77,21 +76,21 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("ro-co1.exp.msn.com");
     broken_urls.insert("nursingsociety.org");
     broken_urls.insert("ads.brazzers.com");
-    broken_urls.insert("google.com");
+    // broken_urls.insert("google.com");
     broken_urls.insert("widget.chipin.com");
     broken_urls.insert("movie.tudou.com");
     broken_urls.insert("farfesh.com");
-    broken_urls.insert("nike.com");
+    // broken_urls.insert("nike.com");
     broken_urls.insert("slis.indiana.edu");
     broken_urls.insert("sesamestats.com");
-    broken_urls.insert("apple.com");
+    // broken_urls.insert("apple.com");
     broken_urls.insert("xjjh.com");
-    broken_urls.insert("facebook.com");
+    // broken_urls.insert("facebook.com");
     broken_urls.insert("srv2.wa.marketingsolutions.yahoo.com");
     broken_urls.insert("hi.csdn.net");
-    broken_urls.insert("microsoft.com");
-    broken_urls.insert("yahoo.com");
-    broken_urls.insert("mitbbs.com");
+    // broken_urls.insert("microsoft.com");
+    // broken_urls.insert("yahoo.com");
+    // broken_urls.insert("mitbbs.com");
     broken_urls.insert("images.accessmylibrary.com");
     broken_urls.insert("accessmylibrary.com");
     broken_urls.insert("imeem.com");
@@ -106,7 +105,7 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("uuseeafp.allyes.com");
     broken_urls.insert("jcmc.indiana.edu");
     broken_urls.insert("v.youku.com");
-    broken_urls.insert("cnn.com");
+    // broken_urls.insert("cnn.com");
     broken_urls.insert("animalbehavior.org");
     broken_urls.insert("a367.yahoofs.com");
     broken_urls.insert("dvdvideosoft.com");
@@ -117,12 +116,12 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("ad.globalinteractive.com");
     broken_urls.insert("isdspeed.qq.com");
     broken_urls.insert("pixel.invitemedia.com");
-    broken_urls.insert("youtube.com");
+    // broken_urls.insert("youtube.com");
     broken_urls.insert("ad.inven.co.kr");
     broken_urls.insert("t.mookie1.com");
     broken_urls.insert("spitefulcritic.com");
     broken_urls.insert("msn.foxsports.com");
-    broken_urls.insert("msn.com");
+    // broken_urls.insert("msn.com");
     broken_urls.insert("ad.adserverplus.com");
     broken_urls.insert("mediaservices.myspace.com");
     broken_urls.insert("pornhub.com");
@@ -189,7 +188,7 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("video.od.visiblemeasures.com");
     broken_urls.insert("334.webim0444.webim.myspace.com");
     broken_urls.insert("bid.openx.net");
-    broken_urls.insert("baidu.com");
+    // broken_urls.insert("baidu.com");
     broken_urls.insert("xiaoyou.qq.com");
     broken_urls.insert("games.qq.com");
     broken_urls.insert("businessmajors.about.com");
@@ -221,7 +220,7 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("totalbeauty.com");
     broken_urls.insert("cell.com");
     broken_urls.insert("lezhin.com");
-    broken_urls.insert("stanford.edu");
+    // broken_urls.insert("stanford.edu");
     broken_urls.insert("autou.vodone.cn");
     broken_urls.insert("searchservice.myspace.com");
     broken_urls.insert("netv.sbs.co.kr");
@@ -236,16 +235,7 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("cm.nursing.iupui.edu");
     broken_urls.insert("media.fastclick.net");
     broken_urls.insert("cbssports.com");
-    broken_urls.insert("cell.com");
-    broken_urls.insert("lezhin.com");
-    broken_urls.insert("stanford.edu");
-    broken_urls.insert("autou.vodone.cn");
     broken_urls.insert("searchservice.myspace.com");
-    broken_urls.insert("netv.sbs.co.kr");
-    broken_urls.insert("881903.com");
-    broken_urls.insert("animegalleries.net");
-    broken_urls.insert("banners.getiton.com");
-    broken_urls.insert("graphics.fansonly.com");
     broken_urls.insert("mrd.mail.yahoo.com");
     broken_urls.insert("reviews.hsn.com");
     broken_urls.insert("news.hanafos.com");
@@ -278,10 +268,15 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("veoh.com");
     broken_urls.insert("blogs.medicine.iu.edu");
     broken_urls.insert("loginsvc.cyworld.com");
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
+    broken_urls.insert("ad.adtegrity.net"
+);
+    broken_urls.insert("dealoz.com"
+);
+    // http
+    broken_urls.insert("dalealplay.com"
+);
+    broken_urls.insert("secure-us.imrworldwide.com"
+);
     // broken_urls.insert();
 
     // broken_urls.insert();

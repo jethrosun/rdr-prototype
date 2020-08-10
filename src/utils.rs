@@ -123,12 +123,13 @@ pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()>
     let tab = current_browser.new_tab()?;
 
     let https_hostname = "https://".to_string() + &hostname;
-    // let https_hostname = "https://google.com".to_string();
-    println!("{:?}", https_hostname);
+    // println!("{:?}", https_hostname);
+    let http_hostname = "http://".to_string() + &hostname;
+    println!("{:?}", http_hostname);
 
     // tab.navigate_to(&https_hostname)?.wait_until_navigated()?;
     println!("2");
-    tab.navigate_to(&https_hostname)?;
+    tab.navigate_to(&http_hostname)?;
 
     // tab.wait_until_navigated()?;
 
