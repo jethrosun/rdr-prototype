@@ -219,6 +219,7 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("music.qq.com");
     broken_urls.insert("metalsetlists.com");
     broken_urls.insert("totalbeauty.com");
+<<<<<<< Updated upstream
     broken_urls.insert("cell.com");
     broken_urls.insert("lezhin.com");
     broken_urls.insert("stanford.edu");
@@ -257,6 +258,16 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("a.espncdn.com");
     broken_urls.insert("tw.money.yahoo.com");
     broken_urls.insert("http300.edge.ru4.com");
+    broken_urls.insert("cell.com");
+    broken_urls.insert("lezhin.com");
+    broken_urls.insert("stanford.edu");
+    broken_urls.insert("autou.vodone.cn");
+    broken_urls.insert("searchservice.myspace.com");
+    broken_urls.insert("netv.sbs.co.kr");
+    broken_urls.insert("881903.com");
+    broken_urls.insert("animegalleries.net");
+    broken_urls.insert("banners.getiton.com");
+    broken_urls.insert("graphics.fansonly.com");
     // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();
