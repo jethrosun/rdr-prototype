@@ -50,7 +50,7 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("talkonsex.com");
     broken_urls.insert("hulu.com");
     // broken_urls.insert("proxy.medlib.iupui.edu");
-    // broken_urls.insert("ad.insightexpressai.com");
+    broken_urls.insert("ad.insightexpressai.com");
     broken_urls.insert("bs.serving-sys.com");
     broken_urls.insert("wpi.renren.com");
     // broken_urls.insert("iea.org");
