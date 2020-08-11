@@ -119,17 +119,13 @@ pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()>
     // std::result::Result<(u128), (u128, failure::Error)> {
     let now = Instant::now();
 
-    println!("1");
-    let tab = current_browser.new_tab()?;
-
-    let https_hostname = "https://".to_string() + &hostname;
+    println!("{:?}", hostname);
+    // let https_hostname = "https://".to_string() + &hostname;
     // println!("{:?}", https_hostname);
-    let http_hostname = "http://".to_string() + &hostname;
-    println!("{:?}", http_hostname);
+    // let http_hostname = "http://".to_string() + &hostname;
 
     // tab.navigate_to(&https_hostname)?.wait_until_navigated()?;
-    println!("2");
-    tab.navigate_to(&http_hostname)?;
+    // tab.navigate_to(&http_hostname)?;
 
     // tab.wait_until_navigated()?;
 
