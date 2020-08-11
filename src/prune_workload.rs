@@ -300,8 +300,7 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("washingtontimes.com");
     broken_urls.insert("profile.myspace.com");
     broken_urls.insert("desktopfw.weather.com");
-    // broken_urls.insert();
-    // broken_urls.insert();
+    broken_urls.insert("creatives.livejasmin.com");
     // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();
@@ -318,6 +317,11 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     // rate limiting
     broken_urls.insert("google.com");
     broken_urls.insert("youtube.com");
+    broken_urls.insert("apple.com");
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
 
     broken_urls
 }
