@@ -2,27 +2,27 @@ use std::collections::HashSet;
 
 pub fn curate_broken_records() -> HashSet<&'static str> {
     let mut broken_urls = HashSet::new();
-    broken_urls.insert("32.wcmcs.net");
-    broken_urls.insert("provider-directory.anthem.com");
-    broken_urls.insert("kr.sports.yahoo.com");
-    broken_urls.insert("desktopfw.weather.com");
+    // broken_urls.insert("32.wcmcs.net");
+    // broken_urls.insert("provider-directory.anthem.com");
+    // broken_urls.insert("kr.sports.yahoo.com");
+    // broken_urls.insert("desktopfw.weather.com");
     broken_urls.insert("arienh4.net.nyud.net");
-    broken_urls.insert("hv3.webstat.com");
-    broken_urls.insert("rs.mail.ru");
-    broken_urls.insert("arienh4.net.nyud.net");
-    broken_urls.insert("apps.facebook.com");
-    broken_urls.insert("ads.adultadvertising.net");
-    broken_urls.insert("reuters.com");
-    broken_urls.insert("pn1.adserver.yahoo.com");
-    broken_urls.insert("bbc.co.uk");
-    broken_urls.insert("ad.yieldmanager.com");
-    broken_urls.insert("wikipedia.org");
-    broken_urls.insert("collegehumor.com");
-    broken_urls.insert("talenthunter.com");
-    broken_urls.insert("naver.com");
-    broken_urls.insert("blog.naver.com");
-    broken_urls.insert("mads.gamespot.com");
-    broken_urls.insert("cyworld.com");
+    // broken_urls.insert("hv3.webstat.com");
+    // broken_urls.insert("rs.mail.ru");
+    // broken_urls.insert("arienh4.net.nyud.net");
+    // broken_urls.insert("apps.facebook.com");
+    // broken_urls.insert("ads.adultadvertising.net");
+    // broken_urls.insert("reuters.com");
+    // broken_urls.insert("pn1.adserver.yahoo.com");
+    // broken_urls.insert("bbc.co.uk");
+    // broken_urls.insert("ad.yieldmanager.com");
+    // broken_urls.insert("wikipedia.org");
+    // broken_urls.insert("collegehumor.com");
+    // broken_urls.insert("talenthunter.com");
+    // broken_urls.insert("naver.com");
+    // broken_urls.insert("blog.naver.com");
+    // broken_urls.insert("mads.gamespot.com");
+    // broken_urls.insert("cyworld.com");
     broken_urls.insert("penciloflight.deviantart.com");
     broken_urls.insert("grad2b.com");
     broken_urls.insert("sports.sina.com.cn");
@@ -268,40 +268,38 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("veoh.com");
     broken_urls.insert("blogs.medicine.iu.edu");
     broken_urls.insert("loginsvc.cyworld.com");
-    broken_urls.insert("ad.adtegrity.net"
-);
-    broken_urls.insert("dealoz.com"
-);
+    broken_urls.insert("ad.adtegrity.net");
+    broken_urls.insert("dealoz.com");
     // http
-    broken_urls.insert("dalealplay.com"
-);
-    broken_urls.insert("secure-us.imrworldwide.com"
-);
-    broken_urls.insert("thumb.brandreachsys.com"
-);
-    broken_urls.insert("amsv2.daum.net"
-);
+    broken_urls.insert("dalealplay.com");
+    broken_urls.insert("secure-us.imrworldwide.com");
+    broken_urls.insert("thumb.brandreachsys.com");
+    broken_urls.insert("amsv2.daum.net");
     broken_urls.insert("myspace.com");
-    broken_urls.insert("elpais.com"
-);
-    broken_urls.insert("microsoft.com"
-);
-    broken_urls.insert("kongregate.com"
-);
-    broken_urls.insert("chem.indiana.edu"
-);
-    broken_urls.insert("walmart.com"
-);
-    broken_urls.insert("baidu.com"
-);
-    broken_urls.insert("ads.revsci.net"
-);
-    broken_urls.insert("bossip.com"
-);
+    broken_urls.insert("elpais.com");
+    broken_urls.insert("microsoft.com");
+    broken_urls.insert("kongregate.com");
+    broken_urls.insert("chem.indiana.edu");
+    broken_urls.insert("walmart.com");
+    broken_urls.insert("baidu.com");
+    broken_urls.insert("ads.revsci.net");
+    broken_urls.insert("bossip.com");
     broken_urls.insert("foto.radar.imgsmail.ru");
-    broken_urls.insert("122.webim0265.webim.myspace.com"
-);
+    broken_urls.insert("122.webim0265.webim.myspace.com");
     broken_urls.insert("10910258100.basketball.cbssports.com");
+    broken_urls.insert("delivery.trafficjunky.net");
+    broken_urls.insert("server.cpmstar.com");
+    broken_urls.insert("newgrounds.com");
+    broken_urls.insert("kr.sports.yahoo.com");
+    broken_urls.insert("i1.ytimg.com");
+    broken_urls.insert("ad.adlegend.com");
+    broken_urls.insert("search.yahoo.com");
+    broken_urls.insert("ec.atdmt.com");
+
+    // https
+    broken_urls.insert("washingtontimes.com");
+    broken_urls.insert("profile.myspace.com");
+    broken_urls.insert("desktopfw.weather.com");
     // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();
@@ -316,18 +314,7 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     // broken_urls.insert();
     // broken_urls.insert();
     // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-    // broken_urls.insert();
-   
+
     // rate limiting
     broken_urls.insert("google.com");
     broken_urls.insert("youtube.com");
