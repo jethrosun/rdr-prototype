@@ -126,10 +126,11 @@ pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()>
     println!("test {:?}", hostname);
     // let https_hostname = "https://".to_string() + &hostname;
     // println!("{:?}", https_hostname);
-    // let http_hostname = "http://".to_string() + &hostname;
+    let http_hostname = "http://".to_string() + &hostname;
 
+    let tab = current_browser.new_tab()?;
     // tab.navigate_to(&https_hostname)?.wait_until_navigated()?;
-    // tab.navigate_to(&http_hostname)?;
+    tab.navigate_to(&http_hostname)?;
 
     // tab.wait_until_navigated()?;
 
@@ -260,9 +261,9 @@ pub fn rdr_scheduler(
     // println!("current work {:?}", current_work);
 
     for (milli, url, user) in current_work.into_iter() {
-        if milli >= 500 {
-            break;
-        }
+        // if milli >= 500 {
+        //     break;
+        // }
         // println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
         // println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
 
