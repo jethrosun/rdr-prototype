@@ -119,7 +119,7 @@ pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()>
     // std::result::Result<(u128), (u128, failure::Error)> {
     let now = Instant::now();
 
-    println!("{:?}", hostname);
+    println!("test {:?}", hostname);
     // let https_hostname = "https://".to_string() + &hostname;
     // println!("{:?}", https_hostname);
     // let http_hostname = "http://".to_string() + &hostname;
@@ -259,18 +259,18 @@ pub fn rdr_scheduler(
         if milli >= 500 {
             break;
         }
-        println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
-        println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
+        // println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
+        // println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
 
         // if now.elapsed().as_millis() < milli as u128 {
         //     println!("DEBUG: waiting");
         //     let one_millis = Duration::from_millis(1);
         //     std::thread::sleep(one_millis);
         // } else {
-        println!("DEBUG: matched");
+        // println!("DEBUG: matched");
         match user_browse(&browser_list[user], &url) {
             Ok(_) => {
-                println!("ok");
+                // println!("ok");
                 // *num_of_ok += 1;
                 // elapsed_time.push(elapsed);
             }
@@ -280,10 +280,10 @@ pub fn rdr_scheduler(
                 // *num_of_err += 1;
                 // elapsed_time.push(elapsed);
                 // println!("User {} caused an error: {:?}", user, e);
-                println!("User {} caused an error", user,);
+                // println!("User {} caused an error", user,);
             }
         }
-        println!("match done");
+        // println!("match done");
         // }
     }
 

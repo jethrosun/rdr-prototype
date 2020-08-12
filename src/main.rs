@@ -67,7 +67,7 @@ fn main() {
         if now.elapsed().as_secs() == pivot as u64 {
             let min = pivot / 60;
             let rest_sec = pivot % 60;
-            println!("\n{:?} min, {:?} second", min, rest_sec);
+            // println!("\n{:?} min, {:?} second", min, rest_sec);
             match rdr_workload.remove(&pivot) {
                 Some(wd) => {
                     rdr_scheduler(
@@ -91,7 +91,9 @@ fn main() {
                     //     &browser_list,
                     // );
                 }
-                None => println!("No workload for second {:?}", pivot),
+                None => {
+                    // println!("No workload for second {:?}", pivot),
+                }
             }
             pivot += 1;
         }

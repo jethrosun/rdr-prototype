@@ -16,4 +16,5 @@ base64 = "0.10"
 headless_chrome = { git = "https://github.com/jethrosun/rust-headless-chrome", branch = "pvn-rdr" }
 serde_json = "*"
 rand = "*"
-certainly = "*"
+# certainly = "*"
+"resolv" = "0.2.0"
