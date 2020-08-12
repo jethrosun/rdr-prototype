@@ -2,12 +2,12 @@ use std::collections::HashSet;
 
 pub fn curate_broken_records() -> HashSet<&'static str> {
     let mut broken_urls = HashSet::new();
+    broken_urls.insert("arienh4.net.nyud.net");
     return broken_urls;
 }
 
 pub fn curate_broken_records2() -> HashSet<&'static str> {
     let mut broken_urls = HashSet::new();
-    // broken_urls.insert("32.wcmcs.net");
     // broken_urls.insert("provider-directory.anthem.com");
     // broken_urls.insert("kr.sports.yahoo.com");
     // broken_urls.insert("desktopfw.weather.com");

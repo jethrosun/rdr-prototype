@@ -11,6 +11,7 @@ use std::sync::Arc;
 use std::thread::sleep;
 use std::time::{Duration, Instant};
 use std::vec::Vec;
+use std::{thread, time};
 
 use resolv::record::MX;
 use resolv::{Class, RecordType, Resolver};
@@ -345,6 +346,7 @@ pub fn resolve_dns(
     current_work: Vec<(u64, String, usize)>,
 ) {
     for (milli, url, user) in current_work.into_iter() {
+        println!("{:?}", url);
         // You must create a mutable resolver object to hold the context.
         let mut resolver = Resolver::new().unwrap();
 
@@ -362,5 +364,9 @@ pub fn resolve_dns(
             }
             Err(e) => println!("fail to resolve {:?}", url),
         }
+        let ten_millis = time::Duration::from_millis(100);
+        let now = time::Instant::now();
+
+        thread::sleep(ten_millis);
     }
 }

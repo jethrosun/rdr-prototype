@@ -48,11 +48,11 @@ fn main() {
 
     let now = Instant::now();
 
-    loop {
-        if now.elapsed().as_secs() == pivot as u64 {
+    for sec in 0..610 {
+        if sec == pivot {
             let min = pivot / 60;
             let rest_sec = pivot % 60;
-            // println!("\n{:?} min, {:?} second", min, rest_sec);
+            println!("\n{:?} min, {:?} second", min, rest_sec);
             match rdr_workload.remove(&pivot) {
                 Some(wd) => {
                     resolve_dns(now.clone(), &pivot, &num_of_users, wd);

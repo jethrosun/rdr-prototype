@@ -1,0 +1,156 @@
+Workload is generated
+
+0 min, 1 second
+Record { name: "lovine.com", class: IN, ttl: 3600, data: MX { preference: 0, exchange: "vade-in2.mail.dreamhost.com" } }
+Record { name: "lovine.com", class: IN, ttl: 3600, data: MX { preference: 0, exchange: "vade-in1.mail.dreamhost.com" } }
+
+0 min, 2 second
+Record { name: "lovine.com", class: IN, ttl: 3599, data: MX { preference: 0, exchange: "vade-in1.mail.dreamhost.com" } }
+Record { name: "lovine.com", class: IN, ttl: 3599, data: MX { preference: 0, exchange: "vade-in2.mail.dreamhost.com" } }
+
+0 min, 3 second
+Record { name: "lovine.com", class: IN, ttl: 3598, data: MX { preference: 0, exchange: "vade-in2.mail.dreamhost.com" } }
+Record { name: "lovine.com", class: IN, ttl: 3598, data: MX { preference: 0, exchange: "vade-in1.mail.dreamhost.com" } }
+
+0 min, 4 second
+Record { name: "parents.com", class: IN, ttl: 300, data: MX { preference: 10, exchange: "us-smtp-inbound-1.mimecast.com" } }
+Record { name: "parents.com", class: IN, ttl: 300, data: MX { preference: 10, exchange: "us-smtp-inbound-2.mimecast.com" } }
+Record { name: "lovine.com", class: IN, ttl: 3597, data: MX { preference: 0, exchange: "vade-in1.mail.dreamhost.com" } }
+Record { name: "lovine.com", class: IN, ttl: 3597, data: MX { preference: 0, exchange: "vade-in2.mail.dreamhost.com" } }
+
+0 min, 5 second
+fail to resolve "a367.yahoofs.com"
+Record { name: "google.com", class: IN, ttl: 600, data: MX { preference: 30, exchange: "alt2.aspmx.l.google.com" } }
+Record { name: "google.com", class: IN, ttl: 600, data: MX { preference: 20, exchange: "alt1.aspmx.l.google.com" } }
+Record { name: "google.com", class: IN, ttl: 600, data: MX { preference: 40, exchange: "alt3.aspmx.l.google.com" } }
+Record { name: "google.com", class: IN, ttl: 600, data: MX { preference: 10, exchange: "aspmx.l.google.com" } }
+Record { name: "google.com", class: IN, ttl: 600, data: MX { preference: 50, exchange: "alt4.aspmx.l.google.com" } }
+
+0 min, 6 second
+fail to resolve "amch.questionmarket.com"
+Record { name: "itouchmidi.com", class: IN, ttl: 43200, data: MX { preference: 10, exchange: "mail.itouchmidi.com" } }
+
+0 min, 7 second
+fail to resolve "amch.questionmarket.com"
+Record { name: "lovine.com", class: IN, ttl: 3594, data: MX { preference: 0, exchange: "vade-in1.mail.dreamhost.com" } }
+Record { name: "lovine.com", class: IN, ttl: 3594, data: MX { preference: 0, exchange: "vade-in2.mail.dreamhost.com" } }
+
+0 min, 8 second
+Record { name: "diligogames.com", class: IN, ttl: 28800, data: MX { preference: 10, exchange: "mx1.mailqueries.com" } }
+Record { name: "diligogames.com", class: IN, ttl: 28800, data: MX { preference: 20, exchange: "mx2.mailqueries.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7200, data: MX { preference: 20, exchange: "alt1.aspmx.l.google.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7200, data: MX { preference: 30, exchange: "aspmx3.googlemail.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7200, data: MX { preference: 30, exchange: "aspmx4.googlemail.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7200, data: MX { preference: 30, exchange: "aspmx5.googlemail.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7200, data: MX { preference: 10, exchange: "aspmx.l.google.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7200, data: MX { preference: 30, exchange: "aspmx2.googlemail.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7200, data: MX { preference: 20, exchange: "alt2.aspmx.l.google.com" } }
+Record { name: "itouchmidi.com", class: IN, ttl: 43197, data: MX { preference: 10, exchange: "mail.itouchmidi.com" } }
+fail to resolve "promos.fling.com"
+
+0 min, 9 second
+fail to resolve "sesamestats.com"
+Record { name: "lovine.com", class: IN, ttl: 3592, data: MX { preference: 0, exchange: "vade-in2.mail.dreamhost.com" } }
+Record { name: "lovine.com", class: IN, ttl: 3592, data: MX { preference: 0, exchange: "vade-in1.mail.dreamhost.com" } }
+fail to resolve "w"
+fail to resolve "xjjh.com"
+fail to resolve "stoo.asiae.co.kr"
+
+0 min, 10 second
+Record { name: "naver.com", class: IN, ttl: 300, data: MX { preference: 10, exchange: "mx2.naver.com" } }
+Record { name: "naver.com", class: IN, ttl: 300, data: MX { preference: 10, exchange: "mx3.naver.com" } }
+Record { name: "naver.com", class: IN, ttl: 300, data: MX { preference: 10, exchange: "mx1.naver.com" } }
+fail to resolve "education.iupui.edu"
+fail to resolve "d.tradex.openx.com"
+Record { name: "bing.com", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "bing-com.mail.protection.outlook.com" } }
+
+0 min, 11 second
+fail to resolve "d.tradex.openx.com"
+Record { name: "naver.com", class: IN, ttl: 299, data: MX { preference: 10, exchange: "mx2.naver.com" } }
+Record { name: "naver.com", class: IN, ttl: 299, data: MX { preference: 10, exchange: "mx1.naver.com" } }
+Record { name: "naver.com", class: IN, ttl: 299, data: MX { preference: 10, exchange: "mx3.naver.com" } }
+fail to resolve "thumb.brandreachsys.com"
+Record { name: "youtube.com", class: IN, ttl: 600, data: MX { preference: 10, exchange: "aspmx.l.google.com" } }
+Record { name: "youtube.com", class: IN, ttl: 600, data: MX { preference: 40, exchange: "alt3.aspmx.l.google.com" } }
+Record { name: "youtube.com", class: IN, ttl: 600, data: MX { preference: 20, exchange: "alt1.aspmx.l.google.com" } }
+Record { name: "youtube.com", class: IN, ttl: 600, data: MX { preference: 50, exchange: "alt4.aspmx.l.google.com" } }
+Record { name: "youtube.com", class: IN, ttl: 600, data: MX { preference: 30, exchange: "alt2.aspmx.l.google.com" } }
+fail to resolve "womenofyoutube.mevio.com"
+Record { name: "naver.com", class: IN, ttl: 299, data: MX { preference: 10, exchange: "mx1.naver.com" } }
+Record { name: "naver.com", class: IN, ttl: 299, data: MX { preference: 10, exchange: "mx2.naver.com" } }
+Record { name: "naver.com", class: IN, ttl: 299, data: MX { preference: 10, exchange: "mx3.naver.com" } }
+
+0 min, 12 second
+Record { name: "mylifeisaverage.com", class: IN, ttl: 35609, data: MX { preference: 10, exchange: "alt1.aspmx.l.google.com" } }
+Record { name: "mylifeisaverage.com", class: IN, ttl: 35609, data: MX { preference: 5, exchange: "aspmx.l.google.com" } }
+Record { name: "mylifeisaverage.com", class: IN, ttl: 35609, data: MX { preference: 15, exchange: "alt2.aspmx.l.google.com" } }
+fail to resolve "ads.brazzers.com"
+Record { name: "deviantart.com", class: IN, ttl: 35608, data: MX { preference: 5, exchange: "alt2.aspmx.l.google.com" } }
+Record { name: "deviantart.com", class: IN, ttl: 35608, data: MX { preference: 10, exchange: "alt3.aspmx.l.google.com" } }
+Record { name: "deviantart.com", class: IN, ttl: 35608, data: MX { preference: 5, exchange: "alt1.aspmx.l.google.com" } }
+Record { name: "deviantart.com", class: IN, ttl: 35608, data: MX { preference: 10, exchange: "alt4.aspmx.l.google.com" } }
+Record { name: "deviantart.com", class: IN, ttl: 35608, data: MX { preference: 1, exchange: "aspmx.l.google.com" } }
+
+0 min, 13 second
+Record { name: "wired.com", class: IN, ttl: 1800, data: MX { preference: 10, exchange: "mx1.condenast.iphmx.com" } }
+Record { name: "wired.com", class: IN, ttl: 1800, data: MX { preference: 10, exchange: "mx2.condenast.iphmx.com" } }
+fail to resolve "ads.adultadvertising.net"
+fail to resolve "farm.game.playfish.com"
+fail to resolve "ads.vrx.adbrite.com"
+fail to resolve "ads.brazzers.com"
+
+0 min, 14 second
+fail to resolve "global.thenest.com"
+fail to resolve "land.naver.com"
+Record { name: "nba.com", class: IN, ttl: 1800, data: MX { preference: 10, exchange: "mxb-001bf601.gslb.pphosted.com" } }
+Record { name: "nba.com", class: IN, ttl: 1800, data: MX { preference: 10, exchange: "mxa-001bf601.gslb.pphosted.com" } }
+Record { name: "baidu.com", class: IN, ttl: 7200, data: MX { preference: 15, exchange: "mx.n.shifen.com" } }
+Record { name: "baidu.com", class: IN, ttl: 7200, data: MX { preference: 10, exchange: "mx.maillb.baidu.com" } }
+Record { name: "baidu.com", class: IN, ttl: 7200, data: MX { preference: 20, exchange: "jpmx.baidu.com" } }
+Record { name: "baidu.com", class: IN, ttl: 7200, data: MX { preference: 20, exchange: "mx50.baidu.com" } }
+Record { name: "baidu.com", class: IN, ttl: 7200, data: MX { preference: 20, exchange: "mx1.baidu.com" } }
+fail to resolve "video.od.visiblemeasures.com"
+Record { name: "graphics.ocsn.com", class: IN, ttl: 3600, data: MX { preference: 0, exchange: "." } }
+Record { name: "wikipedia.org", class: IN, ttl: 3600, data: MX { preference: 50, exchange: "mx2001.wikimedia.org" } }
+Record { name: "wikipedia.org", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "mx1001.wikimedia.org" } }
+fail to resolve "ads.brazzers.com"
+
+0 min, 15 second
+Record { name: "mapquest.com", class: IN, ttl: 3600, data: MX { preference: 5, exchange: "alt1.aspmx.l.google.com" } }
+Record { name: "mapquest.com", class: IN, ttl: 3600, data: MX { preference: 1, exchange: "aspmx.l.google.com" } }
+Record { name: "mapquest.com", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "aspmx3.googlemail.com" } }
+Record { name: "mapquest.com", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "aspmx2.googlemail.com" } }
+Record { name: "mapquest.com", class: IN, ttl: 3600, data: MX { preference: 5, exchange: "alt2.aspmx.l.google.com" } }
+fail to resolve "search-srv.freechal.plusbar.net"
+Record { name: "google.com", class: IN, ttl: 590, data: MX { preference: 50, exchange: "alt4.aspmx.l.google.com" } }
+Record { name: "google.com", class: IN, ttl: 590, data: MX { preference: 40, exchange: "alt3.aspmx.l.google.com" } }
+Record { name: "google.com", class: IN, ttl: 590, data: MX { preference: 10, exchange: "aspmx.l.google.com" } }
+Record { name: "google.com", class: IN, ttl: 590, data: MX { preference: 20, exchange: "alt1.aspmx.l.google.com" } }
+Record { name: "google.com", class: IN, ttl: 590, data: MX { preference: 30, exchange: "alt2.aspmx.l.google.com" } }
+Record { name: "ebates.com", class: IN, ttl: 33809, data: MX { preference: 0, exchange: "ebates-com.mail.protection.outlook.com" } }
+fail to resolve "womenofyoutube.mevio.com"
+Record { name: "hcr.com", class: IN, ttl: 7192, data: MX { preference: 30, exchange: "aspmx3.googlemail.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7192, data: MX { preference: 10, exchange: "aspmx.l.google.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7192, data: MX { preference: 30, exchange: "aspmx2.googlemail.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7192, data: MX { preference: 20, exchange: "alt2.aspmx.l.google.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7192, data: MX { preference: 20, exchange: "alt1.aspmx.l.google.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7192, data: MX { preference: 30, exchange: "aspmx5.googlemail.com" } }
+Record { name: "hcr.com", class: IN, ttl: 7192, data: MX { preference: 30, exchange: "aspmx4.googlemail.com" } }
+fail to resolve "d.tradex.openx.com"
+
+0 min, 16 second
+fail to resolve "ads.adultadvertising.net"
+Record { name: "youtube.com", class: IN, ttl: 596, data: MX { preference: 20, exchange: "alt1.aspmx.l.google.com" } }
+Record { name: "youtube.com", class: IN, ttl: 596, data: MX { preference: 10, exchange: "aspmx.l.google.com" } }
+Record { name: "youtube.com", class: IN, ttl: 596, data: MX { preference: 40, exchange: "alt3.aspmx.l.google.com" } }
+Record { name: "youtube.com", class: IN, ttl: 596, data: MX { preference: 50, exchange: "alt4.aspmx.l.google.com" } }
+Record { name: "youtube.com", class: IN, ttl: 596, data: MX { preference: 30, exchange: "alt2.aspmx.l.google.com" } }
+fail to resolve "kd.iu.edu"
+Record { name: "apple.com", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "nwk-aaemail-lapp02.apple.com" } }
+Record { name: "apple.com", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "nwk-aaemail-lapp03.apple.com" } }
+Record { name: "apple.com", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "nwk-aaemail-lapp01.apple.com" } }
+Record { name: "apple.com", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "ma1-aaemail-dr-lapp01.apple.com" } }
+Record { name: "apple.com", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "ma1-aaemail-dr-lapp02.apple.com" } }
+Record { name: "apple.com", class: IN, ttl: 3600, data: MX { preference: 10, exchange: "ma1-aaemail-dr-lapp03.apple.com" } }
+fail to resolve "static.addtoany.com"
+fail to resolve "arienh4.net.nyud.net"
