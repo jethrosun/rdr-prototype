@@ -12,6 +12,9 @@ use std::thread::sleep;
 use std::time::{Duration, Instant};
 use std::vec::Vec;
 
+use resolv::record::MX;
+use resolv::{Class, RecordType, Resolver};
+
 ///
 /// https://kbknapp.github.io/doapi-rs/docs/serde/json/index.html
 
@@ -331,6 +334,33 @@ pub fn rdr_scheduler_ng(
                     // println!("User {} caused an error", user,);
                 }
             }
+        }
+    }
+}
+
+pub fn resolve_dns(
+    now: Instant,
+    pivot: &usize,
+    _num_of_users: &usize,
+    current_work: Vec<(u64, String, usize)>,
+) {
+    for (milli, url, user) in current_work.into_iter() {
+        // You must create a mutable resolver object to hold the context.
+        let mut resolver = Resolver::new().unwrap();
+
+        // .query() and .search() are the main interfaces to the resolver.
+        let mut response = resolver.query(url.as_bytes(), Class::IN, RecordType::MX);
+
+        match response {
+            Ok(ref val) => {
+                // You can iterate through answers as follows.  You must specify the
+                // type of record.  A run-time error will occur if the records
+                // decoded are of the wrong type.
+                for answer in response.unwrap().answers::<MX>() {
+                    println!("{:?}", answer);
+                }
+            }
+            Err(e) => println!("fail to resolve {:?}", url),
         }
     }
 }
