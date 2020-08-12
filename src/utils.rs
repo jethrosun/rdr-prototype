@@ -362,7 +362,7 @@ pub fn resolve_dns(
                     println!("{:?}", answer);
                 }
             }
-            Err(e) => println!("fail to resolve {:?}", url),
+            Err(e) => println!("fail to resolve {:?} bar", url),
         }
         let ten_millis = time::Duration::from_millis(100);
         let now = time::Instant::now();
