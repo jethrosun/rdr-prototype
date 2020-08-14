@@ -29,8 +29,9 @@ fn main() {
     // "/home/jethros/dev/silver-octo-spoon/workload_tempaltes/rdr_pvn_workload.json";
     // let workload_path = "/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workload.json";
     // "/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_1.json";
+    // "/home/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
     let workload_path =
-        "/home/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
+        "/net/data/pvn/dev/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
 
     let num_of_users = 100;
     let num_of_secs = 600;

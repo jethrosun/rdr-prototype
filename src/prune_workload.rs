@@ -3621,5 +3621,43 @@ pub fn curate_broken_records() -> HashSet<&'static str> {
     broken_urls.insert("sesamestats.com");
     broken_urls.insert("ads.brazzers.com");
 
+    //
+    broken_urls.insert("im.storm8.com");
+    broken_urls.insert("lovine.com");
+    broken_urls.insert("parents.com");
+    broken_urls.insert("bs.serving-sys.com");
+    broken_urls.insert("imx.comedycentral.com");
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+    // broken_urls.insert();
+
     return broken_urls;
 }
