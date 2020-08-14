@@ -1,22 +1,11 @@
 extern crate base64;
 extern crate tiny_http;
+extern crate tokio;
 
-use failure::Fallible;
-use headless_chrome::browser::tab::RequestInterceptionDecision;
-use headless_chrome::protocol::network::methods::RequestPattern;
-use headless_chrome::protocol::network::Cookie;
-use headless_chrome::protocol::runtime::methods::{RemoteObjectSubtype, RemoteObjectType};
-use headless_chrome::protocol::RemoteError;
-use headless_chrome::{
-    browser::context::Context,
-    protocol::browser::{Bounds, WindowState},
-    Browser, Tab,
-};
-use std::fs;
+use headless_chrome::{browser::context::Context, Browser, Tab};
 use std::sync::Arc;
-use std::sync::Mutex;
-use std::thread::sleep;
-use std::time::{Duration, Instant};
+use std::time::Instant;
+use tokio::runtime::Runtime;
 use utils::*;
 
 mod prune_workload;
@@ -33,7 +22,7 @@ fn main() {
     let workload_path =
         "/net/data/pvn/dev/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
 
-    let num_of_users = 100;
+    let num_of_users = 50;
     let num_of_secs = 600;
 
     let mut rdr_workload =
@@ -71,7 +60,8 @@ fn main() {
             println!("\n{:?} min, {:?} second", min, rest_sec);
             match rdr_workload.remove(&pivot) {
                 Some(wd) => {
-                    rdr_scheduler(
+                    let mut rt = Runtime::new().unwrap();
+                    rt.block_on(rdr_scheduler_ng(
                         now.clone(),
                         &pivot,
                         &mut num_of_ok,
@@ -80,17 +70,7 @@ fn main() {
                         &num_of_users,
                         wd,
                         &browser_list,
-                    );
-                    // rdr_scheduler(
-                    //     now.clone(),
-                    //     &pivot,
-                    //     &mut num_of_ok,
-                    //     &mut num_of_err,
-                    //     &mut elapsed_time,
-                    //     &num_of_users,
-                    //     wd,
-                    //     &browser_list,
-                    // );
+                    ));
                 }
                 None => println!("No workload for second {:?}", pivot),
             }

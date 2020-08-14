@@ -1,20 +1,21 @@
 use crate::prune_workload::curate_broken_records;
 use failure::Fallible;
+use futures::StreamExt;
+use futures::{future::BoxFuture, stream::FuturesUnordered};
 use headless_chrome::LaunchOptions;
 use headless_chrome::LaunchOptionsBuilder;
-use headless_chrome::{browser::context::Context, Browser, Tab};
-use serde_json::{from_reader, Result, Value};
+use headless_chrome::{Browser, Tab};
+use resolv::record::MX;
+use resolv::{Class, RecordType, Resolver};
+use serde_json::{from_reader, Value};
 use std::collections::HashMap;
+use std::error::Error;
 use std::fs::File;
-use std::path::PathBuf;
+use std::result::Result;
 use std::sync::Arc;
-use std::thread::sleep;
 use std::time::{Duration, Instant};
 use std::vec::Vec;
 use std::{thread, time};
-
-use resolv::record::MX;
-use resolv::{Class, RecordType, Resolver};
 
 ///
 /// https://kbknapp.github.io/doapi-rs/docs/serde/json/index.html
@@ -26,7 +27,7 @@ pub fn rdr_load_workload(
     file_path: String,
     num_of_secs: usize,
     num_of_user: usize,
-) -> Result<HashMap<usize, Vec<(u64, String, usize)>>> {
+) -> serde_json::Result<HashMap<usize, Vec<(u64, String, usize)>>> {
     // time in second, workload in that second
     // let mut workload = HashMap::<usize, HashMap<usize, Vec<(u64, String)>>>::with_capacity(num_of_secs);
     let mut workload = HashMap::<usize, Vec<(u64, String, usize)>>::with_capacity(num_of_secs);
@@ -119,44 +120,6 @@ pub fn browser_create() -> Fallible<Browser> {
     Ok(browser)
 }
 
-pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()> {
-    // std::result::Result<(u128), (u128, failure::Error)> {
-    let now = Instant::now();
-
-    println!("test {:?}", hostname);
-    // let https_hostname = "https://".to_string() + &hostname;
-    // println!("{:?}", https_hostname);
-    let http_hostname = "http://".to_string() + &hostname;
-
-    let tab = current_browser.new_tab()?;
-    // tab.navigate_to(&https_hostname)?.wait_until_navigated()?;
-    tab.navigate_to(&http_hostname)?;
-
-    // tab.wait_until_navigated()?;
-
-    // sleep(Duration::from_millis(10));
-    // println!("3");
-    // tab.wait_until_navigated()?;
-
-    // println!("4");
-    // let html = match tab.wait_for_element("html") {
-    //     Ok(h) => {
-    //         println!("html ok");
-    //         ()
-    //     }
-    //     Err(e) => {
-    //         println!("Query failed: {:?}", e);
-    //         ()
-    //     }
-    // };
-
-    // tab.close_target();
-    // println!("here");
-    // Ok(html)
-
-    Ok(())
-}
-
 // pub fn browser_ctx_create() -> Fallible<Context<'static>> {
 //     let browser = browser_create().unwrap();
 //     let ctx = browser.new_context().unwrap();
@@ -179,7 +142,7 @@ pub fn browser_tab_create() -> Fallible<Arc<Tab>> {
 pub fn user_tab_browse(
     current_tab: &Tab,
     hostname: &String,
-) -> std::result::Result<(u128), (u128, failure::Error)> {
+) -> Result<u128, (u128, failure::Error)> {
     let now = Instant::now();
     // println!("Entering user browsing",);
     // Doesn't use incognito mode
@@ -215,7 +178,7 @@ pub fn user_tab_browse(
 pub fn simple_user_browse(
     current_browser: &Browser,
     hostname: &String,
-) -> std::result::Result<(u128), (u128, failure::Error)> {
+) -> Result<u128, (u128, failure::Error)> {
     let now = Instant::now();
     // println!("Entering user browsing",);
     // Doesn't use incognito mode
@@ -299,47 +262,6 @@ pub fn rdr_scheduler(
     // println!("(pivot {}) RDR Elapsed Time:  {:?}", pivot, elapsed_time);
 }
 
-pub fn rdr_scheduler_ng(
-    now: Instant,
-    pivot: &usize,
-    num_of_ok: &mut usize,
-    num_of_err: &mut usize,
-    elapsed_time: &mut Vec<u128>,
-    _num_of_users: &usize,
-    current_work: Vec<(u64, String, usize)>,
-    tab_list: &Vec<Arc<Tab>>,
-) {
-    // println!("\npivot: {:?}", pivot);
-    // println!("current work {:?}", current_work);
-
-    for (milli, url, user) in current_work.into_iter() {
-        println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
-        println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
-
-        if now.elapsed().as_millis() < milli as u128 {
-            println!("DEBUG: waiting");
-            let one_millis = Duration::from_millis(1);
-            std::thread::sleep(one_millis);
-        } else {
-            println!("DEBUG: matched");
-            match user_tab_browse(&tab_list[user], &url) {
-                Ok(elapsed) => {
-                    println!("ok");
-                    // *num_of_ok += 1;
-                    // elapsed_time.push(elapsed);
-                }
-                Err((elapsed, e)) => {
-                    println!("err");
-                    // *num_of_err += 1;
-                    // elapsed_time.push(elapsed);
-                    println!("User {} caused an error: {:?}", user, e);
-                    // println!("User {} caused an error", user,);
-                }
-            }
-        }
-    }
-}
-
 pub fn resolve_dns(
     now: Instant,
     pivot: &usize,
@@ -370,4 +292,48 @@ pub fn resolve_dns(
 
         thread::sleep(ten_millis);
     }
+}
+
+pub async fn rdr_scheduler_ng(
+    now: Instant,
+    pivot: &usize,
+    num_of_ok: &mut usize,
+    num_of_err: &mut usize,
+    elapsed_time: &mut Vec<u128>,
+    _num_of_users: &usize,
+    current_work: Vec<(u64, String, usize)>,
+    browser_list: &Vec<Browser>,
+) -> Result<(), Box<dyn Error + Send + Sync>> {
+    let mut futures: FuturesUnordered<BoxFuture<Result<(), Box<dyn Error + Send + Sync>>>> =
+        FuturesUnordered::new();
+
+    for (milli, url, user) in current_work.into_iter() {
+        println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
+        futures.push(Box::pin(user_browse(&browser_list[user], &url)));
+    }
+    while let Some(result) = futures.next().await {
+        match result {
+            Ok(val) => println!("ok {:?}", val),
+            Err(e) => eprintln!("err {}", e),
+        }
+    }
+
+    Ok(())
+}
+
+pub async fn user_browse(
+    current_browser: &Browser,
+    hostname: &String,
+) -> Result<(), Box<dyn Error + Send + Sync>> {
+    Ok(tokio::spawn(async move {
+        let now = Instant::now();
+
+        println!("test {:?}", hostname);
+        let http_hostname = "http://".to_string() + &hostname;
+        let tab = current_browser.new_tab()?;
+        tab.navigate_to(&http_hostname)?;
+        Ok(())
+    })
+    .await
+    .unwrap())
 }
