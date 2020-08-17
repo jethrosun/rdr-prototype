@@ -325,7 +325,7 @@ pub async fn user_browse(
     current_browser: &Browser,
     hostname: &String,
 ) -> Result<(), Box<dyn Error + Send + Sync>> {
-    Ok(tokio::spawn(async move {
+    tokio::spawn(async {
         let now = Instant::now();
 
         println!("test {:?}", hostname);
@@ -334,6 +334,7 @@ pub async fn user_browse(
         tab.navigate_to(&http_hostname)?;
         Ok(())
     })
-    .await
-    .unwrap())
+    .await?;
+
+    Ok(())
 }
