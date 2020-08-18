@@ -206,62 +206,6 @@ pub fn simple_user_browse(
     result
 }
 
-/// RDR proxy browsing scheduler.
-///
-///
-// 4 [(4636, "fanfiction.net"), (9055, "bs.serving-sys.com")]
-pub fn rdr_scheduler(
-    now: Instant,
-    pivot: &usize,
-    num_of_ok: &mut usize,
-    num_of_err: &mut usize,
-    elapsed_time: &mut Vec<u128>,
-    _num_of_users: &usize,
-    current_work: Vec<(u64, String, usize)>,
-    browser_list: &Vec<Browser>,
-) {
-    // println!("\npivot: {:?}", pivot);
-    // println!("current work {:?}", current_work);
-
-    for (milli, url, user) in current_work.into_iter() {
-        // if milli >= 500 {
-        //     break;
-        // }
-        // println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
-        // println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
-
-        // if now.elapsed().as_millis() < milli as u128 {
-        //     println!("DEBUG: waiting");
-        //     let one_millis = Duration::from_millis(1);
-        //     std::thread::sleep(one_millis);
-        // } else {
-        // println!("DEBUG: matched");
-        match user_browse(&browser_list[user], &url) {
-            Ok(_) => {
-                // println!("ok");
-                // *num_of_ok += 1;
-                // elapsed_time.push(elapsed);
-            }
-            // Err((elapsed, e)) => {
-            Err(_) => {
-                // println!("err");
-                // *num_of_err += 1;
-                // elapsed_time.push(elapsed);
-                // println!("User {} caused an error: {:?}", user, e);
-                // println!("User {} caused an error", user,);
-            }
-        }
-        // println!("match done");
-        // }
-    }
-
-    // println!(
-    //     "(pivot {}) RDR Scheduling: {:?} {:?}",
-    //     pivot, num_of_ok, num_of_err
-    // );
-    // println!("(pivot {}) RDR Elapsed Time:  {:?}", pivot, elapsed_time);
-}
-
 pub fn resolve_dns(
     now: Instant,
     pivot: &usize,
@@ -309,7 +253,8 @@ pub async fn rdr_scheduler_ng(
 
     for (milli, url, user) in current_work.into_iter() {
         println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
-        futures.push(Box::pin(user_browse(&browser_list[user], &url)));
+        let tab = &browser_list[user].new_tab().unwrap();
+        futures.push(Box::pin(user_browse2(&*tab, url)));
     }
     while let Some(result) = futures.next().await {
         match result {
@@ -321,20 +266,34 @@ pub async fn rdr_scheduler_ng(
     Ok(())
 }
 
-pub async fn user_browse(
-    current_browser: &Browser,
-    hostname: &String,
-) -> Result<(), Box<dyn Error + Send + Sync>> {
-    tokio::spawn(async {
-        let now = Instant::now();
+// pub async fn user_browse<'a>(
+//     tab: &'a Arc<headless_chrome::Tab>,
+//     hostname: String,
+// ) -> Result<(), Box<dyn Error + Send + Sync + 'a>> {
+//     Ok(tokio::spawn(async move {
+//         let now = Instant::now();
+//
+//         println!("test {:?}", hostname);
+//         let http_hostname = "http://".to_string() + &hostname;
+//         tab.navigate_to(&http_hostname);
+//     })
+//     .await?)
+// }
 
-        println!("test {:?}", hostname);
-        let http_hostname = "http://".to_string() + &hostname;
-        let tab = current_browser.new_tab()?;
-        tab.navigate_to(&http_hostname)?;
-        Ok(())
-    })
-    .await?;
+pub async fn user_browse2(
+    tab: &Arc<headless_chrome::Tab>,
+    hostname: String,
+) -> Result<(), Box<dyn Error + Send + Sync + '_>> {
+    // This is running on a blocking thread.
+    // Blocking here is ok.
+    let now = Instant::now();
 
+    println!("test {:?}", hostname);
+    let http_hostname = "http://".to_string() + &hostname;
+    tab.navigate_to(&http_hostname);
+
+    // We can wait for the blocking task like this:
+    // If the blocking task panics, the unwrap below will propagate the
+    // panic.
     Ok(())
 }
