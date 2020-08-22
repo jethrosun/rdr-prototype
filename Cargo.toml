@@ -12,8 +12,8 @@ tiny_http = "0.6"
 base64 = "0.10"
 # headless_chrome = { git = "https://github.com/jethrosun/rust-headless-chrome", branch = "pvn" }
 # headless_chrome = { git = "https://github.com/jethrosun/rust-headless-chrome", branch = "pvn-july-20" }
-# headless_chrome = "0.9"
-headless_chrome = { git = "https://github.com/jethrosun/rust-headless-chrome", branch = "pvn-rdr" }
+headless_chrome = "0.9"
+# headless_chrome = { git = "https://github.com/jethrosun/rust-headless-chrome", branch = "pvn-rdr" }
 serde_json = "*"
 rand = "*"
 # certainly = "*"

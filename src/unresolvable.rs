@@ -1,6 +1,6 @@
 use std::collections::HashSet;
 
-pub fn curate_broken_records() -> HashSet<&'static str> {
+pub fn curate_unresolvable_records() -> HashSet<&'static str> {
     let mut broken_urls = HashSet::new();
     broken_urls.insert("a367.yahoofs.com");
     broken_urls.insert("amch.questionmarket.com");

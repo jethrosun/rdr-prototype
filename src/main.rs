@@ -19,7 +19,8 @@ use std::thread::sleep;
 use std::time::{Duration, Instant};
 use utils::*;
 
-mod prune_workload;
+mod unreachable;
+mod unresolvable;
 mod utils;
 
 fn main() {
@@ -30,9 +31,9 @@ fn main() {
     // let workload_path = "/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workload.json";
     // "/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_1.json";
     let workload_path =
-        "/home/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
+        "/net/data/pvn/dev/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
 
-    let num_of_users = 100;
+    let num_of_users = 50;
     let num_of_secs = 600;
 
     let mut rdr_workload =

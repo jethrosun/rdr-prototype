@@ -1,6 +1,7 @@
-use crate::prune_workload::curate_broken_records;
+use crate::unreachable::curate_unreachable_records;
+use crate::unresolvable::curate_unresolvable_records;
 use failure::Fallible;
-use headless_chrome::LaunchOptions;
+// use headless_chrome::LaunchOptions;
 use headless_chrome::LaunchOptionsBuilder;
 use headless_chrome::{browser::context::Context, Browser, Tab};
 use serde_json::{from_reader, Result, Value};
@@ -58,9 +59,12 @@ pub fn rdr_load_workload(
             };
             // println!("{:?}", urls.unwrap());
 
-            let broken_records = curate_broken_records();
+            let unreachable_records = curate_unreachable_records();
+            let unresolvable_records = curate_unresolvable_records();
 
-            if broken_records.contains(urls.unwrap()[1].as_str().unwrap()) {
+            if unresolvable_records.contains(urls.unwrap()[1].as_str().unwrap())
+                || unreachable_records.contains(urls.unwrap()[1].as_str().unwrap())
+            {
                 continue;
             } else {
                 millis.push((
@@ -122,14 +126,13 @@ pub fn browser_create() -> Fallible<Browser> {
 pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()> {
     // std::result::Result<(u128), (u128, failure::Error)> {
     let now = Instant::now();
-
-    println!("test {:?}", hostname);
-    // let https_hostname = "https://".to_string() + &hostname;
-    // println!("{:?}", https_hostname);
-    let http_hostname = "http://".to_string() + &hostname;
-
     let tab = current_browser.new_tab()?;
-    // tab.navigate_to(&https_hostname)?.wait_until_navigated()?;
+    println!("\nBrowsing: {:?}\n", hostname);
+
+    // let https_hostname = "https://".to_string() + &hostname;
+    // tab.navigate_to(&https_hostname)?;
+
+    let http_hostname = "http://".to_string() + &hostname;
     tab.navigate_to(&http_hostname)?;
 
     // tab.wait_until_navigated()?;
@@ -163,18 +166,6 @@ pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()>
 //
 //     Ok(ctx)
 // }
-
-pub fn browser_tab_create() -> Fallible<Arc<Tab>> {
-    let browser = Browser::new(
-        LaunchOptions::default_builder()
-            .build()
-            .expect("Could not find chrome-executable"),
-    )?;
-    let tab = browser.wait_for_initial_tab()?;
-
-    // println!("Browser created",);
-    Ok(tab)
-}
 
 pub fn user_tab_browse(
     current_tab: &Tab,
@@ -260,10 +251,15 @@ pub fn rdr_scheduler(
     // println!("\npivot: {:?}", pivot);
     // println!("current work {:?}", current_work);
 
+    let mut count = 0;
+
     for (milli, url, user) in current_work.into_iter() {
-        // if milli >= 500 {
-        //     break;
-        // }
+        count += 1;
+
+        if milli >= 900 {
+            break;
+        }
+
         // println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
         // println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
 
@@ -273,6 +269,7 @@ pub fn rdr_scheduler(
         //     std::thread::sleep(one_millis);
         // } else {
         // println!("DEBUG: matched");
+
         match user_browse(&browser_list[user], &url) {
             Ok(_) => {
                 // println!("ok");
