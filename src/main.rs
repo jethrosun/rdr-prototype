@@ -33,7 +33,7 @@ fn main() {
     let workload_path =
         "/net/data/pvn/dev/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
 
-    let num_of_users = 50;
+    let num_of_users = 100;
     let num_of_secs = 600;
 
     let mut rdr_workload =

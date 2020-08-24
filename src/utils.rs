@@ -126,9 +126,11 @@ pub fn browser_create() -> Fallible<Browser> {
 pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()> {
     // std::result::Result<(u128), (u128, failure::Error)> {
     let now = Instant::now();
-    let tab = current_browser.new_tab()?;
-    println!("\nBrowsing: {:?}\n", hostname);
+    // let tab = current_browser.new_tab()?;
+    let tab = current_browser.wait_for_initial_tab()?;
+    println!("Browsing: {:?}", hostname);
 
+    sleep(Duration::from_millis(10));
     // let https_hostname = "https://".to_string() + &hostname;
     // tab.navigate_to(&https_hostname)?;
 
@@ -137,7 +139,6 @@ pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()>
 
     // tab.wait_until_navigated()?;
 
-    // sleep(Duration::from_millis(10));
     // println!("3");
     // tab.wait_until_navigated()?;
 
