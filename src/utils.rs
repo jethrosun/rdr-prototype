@@ -369,3 +369,40 @@ pub fn resolve_dns(
         thread::sleep(ten_millis);
     }
 }
+
+pub fn rdr_scheduler_try(
+    pivot: &usize,
+    current_work: Vec<(u64, String, usize)>,
+    browser: &Browser,
+) -> Fallible<()> {
+    let mut count = 0;
+
+    for (milli, url, user) in current_work.into_iter() {
+        count += 1;
+
+        if milli >= 900 {
+            break;
+        }
+
+        let hostname = url;
+        let tab = browser.wait_for_initial_tab()?;
+
+        let http_hostname = "http://".to_string() + &hostname;
+        let https_hostname = "https://".to_string() + &hostname;
+
+        tab.navigate_to(&http_hostname)?;
+        match tab.wait_for_element("html") {
+            Ok(e) => println!("got html"),
+            Err(e) => println!("Query failed: {:?}", e),
+        }
+        println!("hostname: {:?} http done", hostname);
+
+        tab.navigate_to(&https_hostname)?;
+        match tab.wait_for_element("html") {
+            Ok(e) => println!("got html"),
+            Err(e) => println!("Query failed: {:?}", e),
+        }
+        println!("hostname: {:?} https done", hostname);
+    }
+    Ok(())
+}

@@ -10,20 +10,23 @@ fn query(input: &str) -> Fallible<()> {
     )?;
     let tab = browser.wait_for_initial_tab()?;
 
-    tab.navigate_to("https://kr.msn.com")?;
-    // tab.navigate_to("kr.msn.com")?;
-    // tab.navigate_to("https://blogs.medicine.iu.edu")?;
+    let http_hostname = "http://".to_string() + &hostname;
+    let https_hostname = "https://".to_string() + &hostname;
 
-    println!("pass");
-    // tab.type_str(&input)?.press_key("Enter")?;
+    tab.navigate_to(&http_hostname)?;
     match tab.wait_for_element("html") {
+        Ok(e) => println!("got html"),
         Err(e) => println!("Query failed: {:?}", e),
-        Ok(e) => match e.get_description()?.find(|n| n.node_name == "#text") {
-            Some(n) => println!("Result for `{}`: {}", &input, n.node_value),
-            None => eprintln!("No shortdescription-node found on page"),
-        },
     }
-    println!("pass 2");
+    println!("hostname: {:?} http done", hostname);
+
+    tab.navigate_to(&https_hostname)?;
+    match tab.wait_for_element("html") {
+        Ok(e) => println!("got html"),
+        Err(e) => println!("Query failed: {:?}", e),
+    }
+    println!("hostname: {:?} https done", hostname);
+
     Ok(())
 }
 

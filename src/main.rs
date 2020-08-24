@@ -7,6 +7,7 @@ use headless_chrome::protocol::network::methods::RequestPattern;
 use headless_chrome::protocol::network::Cookie;
 use headless_chrome::protocol::runtime::methods::{RemoteObjectSubtype, RemoteObjectType};
 use headless_chrome::protocol::RemoteError;
+use headless_chrome::LaunchOptionsBuilder;
 use headless_chrome::{
     browser::context::Context,
     protocol::browser::{Bounds, WindowState},
@@ -23,7 +24,7 @@ mod unreachable;
 mod unresolvable;
 mod utils;
 
-fn main() {
+fn main() -> Fallible<()> {
     // Workloads:
 
     // "/home/jethros/dev/projects/silver-octo-spoon/workload_tempaltes/rdr_pvn_workload.json";
@@ -50,9 +51,6 @@ fn main() {
     for _ in 0..num_of_users {
         let browser = browser_create().unwrap();
         browser_list.push(browser);
-
-        // let ctx = browser_ctx_create().unwrap();
-        // ctx_list.push(ctx);
     }
     println!("{} browsers are created ", num_of_users);
 
@@ -65,36 +63,22 @@ fn main() {
     let now = Instant::now();
 
     loop {
-        if now.elapsed().as_secs() == pivot as u64 {
+        let browser = Browser::new(
+            LaunchOptionsBuilder::default()
+                .build()
+                .expect("Could not find chrome-executable"),
+        )?;
+
+        for pivot in 0..610 {
             let min = pivot / 60;
             let rest_sec = pivot % 60;
             println!("\n{:?} min, {:?} second", min, rest_sec);
             match rdr_workload.remove(&pivot) {
                 Some(wd) => {
-                    rdr_scheduler(
-                        now.clone(),
-                        &pivot,
-                        &mut num_of_ok,
-                        &mut num_of_err,
-                        &mut elapsed_time,
-                        &num_of_users,
-                        wd,
-                        &browser_list,
-                    );
-                    // rdr_scheduler(
-                    //     now.clone(),
-                    //     &pivot,
-                    //     &mut num_of_ok,
-                    //     &mut num_of_err,
-                    //     &mut elapsed_time,
-                    //     &num_of_users,
-                    //     wd,
-                    //     &browser_list,
-                    // );
+                    rdr_scheduler_try(&pivot, wd, &browser);
                 }
                 None => println!("No workload for second {:?}", pivot),
             }
-            pivot += 1;
         }
     }
 }
