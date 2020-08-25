@@ -34,7 +34,7 @@ fn main() -> Fallible<()> {
     let workload_path =
         "/net/data/pvn/dev/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
 
-    let num_of_users = 100;
+    let num_of_users = 50;
     let num_of_secs = 600;
 
     let mut rdr_workload =
@@ -48,11 +48,11 @@ fn main() -> Fallible<()> {
     // Context list
     let mut ctx_list: Vec<Arc<Context>> = Vec::new();
 
-    // for _ in 0..num_of_users {
-    //     let browser = browser_create().unwrap();
-    //     browser_list.push(browser);
-    // }
-    // println!("{} browsers are created ", num_of_users);
+    for _ in 0..num_of_users {
+        let browser = browser_create().unwrap();
+        browser_list.push(browser);
+    }
+    println!("{} browsers are created ", num_of_users);
 
     let mut pivot = 1 as usize;
 
@@ -68,12 +68,12 @@ fn main() -> Fallible<()> {
         println!("\n{:?} min, {:?} second", min, rest_sec);
         match rdr_workload.remove(&pivot) {
             Some(wd) => {
-                let browser = Browser::new(
-                    LaunchOptionsBuilder::default()
-                        .build()
-                        .expect("Could not find chrome-executable"),
-                )?;
-                rdr_scheduler_try(&pivot, wd, browser);
+                // let browser = Browser::new(
+                //     LaunchOptionsBuilder::default()
+                //         .build()
+                //         .expect("Could not find chrome-executable"),
+                // )?;
+                rdr_scheduler_ng(&pivot, wd, &browser_list);
             }
             None => println!("No workload for second {:?}", pivot),
         }
