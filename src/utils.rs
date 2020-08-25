@@ -59,11 +59,11 @@ pub fn rdr_load_workload(
             };
             // println!("{:?}", urls.unwrap());
 
-            let unreachable_records = curate_unreachable_records();
+            // let unreachable_records = curate_unreachable_records();
             let unresolvable_records = curate_unresolvable_records();
 
             if unresolvable_records.contains(urls.unwrap()[1].as_str().unwrap())
-                || unreachable_records.contains(urls.unwrap()[1].as_str().unwrap())
+            // || unreachable_records.contains(urls.unwrap()[1].as_str().unwrap())
             {
                 continue;
             } else {
@@ -373,36 +373,36 @@ pub fn resolve_dns(
 pub fn rdr_scheduler_try(
     pivot: &usize,
     current_work: Vec<(u64, String, usize)>,
-    browser: &Browser,
+    browser: Browser,
 ) -> Fallible<()> {
     let mut count = 0;
 
     for (milli, url, user) in current_work.into_iter() {
         count += 1;
 
-        if milli >= 900 {
-            break;
-        }
-
         let hostname = url;
-        let tab = browser.wait_for_initial_tab()?;
+        let tab = browser.new_tab()?;
 
         let http_hostname = "http://".to_string() + &hostname;
         let https_hostname = "https://".to_string() + &hostname;
 
         tab.navigate_to(&http_hostname)?;
-        match tab.wait_for_element("html") {
-            Ok(e) => println!("got html"),
-            Err(e) => println!("Query failed: {:?}", e),
-        }
+        // let res = tab.wait_for_element("html")?;
+        // println!("http match w/ {:?}", res);
+        // match tab.wait_for_element("html") {
+        //     Ok(_) => println!("got html"),
+        //     Err(e) => println!("Query failed",),
+        // }
         println!("hostname: {:?} http done", hostname);
 
         tab.navigate_to(&https_hostname)?;
-        match tab.wait_for_element("html") {
-            Ok(e) => println!("got html"),
-            Err(e) => println!("Query failed: {:?}", e),
-        }
-        println!("hostname: {:?} https done", hostname);
+        // println!("https match w/ {:?}", res2);
+        // let res2 = tab.wait_for_element("html")?;
+        // match tab.wait_for_element("html") {
+        //     Ok(_) => println!("got html"),
+        //     Err(_) => println!("Query failed",),
+        // }
+        // println!("hostname: {:?} https done", hostname);
     }
     Ok(())
 }

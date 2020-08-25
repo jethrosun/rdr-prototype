@@ -62,23 +62,23 @@ fn main() -> Fallible<()> {
 
     let now = Instant::now();
 
-    loop {
-        let browser = Browser::new(
-            LaunchOptionsBuilder::default()
-                .build()
-                .expect("Could not find chrome-executable"),
-        )?;
-
-        for pivot in 0..610 {
-            let min = pivot / 60;
-            let rest_sec = pivot % 60;
-            println!("\n{:?} min, {:?} second", min, rest_sec);
-            match rdr_workload.remove(&pivot) {
-                Some(wd) => {
-                    rdr_scheduler_try(&pivot, wd, &browser);
-                }
-                None => println!("No workload for second {:?}", pivot),
+    for pivot in 0..610 {
+        let min = pivot / 60;
+        let rest_sec = pivot % 60;
+        println!("\n{:?} min, {:?} second", min, rest_sec);
+        match rdr_workload.remove(&pivot) {
+            Some(wd) => {
+                let browser = Browser::new(
+                    LaunchOptionsBuilder::default()
+                        .build()
+                        .expect("Could not find chrome-executable"),
+                )?;
+                rdr_scheduler_try(&pivot, wd, browser);
             }
+            None => println!("No workload for second {:?}", pivot),
         }
     }
+
+    println!("Time elapsed: {:?}", now.elapsed().as_secs());
+    Ok(())
 }
