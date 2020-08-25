@@ -48,11 +48,11 @@ fn main() -> Fallible<()> {
     // Context list
     let mut ctx_list: Vec<Arc<Context>> = Vec::new();
 
-    for _ in 0..num_of_users {
-        let browser = browser_create().unwrap();
-        browser_list.push(browser);
-    }
-    println!("{} browsers are created ", num_of_users);
+    // for _ in 0..num_of_users {
+    //     let browser = browser_create().unwrap();
+    //     browser_list.push(browser);
+    // }
+    // println!("{} browsers are created ", num_of_users);
 
     let mut pivot = 1 as usize;
 
