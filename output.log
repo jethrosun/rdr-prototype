@@ -1,0 +1,304 @@
+Workload is generated
+100 browsers are created 
+
+0 min, 0 second
+No workload for second 0
+
+0 min, 1 second
+User 36: milli: 964 url: "lovine.com"
+
+0 min, 2 second
+User 67: milli: 96 url: "penciloflight.deviantart.com"
+User 36: milli: 734 url: "lovine.com"
+
+0 min, 3 second
+User 35: milli: 126 url: "im.storm8.com"
+User 67: milli: 199 url: "pagead2.googlesyndication.com"
+User 36: milli: 991 url: "lovine.com"
+
+0 min, 4 second
+User 49: milli: 304 url: "parents.com"
+User 36: milli: 670 url: "lovine.com"
+
+0 min, 5 second
+User 67: milli: 544 url: "ad.yieldmanager.com"
+User 36: milli: 760 url: "google.com"
+
+0 min, 6 second
+User 68: milli: 150 url: "itouchmidi.com"
+
+0 min, 7 second
+User 24: milli: 823 url: "video-stats.video.google.com"
+User 36: milli: 957 url: "lovine.com"
+
+0 min, 8 second
+User 21: milli: 123 url: "diligogames.com"
+User 36: milli: 229 url: "hcr.com"
+User 24: milli: 421 url: "s7ondemand1.scene7.com"
+User 68: milli: 620 url: "itouchmidi.com"
+User 67: milli: 785 url: "bs.serving-sys.com"
+
+0 min, 9 second
+User 36: milli: 254 url: "lovine.com"
+User 35: milli: 288 url: "desktopfw.weather.com"
+User 5: milli: 538 url: "imx.comedycentral.com"
+
+0 min, 10 second
+User 49: milli: 28 url: "naver.com"
+User 39: milli: 667 url: "gn.naver.com"
+User 58: milli: 821 url: "espn-www.baynote.net"
+User 36: milli: 994 url: "bing.com"
+
+0 min, 11 second
+User 35: milli: 285 url: "cfile193.uf.daum.net"
+User 39: milli: 369 url: "naver.com"
+User 49: milli: 589 url: "youtube.com"
+User 24: milli: 757 url: "naver.com"
+
+0 min, 12 second
+User 21: milli: 33 url: "mylifeisaverage.com"
+User 1: milli: 56 url: "aim.search.aol.com"
+User 68: milli: 931 url: "m.www.yahoo.com"
+User 67: milli: 950 url: "deviantart.com"
+
+0 min, 13 second
+User 39: milli: 123 url: "wired.com"
+User 49: milli: 266 url: "ad.doubleclick.net"
+User 5: milli: 954 url: "desktopfw.weather.com"
+
+0 min, 14 second
+User 35: milli: 268 url: "nba.com"
+User 58: milli: 286 url: "baidu.com"
+User 36: milli: 425 url: "graphics.ocsn.com"
+User 1: milli: 549 url: "wikipedia.org"
+
+0 min, 15 second
+User 21: milli: 193 url: "mapquest.com"
+User 67: milli: 324 url: "google.com"
+User 24: milli: 479 url: "ebates.com"
+User 1: milli: 586 url: "hcr.com"
+User 54: milli: 748 url: "ad-g.doubleclick.net"
+
+0 min, 16 second
+User 39: milli: 162 url: "s7.addthis.com"
+User 15: milli: 198 url: "images.google.com"
+User 5: milli: 417 url: "desktopfw.weather.com"
+User 13: milli: 445 url: "youtube.com"
+User 21: milli: 641 url: "apple.com"
+User 92: milli: 926 url: "arienh4.net.nyud.net"
+
+0 min, 17 second
+User 68: milli: 508 url: "google.com"
+User 83: milli: 668 url: "desktopfw.weather.com"
+
+0 min, 18 second
+User 24: milli: 466 url: "view.atdmt.com"
+User 49: milli: 649 url: "people.com"
+User 54: milli: 756 url: "ad.yieldmanager.com"
+RDR Tab failed: "ad.yieldmanager.com"
+RDR Tab Error: ConnectionClosed
+
+   0: failure::backtrace::internal::InternalBacktrace::new
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/backtrace/internal.rs:46
+   1: failure::backtrace::Backtrace::new
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/backtrace/mod.rs:121
+   2: <failure::error::error_impl::ErrorImpl as core::convert::From<F>>::from
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/error/error_impl.rs:19
+   3: <failure::error::Error as core::convert::From<F>>::from
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/error/mod.rs:36
+   4: <T as core::convert::Into<U>>::into
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/convert/mod.rs:563
+   5: headless_chrome::browser::transport::Transport::call_method
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/transport/mod.rs:125
+   6: headless_chrome::browser::transport::Transport::call_method_on_browser
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/transport/mod.rs:191
+   7: headless_chrome::browser::Browser::call_method
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:357
+   8: headless_chrome::browser::Browser::new_tab_with_options
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:222
+   9: headless_chrome::browser::Browser::new_tab
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:200
+  10: rdr_prototype::utils::simple_user_browse
+             at src/utils.rs:210
+  11: rdr_prototype::utils::rdr_scheduler_ng
+             at src/utils.rs:372
+  12: rdr_prototype::main
+             at src/main.rs:76
+  13: std::rt::lang_start::{{closure}}
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libstd/rt.rs:67
+  14: std::rt::lang_start_internal::{{closure}}
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:52
+      std::panicking::try::do_call
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:348
+      std::panicking::try
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:325
+      std::panic::catch_unwind
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panic.rs:394
+      std::rt::lang_start_internal
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:51
+  15: std::rt::lang_start
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libstd/rt.rs:67
+  16: main
+  17: __libc_start_main
+  18: _start
+
+timeout
+User 58: milli: 868 url: "hulu.com"
+
+0 min, 19 second
+User 5: milli: 400 url: "ad.doubleclick.net"
+User 15: milli: 401 url: "kr.sports.yahoo.com"
+RDR Tab failed: "kr.sports.yahoo.com"
+RDR Tab Error: ConnectionClosed
+
+   0: failure::backtrace::internal::InternalBacktrace::new
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/backtrace/internal.rs:46
+   1: failure::backtrace::Backtrace::new
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/backtrace/mod.rs:121
+   2: <failure::error::error_impl::ErrorImpl as core::convert::From<F>>::from
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/error/error_impl.rs:19
+   3: <failure::error::Error as core::convert::From<F>>::from
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/error/mod.rs:36
+   4: <T as core::convert::Into<U>>::into
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/convert/mod.rs:563
+   5: headless_chrome::browser::transport::Transport::call_method
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/transport/mod.rs:125
+   6: headless_chrome::browser::transport::Transport::call_method_on_browser
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/transport/mod.rs:191
+   7: headless_chrome::browser::Browser::call_method
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:357
+   8: headless_chrome::browser::Browser::new_tab_with_options
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:222
+   9: headless_chrome::browser::Browser::new_tab
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:200
+  10: rdr_prototype::utils::simple_user_browse
+             at src/utils.rs:210
+  11: rdr_prototype::utils::rdr_scheduler_ng
+             at src/utils.rs:372
+  12: rdr_prototype::main
+             at src/main.rs:76
+  13: std::rt::lang_start::{{closure}}
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libstd/rt.rs:67
+  14: std::rt::lang_start_internal::{{closure}}
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:52
+      std::panicking::try::do_call
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:348
+      std::panicking::try
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:325
+      std::panic::catch_unwind
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panic.rs:394
+      std::rt::lang_start_internal
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:51
+  15: std::rt::lang_start
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libstd/rt.rs:67
+  16: main
+  17: __libc_start_main
+  18: _start
+
+timeout
+User 39: milli: 726 url: "mt1.google.com"
+User 59: milli: 886 url: "teendestruction.com"
+User 36: milli: 998 url: "lovine.com"
+
+0 min, 20 second
+User 54: milli: 119 url: "idsnews.com"
+RDR Tab failed: "idsnews.com"
+RDR Tab Error: ConnectionClosed
+
+   0: failure::backtrace::internal::InternalBacktrace::new
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/backtrace/internal.rs:46
+   1: failure::backtrace::Backtrace::new
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/backtrace/mod.rs:121
+   2: <failure::error::error_impl::ErrorImpl as core::convert::From<F>>::from
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/error/error_impl.rs:19
+   3: <failure::error::Error as core::convert::From<F>>::from
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/error/mod.rs:36
+   4: <T as core::convert::Into<U>>::into
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/convert/mod.rs:563
+   5: headless_chrome::browser::transport::Transport::call_method
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/transport/mod.rs:125
+   6: headless_chrome::browser::transport::Transport::call_method_on_browser
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/transport/mod.rs:191
+   7: headless_chrome::browser::Browser::call_method
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:357
+   8: headless_chrome::browser::Browser::new_tab_with_options
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:222
+   9: headless_chrome::browser::Browser::new_tab
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:200
+  10: rdr_prototype::utils::simple_user_browse
+             at src/utils.rs:210
+  11: rdr_prototype::utils::rdr_scheduler_ng
+             at src/utils.rs:372
+  12: rdr_prototype::main
+             at src/main.rs:76
+  13: std::rt::lang_start::{{closure}}
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libstd/rt.rs:67
+  14: std::rt::lang_start_internal::{{closure}}
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:52
+      std::panicking::try::do_call
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:348
+      std::panicking::try
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:325
+      std::panic::catch_unwind
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panic.rs:394
+      std::rt::lang_start_internal
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:51
+  15: std::rt::lang_start
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libstd/rt.rs:67
+  16: main
+  17: __libc_start_main
+  18: _start
+
+timeout
+User 58: milli: 131 url: "desktopfw.weather.com"
+User 15: milli: 424 url: "kr.sports.yahoo.com"
+RDR Tab failed: "kr.sports.yahoo.com"
+RDR Tab Error: ConnectionClosed
+
+   0: failure::backtrace::internal::InternalBacktrace::new
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/backtrace/internal.rs:46
+   1: failure::backtrace::Backtrace::new
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/backtrace/mod.rs:121
+   2: <failure::error::error_impl::ErrorImpl as core::convert::From<F>>::from
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/error/error_impl.rs:19
+   3: <failure::error::Error as core::convert::From<F>>::from
+             at /home/jethrosun/.cargo/registry/src/github.com-1ecc6299db9ec823/failure-0.1.8/src/error/mod.rs:36
+   4: <T as core::convert::Into<U>>::into
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/convert/mod.rs:563
+   5: headless_chrome::browser::transport::Transport::call_method
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/transport/mod.rs:125
+   6: headless_chrome::browser::transport::Transport::call_method_on_browser
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/transport/mod.rs:191
+   7: headless_chrome::browser::Browser::call_method
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:357
+   8: headless_chrome::browser::Browser::new_tab_with_options
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:222
+   9: headless_chrome::browser::Browser::new_tab
+             at /home/jethrosun/.cargo/git/checkouts/rust-headless-chrome-64aacc558fc60af2/c8a28f4/src/browser/mod.rs:200
+  10: rdr_prototype::utils::simple_user_browse
+             at src/utils.rs:210
+  11: rdr_prototype::utils::rdr_scheduler_ng
+             at src/utils.rs:372
+  12: rdr_prototype::main
+             at src/main.rs:76
+  13: std::rt::lang_start::{{closure}}
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libstd/rt.rs:67
+  14: std::rt::lang_start_internal::{{closure}}
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:52
+      std::panicking::try::do_call
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:348
+      std::panicking::try
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:325
+      std::panic::catch_unwind
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panic.rs:394
+      std::rt::lang_start_internal
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:51
+  15: std::rt::lang_start
+             at /home/jethrosun/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libstd/rt.rs:67
+  16: main
+  17: __libc_start_main
+  18: _start
+
+timeout
+User 59: milli: 628 url: "facebook.com"
+User 16: milli: 973 url: "video-stats.video.google.com"

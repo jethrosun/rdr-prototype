@@ -204,15 +204,27 @@ pub fn user_tab_browse(
     result
 }
 
+/// Simple user browse.
 pub fn simple_user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()> {
+    let now = Instant::now();
     let current_tab = match current_browser.new_tab() {
         Ok(tab) => tab,
-        Err(e) => return Err(e),
+        Err(e) => {
+            println!("RDR Tab failed: {:?}", hostname);
+            // println!("RDR Tab Error: timeout{:?}", e);
+            match e {
+                ConnectionClosed => println!("got connection closed"),
+                Timeout => println!("got timeout"),
+                _ => println!("unknown"),
+            }
+            return Ok(());
+        }
     };
 
     let http_hostname = "http://".to_string() + &hostname;
 
     current_tab.navigate_to(&http_hostname)?;
+
     Ok(())
 }
 
