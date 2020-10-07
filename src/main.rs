@@ -20,17 +20,12 @@ use std::thread::sleep;
 use std::time::{Duration, Instant};
 use utils::*;
 
-mod unreachable;
 mod unresolvable;
 mod utils;
 
 fn main() -> Fallible<()> {
     // Workloads:
 
-    // "/home/jethros/dev/projects/silver-octo-spoon/workload_tempaltes/rdr_pvn_workload.json";
-    // "/home/jethros/dev/silver-octo-spoon/workload_tempaltes/rdr_pvn_workload.json";
-    // let workload_path = "/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workload.json";
-    // "/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_1.json";
     let workload_path =
         "/net/data/pvn/dev/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
 
@@ -68,11 +63,6 @@ fn main() -> Fallible<()> {
         println!("\n{:?} min, {:?} second", min, rest_sec);
         match rdr_workload.remove(&pivot) {
             Some(wd) => {
-                // let browser = Browser::new(
-                //     LaunchOptionsBuilder::default()
-                //         .build()
-                //         .expect("Could not find chrome-executable"),
-                // )?;
                 rdr_scheduler_ng(&pivot, wd, &browser_list);
             }
             None => println!("No workload for second {:?}", pivot),

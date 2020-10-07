@@ -1,4 +1,3 @@
-use crate::unreachable::curate_unreachable_records;
 use crate::unresolvable::curate_unresolvable_records;
 use failure::Fallible;
 // use headless_chrome::LaunchOptions;
@@ -123,90 +122,10 @@ pub fn browser_create() -> Fallible<Browser> {
     Ok(browser)
 }
 
-pub fn user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()> {
-    // std::result::Result<(u128), (u128, failure::Error)> {
-    let now = Instant::now();
-    // let tab = current_browser.new_tab()?;
-    let tab = current_browser.wait_for_initial_tab()?;
-    println!("Browsing: {:?}", hostname);
-
-    sleep(Duration::from_millis(10));
-    // let https_hostname = "https://".to_string() + &hostname;
-    // tab.navigate_to(&https_hostname)?;
-
-    let http_hostname = "http://".to_string() + &hostname;
-    tab.navigate_to(&http_hostname)?;
-
-    // tab.wait_until_navigated()?;
-
-    // println!("3");
-    // tab.wait_until_navigated()?;
-
-    // println!("4");
-    // let html = match tab.wait_for_element("html") {
-    //     Ok(h) => {
-    //         println!("html ok");
-    //         ()
-    //     }
-    //     Err(e) => {
-    //         println!("Query failed: {:?}", e);
-    //         ()
-    //     }
-    // };
-
-    // tab.close_target();
-    // println!("here");
-    // Ok(html)
-
-    Ok(())
-}
-
-// pub fn browser_ctx_create() -> Fallible<Context<'static>> {
-//     let browser = browser_create().unwrap();
-//     let ctx = browser.new_context().unwrap();
-//
-//     Ok(ctx)
-// }
-
-pub fn user_tab_browse(
-    current_tab: &Tab,
-    hostname: &String,
-) -> std::result::Result<(u128), (u128, failure::Error)> {
-    let now = Instant::now();
-    // println!("Entering user browsing",);
-    // Doesn't use incognito mode
-    //
-    // let current_tab = match current_browser.new_tab() {
-    //     Ok(tab) => tab,
-    //     Err(e) => return Err((now.elapsed().as_micros(), e)),
-    // };
-
-    // Incogeneto mode
-    //
-    // let incognito_cxt = current_browser.new_context()?;
-    // let current_tab: Arc<Tab> = incognito_cxt.new_tab()?;
-
-    let https_hostname = "https://".to_string() + &hostname;
-
-    // wait until navigated or not
-    let navigate_to = match current_tab.navigate_to(&https_hostname) {
-        Ok(tab) => tab,
-        Err(e) => {
-            return Err((now.elapsed().as_micros(), e));
-        }
-    };
-    // let _ = current_tab.navigate_to(&https_hostname)?;
-    let result = match navigate_to.wait_until_navigated() {
-        Ok(_) => Ok(now.elapsed().as_micros()),
-        Err(e) => Err((now.elapsed().as_micros(), e)),
-    };
-
-    result
-}
-
 /// Simple user browse.
 pub fn simple_user_browse(current_browser: &Browser, hostname: &String) -> Fallible<()> {
     let now = Instant::now();
+    println!("hostname: {:?}", hostname);
     let current_tab = match current_browser.new_tab() {
         Ok(tab) => tab,
         Err(e) => {
@@ -226,68 +145,6 @@ pub fn simple_user_browse(current_browser: &Browser, hostname: &String) -> Falli
     current_tab.navigate_to(&http_hostname)?;
 
     Ok(())
-}
-
-/// RDR proxy browsing scheduler.
-///
-///
-// 4 [(4636, "fanfiction.net"), (9055, "bs.serving-sys.com")]
-pub fn rdr_scheduler(
-    now: Instant,
-    pivot: &usize,
-    num_of_ok: &mut usize,
-    num_of_err: &mut usize,
-    elapsed_time: &mut Vec<u128>,
-    _num_of_users: &usize,
-    current_work: Vec<(u64, String, usize)>,
-    browser_list: &Vec<Browser>,
-) {
-    // println!("\npivot: {:?}", pivot);
-    // println!("current work {:?}", current_work);
-
-    let mut count = 0;
-
-    for (milli, url, user) in current_work.into_iter() {
-        count += 1;
-
-        if milli >= 900 {
-            break;
-        }
-
-        // println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
-        // println!("DEBUG: {:?} {:?}", now.elapsed().as_millis(), milli);
-
-        // if now.elapsed().as_millis() < milli as u128 {
-        //     println!("DEBUG: waiting");
-        //     let one_millis = Duration::from_millis(1);
-        //     std::thread::sleep(one_millis);
-        // } else {
-        // println!("DEBUG: matched");
-
-        match user_browse(&browser_list[user], &url) {
-            Ok(_) => {
-                // println!("ok");
-                // *num_of_ok += 1;
-                // elapsed_time.push(elapsed);
-            }
-            // Err((elapsed, e)) => {
-            Err(_) => {
-                // println!("err");
-                // *num_of_err += 1;
-                // elapsed_time.push(elapsed);
-                // println!("User {} caused an error: {:?}", user, e);
-                // println!("User {} caused an error", user,);
-            }
-        }
-        // println!("match done");
-        // }
-    }
-
-    // println!(
-    //     "(pivot {}) RDR Scheduling: {:?} {:?}",
-    //     pivot, num_of_ok, num_of_err
-    // );
-    // println!("(pivot {}) RDR Elapsed Time:  {:?}", pivot, elapsed_time);
 }
 
 pub fn resolve_dns(
@@ -320,43 +177,6 @@ pub fn resolve_dns(
 
         thread::sleep(ten_millis);
     }
-}
-
-pub fn rdr_scheduler_try(
-    pivot: &usize,
-    current_work: Vec<(u64, String, usize)>,
-    browser: Browser,
-) -> Fallible<()> {
-    let mut count = 0;
-
-    for (milli, url, user) in current_work.into_iter() {
-        count += 1;
-
-        let hostname = url;
-        let tab = browser.new_tab()?;
-
-        let http_hostname = "http://".to_string() + &hostname;
-        let https_hostname = "https://".to_string() + &hostname;
-
-        tab.navigate_to(&http_hostname)?;
-        // let res = tab.wait_for_element("html")?;
-        // println!("http match w/ {:?}", res);
-        // match tab.wait_for_element("html") {
-        //     Ok(_) => println!("got html"),
-        //     Err(e) => println!("Query failed",),
-        // }
-        println!("hostname: {:?} http done", hostname);
-
-        tab.navigate_to(&https_hostname)?;
-        // println!("https match w/ {:?}", res2);
-        // let res2 = tab.wait_for_element("html")?;
-        // match tab.wait_for_element("html") {
-        //     Ok(_) => println!("got html"),
-        //     Err(_) => println!("Query failed",),
-        // }
-        // println!("hostname: {:?} https done", hostname);
-    }
-    Ok(())
 }
 
 pub fn rdr_scheduler_ng(
