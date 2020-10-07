@@ -189,8 +189,9 @@ pub fn rdr_scheduler_ng(
 
     for (milli, url, user) in current_work.into_iter() {
         println!("User {:?}: milli: {:?} url: {:?}", user, milli, url);
+        println!("hostname {:?}", url);
 
-        simple_user_browse(&browser_list[user], &url);
+        // simple_user_browse(&browser_list[user], &url);
     }
     Ok(())
 }
