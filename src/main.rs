@@ -27,9 +27,9 @@ fn main() -> Fallible<()> {
     // Workloads:
 
     let workload_path =
-        "/home/jethrosun/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_3.json";
+        "/home/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_3.json";
 
-    let num_of_users = 10;
+    let num_of_users = 100;
     let num_of_secs = 600;
 
     let rdr_users = rdr_read_rand_seed(num_of_users, 3.to_string()).unwrap();
@@ -74,6 +74,10 @@ fn main() -> Fallible<()> {
                         num_of_closed += closeds;
                         num_of_visit += visits;
                         elapsed_time.push(elapsed);
+                        println!(
+                            "DEBUG: ok {}, err {}, timeout {}, closed {}, visit {}",
+                            oks, errs, timeouts, closeds, visits
+                        );
                     }
                     None => println!("No workload for second {:?}", cur_time),
                 },

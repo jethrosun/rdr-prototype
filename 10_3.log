@@ -1,0 +1,2960 @@
+Fetch rand seed for num_of_users: 10, iter: "3".
+rdr users: [0, 4, 11, 19, 52, 54, 56, 62, 74, 87]
+Workload is generated
+10 browsers are created 
+Time elapsed: 0
+pivot 1
+0 min, 1 second
+No workload for second 1
+Time elapsed: 0
+pivot 2
+0 min, 2 second
+No workload for second 2
+Time elapsed: 0
+pivot 3
+0 min, 3 second
+No workload for second 3
+Time elapsed: 0
+pivot 4
+0 min, 4 second
+No workload for second 4
+Time elapsed: 0
+pivot 5
+0 min, 5 second
+No workload for second 5
+Time elapsed: 0
+pivot 6
+0 min, 6 second
+No workload for second 6
+Time elapsed: 0
+pivot 7
+0 min, 7 second
+No workload for second 7
+Time elapsed: 0
+pivot 8
+0 min, 8 second
+No workload for second 8
+Time elapsed: 0
+pivot 9
+0 min, 9 second
+User 19: milli: 201 url: "photo.media.daum.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 4
+pivot 10
+0 min, 10 second
+No workload for second 10
+Time elapsed: 4
+pivot 11
+0 min, 11 second
+User 56: milli: 337 url: "polls.polldaddy.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 5
+pivot 12
+0 min, 12 second
+No workload for second 12
+Time elapsed: 5
+pivot 13
+0 min, 13 second
+User 19: milli: 392 url: "photo.media.daum.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 6
+pivot 14
+0 min, 14 second
+User 56: milli: 339 url: "pandora.com"
+User 19: milli: 601 url: "nba.com"
+User 0: milli: 933 url: "images.search.yahoo.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 7
+pivot 15
+0 min, 15 second
+User 56: milli: 492 url: "jiayuan.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 9
+pivot 16
+0 min, 16 second
+No workload for second 16
+Time elapsed: 9
+pivot 17
+0 min, 17 second
+No workload for second 17
+Time elapsed: 9
+pivot 18
+0 min, 18 second
+No workload for second 18
+Time elapsed: 9
+pivot 19
+0 min, 19 second
+User 0: milli: 79 url: "weather.com"
+User 56: milli: 683 url: "m1.2mdn.net"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 10
+pivot 20
+0 min, 20 second
+User 56: milli: 938 url: "images.jiayuan.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 10
+pivot 21
+0 min, 21 second
+User 56: milli: 430 url: "t.mookie1.com"
+User 0: milli: 434 url: "profootballtalk.nbcsports.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 10
+pivot 22
+0 min, 22 second
+User 0: milli: 787 url: "sidereel.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 10
+pivot 23
+0 min, 23 second
+User 19: milli: 643 url: "tw.linkspot.search.yahoo.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 14
+pivot 24
+0 min, 24 second
+User 19: milli: 338 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 14
+pivot 25
+0 min, 25 second
+User 19: milli: 510 url: "169.webim0444.webim.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 15
+pivot 26
+0 min, 26 second
+No workload for second 26
+Time elapsed: 15
+pivot 27
+0 min, 27 second
+No workload for second 27
+Time elapsed: 15
+pivot 28
+0 min, 28 second
+No workload for second 28
+Time elapsed: 15
+pivot 29
+0 min, 29 second
+User 19: milli: 103 url: "nytimes.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 15
+pivot 30
+0 min, 30 second
+No workload for second 30
+Time elapsed: 15
+pivot 31
+0 min, 31 second
+No workload for second 31
+Time elapsed: 15
+pivot 32
+0 min, 32 second
+No workload for second 32
+Time elapsed: 15
+pivot 33
+0 min, 33 second
+No workload for second 33
+Time elapsed: 15
+pivot 34
+0 min, 34 second
+No workload for second 34
+Time elapsed: 15
+pivot 35
+0 min, 35 second
+No workload for second 35
+Time elapsed: 15
+pivot 36
+0 min, 36 second
+User 87: milli: 578 url: "mail.google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 15
+pivot 37
+0 min, 37 second
+No workload for second 37
+Time elapsed: 15
+pivot 38
+0 min, 38 second
+No workload for second 38
+Time elapsed: 15
+pivot 39
+0 min, 39 second
+User 0: milli: 107 url: "tags.bluekai.com"
+User 19: milli: 139 url: "tw.dictionary.yahoo.com"
+User 11: milli: 675 url: "google.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 17
+pivot 40
+0 min, 40 second
+User 19: milli: 175 url: "static.awempire.com"
+User 0: milli: 441 url: "core.insightexpressai.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 19
+pivot 41
+0 min, 41 second
+User 87: milli: 682 url: "secure-us.imrworldwide.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 19
+pivot 42
+0 min, 42 second
+User 87: milli: 20 url: "google.com"
+User 11: milli: 584 url: "nike.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 20
+pivot 43
+0 min, 43 second
+No workload for second 43
+Time elapsed: 20
+pivot 44
+0 min, 44 second
+User 62: milli: 284 url: "spreadsheets.google.com"
+User 11: milli: 501 url: "google.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 20
+pivot 45
+0 min, 45 second
+User 56: milli: 398 url: "npr.org"
+User 11: milli: 689 url: "stanford.edu"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 21
+pivot 46
+0 min, 46 second
+User 11: milli: 789 url: "parents.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 21
+pivot 47
+0 min, 47 second
+User 11: milli: 335 url: "ad.doubleclick.net"
+User 62: milli: 336 url: "docs.google.com"
+User 0: milli: 690 url: "penciloflight.deviantart.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 22
+pivot 48
+0 min, 48 second
+No workload for second 48
+Time elapsed: 22
+pivot 49
+0 min, 49 second
+User 11: milli: 559 url: "projectwonderful.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 23
+pivot 50
+0 min, 50 second
+No workload for second 50
+Time elapsed: 23
+pivot 51
+0 min, 51 second
+User 0: milli: 28 url: "deviantart.com"
+User 11: milli: 439 url: "undergrad.stanford.edu"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 24
+pivot 52
+0 min, 52 second
+User 74: milli: 756 url: "media.trafficjunky.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 24
+pivot 53
+0 min, 53 second
+No workload for second 53
+Time elapsed: 24
+pivot 54
+0 min, 54 second
+User 62: milli: 139 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 25
+pivot 55
+0 min, 55 second
+No workload for second 55
+Time elapsed: 25
+pivot 56
+0 min, 56 second
+No workload for second 56
+Time elapsed: 25
+pivot 57
+0 min, 57 second
+No workload for second 57
+Time elapsed: 25
+pivot 58
+0 min, 58 second
+No workload for second 58
+Time elapsed: 25
+pivot 59
+0 min, 59 second
+User 56: milli: 966 url: "ad.reduxmedia.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 25
+pivot 60
+1 min, 0 second
+User 19: milli: 0 url: "en.wikipedia.org"
+User 62: milli: 155 url: "wunderground.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 25
+pivot 61
+1 min, 1 second
+User 19: milli: 809 url: "friends.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 25
+pivot 62
+1 min, 2 second
+No workload for second 62
+Time elapsed: 25
+pivot 63
+1 min, 3 second
+User 11: milli: 626 url: "indystar.com"
+User 0: milli: 778 url: "nytimes.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 25
+pivot 64
+1 min, 4 second
+User 11: milli: 385 url: "nike.com"
+User 56: milli: 579 url: "theinformaticsmoment2009.ning.com"
+User 87: milli: 760 url: "gdx.mlb.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 26
+pivot 65
+1 min, 5 second
+User 19: milli: 57 url: "messaging.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 26
+pivot 66
+1 min, 6 second
+User 62: milli: 757 url: "cnn.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 26
+pivot 67
+1 min, 7 second
+No workload for second 67
+Time elapsed: 26
+pivot 68
+1 min, 8 second
+User 4: milli: 226 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 26
+pivot 69
+1 min, 9 second
+User 56: milli: 551 url: "stumbleupon.com"
+User 0: milli: 632 url: "slis.indiana.edu"
+User 11: milli: 933 url: "deviantart.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 28
+pivot 70
+1 min, 10 second
+User 4: milli: 135 url: "43.wcmcs.net"
+Closed: User browsing failed for url 43.wcmcs.net with user 4
+User 0: milli: 790 url: "cs.missouri.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 43
+pivot 71
+1 min, 11 second
+User 56: milli: 146 url: "l-userpic.livejournal.com"
+User 0: milli: 194 url: "slis.indiana.edu"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 44
+pivot 72
+1 min, 12 second
+No workload for second 72
+Time elapsed: 44
+pivot 73
+1 min, 13 second
+No workload for second 73
+Time elapsed: 44
+pivot 74
+1 min, 14 second
+User 0: milli: 185 url: "disneyworld.disney.go.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 44
+pivot 75
+1 min, 15 second
+User 11: milli: 287 url: "base.googlehosted.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 44
+pivot 76
+1 min, 16 second
+No workload for second 76
+Time elapsed: 44
+pivot 77
+1 min, 17 second
+No workload for second 77
+Time elapsed: 44
+pivot 78
+1 min, 18 second
+User 19: milli: 273 url: "10910239424.basketball.cbssports.com"
+User 0: milli: 407 url: "cbssports.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 45
+pivot 79
+1 min, 19 second
+User 19: milli: 21 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 45
+pivot 80
+1 min, 20 second
+User 19: milli: 286 url: "245.webim0213.webim.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 45
+pivot 81
+1 min, 21 second
+No workload for second 81
+Time elapsed: 45
+pivot 82
+1 min, 22 second
+No workload for second 82
+Time elapsed: 45
+pivot 83
+1 min, 23 second
+No workload for second 83
+Time elapsed: 45
+pivot 84
+1 min, 24 second
+User 62: milli: 175 url: "nba.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 46
+pivot 85
+1 min, 25 second
+No workload for second 85
+Time elapsed: 46
+pivot 86
+1 min, 26 second
+No workload for second 86
+Time elapsed: 46
+pivot 87
+1 min, 27 second
+User 0: milli: 236 url: "jessica-alba-pics.org"
+Closed: User browsing failed for url jessica-alba-pics.org with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 46
+pivot 88
+1 min, 28 second
+User 4: milli: 344 url: "bs.serving-sys.com"
+Closed: User browsing failed for url bs.serving-sys.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 46
+pivot 89
+1 min, 29 second
+No workload for second 89
+Time elapsed: 46
+pivot 90
+1 min, 30 second
+No workload for second 90
+Time elapsed: 46
+pivot 91
+1 min, 31 second
+No workload for second 91
+Time elapsed: 46
+pivot 92
+1 min, 32 second
+No workload for second 92
+Time elapsed: 46
+pivot 93
+1 min, 33 second
+User 62: milli: 570 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 46
+pivot 94
+1 min, 34 second
+User 19: milli: 254 url: "t.mookie1.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 46
+pivot 95
+1 min, 35 second
+User 4: milli: 589 url: "tesnexus.com"
+Closed: User browsing failed for url tesnexus.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 46
+pivot 96
+1 min, 36 second
+User 19: milli: 673 url: "photo.media.daum.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 46
+pivot 97
+1 min, 37 second
+No workload for second 97
+Time elapsed: 46
+pivot 98
+1 min, 38 second
+User 4: milli: 542 url: "dynamicads.g.doubleclick.net"
+Closed: User browsing failed for url dynamicads.g.doubleclick.net with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 46
+pivot 99
+1 min, 39 second
+No workload for second 99
+Time elapsed: 46
+pivot 100
+1 min, 40 second
+User 11: milli: 825 url: "loginsvc.cyworld.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 47
+pivot 101
+1 min, 41 second
+No workload for second 101
+Time elapsed: 47
+pivot 102
+1 min, 42 second
+User 19: milli: 12 url: "cbssports.com"
+User 11: milli: 602 url: "s.xvideos.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 48
+pivot 103
+1 min, 43 second
+No workload for second 103
+Time elapsed: 48
+pivot 104
+1 min, 44 second
+User 62: milli: 753 url: "apple.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 48
+pivot 105
+1 min, 45 second
+No workload for second 105
+Time elapsed: 48
+pivot 106
+1 min, 46 second
+No workload for second 106
+Time elapsed: 48
+pivot 107
+1 min, 47 second
+No workload for second 107
+Time elapsed: 48
+pivot 108
+1 min, 48 second
+No workload for second 108
+Time elapsed: 48
+pivot 109
+1 min, 49 second
+User 11: milli: 920 url: "autoblog.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 51
+pivot 110
+1 min, 50 second
+No workload for second 110
+Time elapsed: 51
+pivot 111
+1 min, 51 second
+User 11: milli: 376 url: "stumbleupon.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 51
+pivot 112
+1 min, 52 second
+No workload for second 112
+Time elapsed: 51
+pivot 113
+1 min, 53 second
+No workload for second 113
+Time elapsed: 51
+pivot 114
+1 min, 54 second
+No workload for second 114
+Time elapsed: 51
+pivot 115
+1 min, 55 second
+No workload for second 115
+Time elapsed: 51
+pivot 116
+1 min, 56 second
+User 0: milli: 266 url: "ad.doubleclick.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 51
+pivot 117
+1 min, 57 second
+No workload for second 117
+Time elapsed: 51
+pivot 118
+1 min, 58 second
+User 11: milli: 302 url: "greyhound.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 51
+pivot 119
+1 min, 59 second
+No workload for second 119
+Time elapsed: 51
+pivot 120
+2 min, 0 second
+No workload for second 120
+Time elapsed: 51
+pivot 121
+2 min, 1 second
+User 56: milli: 640 url: "music.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 52
+pivot 122
+2 min, 2 second
+No workload for second 122
+Time elapsed: 52
+pivot 123
+2 min, 3 second
+No workload for second 123
+Time elapsed: 52
+pivot 124
+2 min, 4 second
+No workload for second 124
+Time elapsed: 52
+pivot 125
+2 min, 5 second
+User 4: milli: 325 url: "google.com"
+Closed: User browsing failed for url google.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 52
+pivot 126
+2 min, 6 second
+No workload for second 126
+Time elapsed: 52
+pivot 127
+2 min, 7 second
+No workload for second 127
+Time elapsed: 52
+pivot 128
+2 min, 8 second
+No workload for second 128
+Time elapsed: 52
+pivot 129
+2 min, 9 second
+No workload for second 129
+Time elapsed: 52
+pivot 130
+2 min, 10 second
+User 56: milli: 482 url: "gametrailers.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 52
+pivot 131
+2 min, 11 second
+No workload for second 131
+Time elapsed: 52
+pivot 132
+2 min, 12 second
+No workload for second 132
+Time elapsed: 52
+pivot 133
+2 min, 13 second
+User 0: milli: 56 url: "cs.missouri.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 52
+pivot 134
+2 min, 14 second
+User 56: milli: 686 url: "s7.addthis.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 52
+pivot 135
+2 min, 15 second
+User 56: milli: 61 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 52
+pivot 136
+2 min, 16 second
+No workload for second 136
+Time elapsed: 52
+pivot 137
+2 min, 17 second
+No workload for second 137
+Time elapsed: 52
+pivot 138
+2 min, 18 second
+User 56: milli: 542 url: "blog.naver.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 52
+pivot 139
+2 min, 19 second
+No workload for second 139
+Time elapsed: 52
+pivot 140
+2 min, 20 second
+No workload for second 140
+Time elapsed: 52
+pivot 141
+2 min, 21 second
+User 56: milli: 135 url: "office.microsoft.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 52
+pivot 142
+2 min, 22 second
+User 56: milli: 308 url: "bh.contextweb.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 52
+pivot 143
+2 min, 23 second
+No workload for second 143
+Time elapsed: 52
+pivot 144
+2 min, 24 second
+No workload for second 144
+Time elapsed: 52
+pivot 145
+2 min, 25 second
+User 19: milli: 114 url: "farfesh.com"
+User 56: milli: 224 url: "stellasmagazine.com"
+User 4: milli: 313 url: "881903.com"
+Closed: User browsing failed for url 881903.com with user 4
+DEBUG: ok 2, err 0, timeout 0, closed 1, visit 2
+Time elapsed: 55
+pivot 146
+2 min, 26 second
+No workload for second 146
+Time elapsed: 55
+pivot 147
+2 min, 27 second
+No workload for second 147
+Time elapsed: 55
+pivot 148
+2 min, 28 second
+User 56: milli: 112 url: "view.atdmt.com"
+User 4: milli: 327 url: "searchservice.myspace.com"
+Closed: User browsing failed for url searchservice.myspace.com with user 4
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 55
+pivot 149
+2 min, 29 second
+User 19: milli: 753 url: "forums.metalsludge.tv"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 56
+pivot 150
+2 min, 30 second
+User 4: milli: 290 url: "thenyxie.livejournal.com"
+Closed: User browsing failed for url thenyxie.livejournal.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 56
+pivot 151
+2 min, 31 second
+No workload for second 151
+Time elapsed: 56
+pivot 152
+2 min, 32 second
+User 19: milli: 278 url: "ad5.adtive.co.kr"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 56
+pivot 153
+2 min, 33 second
+No workload for second 153
+Time elapsed: 56
+pivot 154
+2 min, 34 second
+No workload for second 154
+Time elapsed: 56
+pivot 155
+2 min, 35 second
+User 19: milli: 237 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 56
+pivot 156
+2 min, 36 second
+No workload for second 156
+Time elapsed: 56
+pivot 157
+2 min, 37 second
+User 19: milli: 62 url: "forums.metalsludge.tv"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 56
+pivot 158
+2 min, 38 second
+User 0: milli: 243 url: "adparlor.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 56
+pivot 159
+2 min, 39 second
+No workload for second 159
+Time elapsed: 56
+pivot 160
+2 min, 40 second
+No workload for second 160
+Time elapsed: 56
+pivot 161
+2 min, 41 second
+No workload for second 161
+Time elapsed: 56
+pivot 162
+2 min, 42 second
+No workload for second 162
+Time elapsed: 56
+pivot 163
+2 min, 43 second
+No workload for second 163
+Time elapsed: 56
+pivot 164
+2 min, 44 second
+No workload for second 164
+Time elapsed: 56
+pivot 165
+2 min, 45 second
+No workload for second 165
+Time elapsed: 56
+pivot 166
+2 min, 46 second
+No workload for second 166
+Time elapsed: 56
+pivot 167
+2 min, 47 second
+No workload for second 167
+Time elapsed: 56
+pivot 168
+2 min, 48 second
+No workload for second 168
+Time elapsed: 56
+pivot 169
+2 min, 49 second
+User 4: milli: 789 url: "211.webim0116.webim.myspace.com"
+Closed: User browsing failed for url 211.webim0116.webim.myspace.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 56
+pivot 170
+2 min, 50 second
+No workload for second 170
+Time elapsed: 56
+pivot 171
+2 min, 51 second
+No workload for second 171
+Time elapsed: 56
+pivot 172
+2 min, 52 second
+No workload for second 172
+Time elapsed: 56
+pivot 173
+2 min, 53 second
+No workload for second 173
+Time elapsed: 56
+pivot 174
+2 min, 54 second
+User 19: milli: 13 url: "l.yimg.com"
+User 11: milli: 673 url: "autoblog.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 59
+pivot 175
+2 min, 55 second
+User 56: milli: 603 url: "wunderground.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 60
+pivot 176
+2 min, 56 second
+User 56: milli: 151 url: "indystar.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 60
+pivot 177
+2 min, 57 second
+User 19: milli: 306 url: "ttb2.aladdin.co.kr"
+User 4: milli: 963 url: "postsecret.blogspot.com"
+Closed: User browsing failed for url postsecret.blogspot.com with user 4
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 60
+pivot 178
+2 min, 58 second
+User 4: milli: 834 url: "encyclopediadramatica.com"
+Closed: User browsing failed for url encyclopediadramatica.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 60
+pivot 179
+2 min, 59 second
+No workload for second 179
+Time elapsed: 60
+pivot 180
+3 min, 0 second
+No workload for second 180
+Time elapsed: 60
+pivot 181
+3 min, 1 second
+User 4: milli: 625 url: "f96jedi.com"
+Closed: User browsing failed for url f96jedi.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 60
+pivot 182
+3 min, 2 second
+No workload for second 182
+Time elapsed: 60
+pivot 183
+3 min, 3 second
+No workload for second 183
+Time elapsed: 60
+pivot 184
+3 min, 4 second
+No workload for second 184
+Time elapsed: 60
+pivot 185
+3 min, 5 second
+No workload for second 185
+Time elapsed: 60
+pivot 186
+3 min, 6 second
+No workload for second 186
+Time elapsed: 60
+pivot 187
+3 min, 7 second
+No workload for second 187
+Time elapsed: 60
+pivot 188
+3 min, 8 second
+No workload for second 188
+Time elapsed: 60
+pivot 189
+3 min, 9 second
+No workload for second 189
+Time elapsed: 60
+pivot 190
+3 min, 10 second
+User 19: milli: 108 url: "motors.shop.ebay.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 60
+pivot 191
+3 min, 11 second
+No workload for second 191
+Time elapsed: 60
+pivot 192
+3 min, 12 second
+No workload for second 192
+Time elapsed: 60
+pivot 193
+3 min, 13 second
+User 4: milli: 170 url: "vodguide.pps.tv"
+Closed: User browsing failed for url vodguide.pps.tv with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 60
+pivot 194
+3 min, 14 second
+No workload for second 194
+Time elapsed: 60
+pivot 195
+3 min, 15 second
+No workload for second 195
+Time elapsed: 60
+pivot 196
+3 min, 16 second
+User 56: milli: 70 url: "hulu.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 61
+pivot 197
+3 min, 17 second
+No workload for second 197
+Time elapsed: 61
+pivot 198
+3 min, 18 second
+No workload for second 198
+Time elapsed: 61
+pivot 199
+3 min, 19 second
+User 4: milli: 509 url: "zillow.com"
+Closed: User browsing failed for url zillow.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 61
+pivot 200
+3 min, 20 second
+No workload for second 200
+Time elapsed: 61
+pivot 201
+3 min, 21 second
+No workload for second 201
+Time elapsed: 61
+pivot 202
+3 min, 22 second
+No workload for second 202
+Time elapsed: 61
+pivot 203
+3 min, 23 second
+User 62: milli: 989 url: "kidsmiracles.org"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 61
+pivot 204
+3 min, 24 second
+User 62: milli: 840 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 62
+pivot 205
+3 min, 25 second
+No workload for second 205
+Time elapsed: 62
+pivot 206
+3 min, 26 second
+User 62: milli: 960 url: "nursingsociety.org"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 62
+pivot 207
+3 min, 27 second
+No workload for second 207
+Time elapsed: 62
+pivot 208
+3 min, 28 second
+No workload for second 208
+Time elapsed: 62
+pivot 209
+3 min, 29 second
+User 62: milli: 893 url: "881903.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 65
+pivot 210
+3 min, 30 second
+User 19: milli: 615 url: "55640.cim.meebo.com"
+Closed: User browsing failed for url 55640.cim.meebo.com with user 19
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 65
+pivot 211
+3 min, 31 second
+No workload for second 211
+Time elapsed: 65
+pivot 212
+3 min, 32 second
+User 62: milli: 451 url: "kidsmiracles.org"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 65
+pivot 213
+3 min, 33 second
+No workload for second 213
+Time elapsed: 65
+pivot 214
+3 min, 34 second
+No workload for second 214
+Time elapsed: 65
+pivot 215
+3 min, 35 second
+No workload for second 215
+Time elapsed: 65
+pivot 216
+3 min, 36 second
+User 19: milli: 422 url: "media.trafficjunky.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 65
+pivot 217
+3 min, 37 second
+User 4: milli: 350 url: "google.com"
+Closed: User browsing failed for url google.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 65
+pivot 218
+3 min, 38 second
+User 19: milli: 824 url: "pandora.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 65
+pivot 219
+3 min, 39 second
+User 62: milli: 819 url: "lezhin.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 67
+pivot 220
+3 min, 40 second
+User 4: milli: 664 url: "google.com"
+Closed: User browsing failed for url google.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 67
+pivot 221
+3 min, 41 second
+User 87: milli: 400 url: "jcmc.indiana.edu"
+User 19: milli: 615 url: "news.google.com.tw"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 68
+pivot 222
+3 min, 42 second
+No workload for second 222
+Time elapsed: 68
+pivot 223
+3 min, 43 second
+No workload for second 223
+Time elapsed: 68
+pivot 224
+3 min, 44 second
+User 0: milli: 887 url: "waterjet.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 68
+pivot 225
+3 min, 45 second
+User 11: milli: 768 url: "bs.serving-sys.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 68
+pivot 226
+3 min, 46 second
+User 11: milli: 265 url: "399.webim0105.webim.myspace.com"
+User 0: milli: 723 url: "ads.revsci.net"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 69
+pivot 227
+3 min, 47 second
+User 0: milli: 288 url: "zfile.co.kr"
+User 11: milli: 736 url: "google.com"
+User 19: milli: 932 url: "192.webim0316.webim.myspace.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 71
+pivot 228
+3 min, 48 second
+No workload for second 228
+Time elapsed: 71
+pivot 229
+3 min, 49 second
+No workload for second 229
+Time elapsed: 71
+pivot 230
+3 min, 50 second
+No workload for second 230
+Time elapsed: 71
+pivot 231
+3 min, 51 second
+No workload for second 231
+Time elapsed: 71
+pivot 232
+3 min, 52 second
+No workload for second 232
+Time elapsed: 71
+pivot 233
+3 min, 53 second
+User 19: milli: 115 url: "secure-us.imrworldwide.com"
+User 11: milli: 561 url: "papajackspizza.com"
+User 0: milli: 733 url: "view.atdmt.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 72
+pivot 234
+3 min, 54 second
+User 19: milli: 528 url: "secure-us.imrworldwide.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 72
+pivot 235
+3 min, 55 second
+User 11: milli: 708 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 72
+pivot 236
+3 min, 56 second
+User 11: milli: 286 url: "search.ebscohost.com"
+User 19: milli: 780 url: "teendestruction.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 72
+pivot 237
+3 min, 57 second
+No workload for second 237
+Time elapsed: 72
+pivot 238
+3 min, 58 second
+User 19: milli: 75 url: "homeopathymalaysia.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 72
+pivot 239
+3 min, 59 second
+No workload for second 239
+Time elapsed: 72
+pivot 240
+4 min, 0 second
+No workload for second 240
+Time elapsed: 72
+pivot 241
+4 min, 1 second
+No workload for second 241
+Time elapsed: 72
+pivot 242
+4 min, 2 second
+No workload for second 242
+Time elapsed: 72
+pivot 243
+4 min, 3 second
+No workload for second 243
+Time elapsed: 72
+pivot 244
+4 min, 4 second
+No workload for second 244
+Time elapsed: 72
+pivot 245
+4 min, 5 second
+User 4: milli: 431 url: "f96jedi.com"
+Closed: User browsing failed for url f96jedi.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 72
+pivot 246
+4 min, 6 second
+User 87: milli: 121 url: "secure-us.imrworldwide.com"
+User 4: milli: 290 url: "c31.statcounter.com"
+Closed: User browsing failed for url c31.statcounter.com with user 4
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 72
+pivot 247
+4 min, 7 second
+No workload for second 247
+Time elapsed: 72
+pivot 248
+4 min, 8 second
+User 4: milli: 308 url: "g2.ykimg.com"
+Closed: User browsing failed for url g2.ykimg.com with user 4
+User 62: milli: 923 url: "pixel-hk.pixelinteractivemedia.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 73
+pivot 249
+4 min, 9 second
+No workload for second 249
+Time elapsed: 73
+pivot 250
+4 min, 10 second
+No workload for second 250
+Time elapsed: 73
+pivot 251
+4 min, 11 second
+No workload for second 251
+Time elapsed: 73
+pivot 252
+4 min, 12 second
+No workload for second 252
+Time elapsed: 73
+pivot 253
+4 min, 13 second
+No workload for second 253
+Time elapsed: 73
+pivot 254
+4 min, 14 second
+No workload for second 254
+Time elapsed: 73
+pivot 255
+4 min, 15 second
+User 0: milli: 980 url: "bing.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 73
+pivot 256
+4 min, 16 second
+User 19: milli: 120 url: "tianya.cn"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 76
+pivot 257
+4 min, 17 second
+No workload for second 257
+Time elapsed: 76
+pivot 258
+4 min, 18 second
+No workload for second 258
+Time elapsed: 76
+pivot 259
+4 min, 19 second
+No workload for second 259
+Time elapsed: 76
+pivot 260
+4 min, 20 second
+User 11: milli: 576 url: "bing.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 76
+pivot 261
+4 min, 21 second
+User 0: milli: 119 url: "daum.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 79
+pivot 262
+4 min, 22 second
+No workload for second 262
+Time elapsed: 79
+pivot 263
+4 min, 23 second
+User 0: milli: 397 url: "www2.im.alisoft.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 80
+pivot 264
+4 min, 24 second
+User 0: milli: 583 url: "423.webim0213.webim.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 80
+pivot 265
+4 min, 25 second
+No workload for second 265
+Time elapsed: 80
+pivot 266
+4 min, 26 second
+User 62: milli: 697 url: "communistdanceparty.blogspot.com"
+User 0: milli: 800 url: "im.alisoft.com"
+Closed: User browsing failed for url im.alisoft.com with user 0
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 95
+pivot 267
+4 min, 27 second
+No workload for second 267
+Time elapsed: 95
+pivot 268
+4 min, 28 second
+No workload for second 268
+Time elapsed: 95
+pivot 269
+4 min, 29 second
+User 62: milli: 505 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 96
+pivot 270
+4 min, 30 second
+User 19: milli: 456 url: "search.yahoo.com"
+User 62: milli: 801 url: "slate.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 96
+pivot 271
+4 min, 31 second
+No workload for second 271
+Time elapsed: 96
+pivot 272
+4 min, 32 second
+No workload for second 272
+Time elapsed: 96
+pivot 273
+4 min, 33 second
+User 0: milli: 420 url: "gourmandia.com"
+Closed: User browsing failed for url gourmandia.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 96
+pivot 274
+4 min, 34 second
+No workload for second 274
+Time elapsed: 96
+pivot 275
+4 min, 35 second
+No workload for second 275
+Time elapsed: 96
+pivot 276
+4 min, 36 second
+No workload for second 276
+Time elapsed: 96
+pivot 277
+4 min, 37 second
+No workload for second 277
+Time elapsed: 96
+pivot 278
+4 min, 38 second
+User 4: milli: 697 url: "view.atdmt.com"
+Closed: User browsing failed for url view.atdmt.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 96
+pivot 279
+4 min, 39 second
+User 0: milli: 807 url: "dell.msn.com"
+Closed: User browsing failed for url dell.msn.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 96
+pivot 280
+4 min, 40 second
+No workload for second 280
+Time elapsed: 96
+pivot 281
+4 min, 41 second
+No workload for second 281
+Time elapsed: 96
+pivot 282
+4 min, 42 second
+User 11: milli: 275 url: "waterjet.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 96
+pivot 283
+4 min, 43 second
+User 4: milli: 537 url: "217.16.18.213"
+Closed: User browsing failed for url 217.16.18.213 with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 96
+pivot 284
+4 min, 44 second
+No workload for second 284
+Time elapsed: 96
+pivot 285
+4 min, 45 second
+No workload for second 285
+Time elapsed: 96
+pivot 286
+4 min, 46 second
+No workload for second 286
+Time elapsed: 96
+pivot 287
+4 min, 47 second
+User 4: milli: 424 url: "worldcuplove.com"
+Closed: User browsing failed for url worldcuplove.com with user 4
+User 52: milli: 630 url: "waterjet.net"
+User 0: milli: 663 url: "viewmorepics.myspace.com"
+Closed: User browsing failed for url viewmorepics.myspace.com with user 0
+DEBUG: ok 1, err 0, timeout 0, closed 2, visit 1
+Time elapsed: 96
+pivot 288
+4 min, 48 second
+No workload for second 288
+Time elapsed: 96
+pivot 289
+4 min, 49 second
+User 19: milli: 44 url: "teendestruction.com"
+User 0: milli: 271 url: "rpi.edu"
+Closed: User browsing failed for url rpi.edu with user 0
+User 52: milli: 681 url: "ai.realmedia.com"
+Closed: User browsing failed for url ai.realmedia.com with user 52
+DEBUG: ok 1, err 0, timeout 0, closed 2, visit 1
+Time elapsed: 97
+pivot 290
+4 min, 50 second
+User 4: milli: 126 url: "google.com"
+Closed: User browsing failed for url google.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 97
+pivot 291
+4 min, 51 second
+No workload for second 291
+Time elapsed: 97
+pivot 292
+4 min, 52 second
+User 52: milli: 980 url: "cwtv.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 98
+pivot 293
+4 min, 53 second
+User 4: milli: 62 url: "bs.serving-sys.com"
+Closed: User browsing failed for url bs.serving-sys.com with user 4
+User 52: milli: 185 url: "secure.newegg.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 98
+pivot 294
+4 min, 54 second
+No workload for second 294
+Time elapsed: 98
+pivot 295
+4 min, 55 second
+No workload for second 295
+Time elapsed: 98
+pivot 296
+4 min, 56 second
+User 87: milli: 676 url: "gravatar.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 98
+pivot 297
+4 min, 57 second
+User 87: milli: 24 url: "jones.ling.indiana.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 98
+pivot 298
+4 min, 58 second
+No workload for second 298
+Time elapsed: 98
+pivot 299
+4 min, 59 second
+No workload for second 299
+Time elapsed: 98
+pivot 300
+5 min, 0 second
+User 87: milli: 916 url: "aes.iupui.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 98
+pivot 301
+5 min, 1 second
+User 87: milli: 774 url: "aes.iupui.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 98
+pivot 302
+5 min, 2 second
+No workload for second 302
+Time elapsed: 98
+pivot 303
+5 min, 3 second
+No workload for second 303
+Time elapsed: 98
+pivot 304
+5 min, 4 second
+No workload for second 304
+Time elapsed: 98
+pivot 305
+5 min, 5 second
+User 87: milli: 550 url: "en.wikipedia.org"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 98
+pivot 306
+5 min, 6 second
+User 4: milli: 74 url: "v.giantrealm.com"
+Closed: User browsing failed for url v.giantrealm.com with user 4
+User 52: milli: 783 url: "goldgenie.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 99
+pivot 307
+5 min, 7 second
+User 19: milli: 84 url: "teendestruction.com"
+User 4: milli: 103 url: "cbk1.google.com"
+Closed: User browsing failed for url cbk1.google.com with user 4
+User 87: milli: 893 url: "google.com"
+DEBUG: ok 2, err 0, timeout 0, closed 1, visit 2
+Time elapsed: 99
+pivot 308
+5 min, 8 second
+No workload for second 308
+Time elapsed: 99
+pivot 309
+5 min, 9 second
+No workload for second 309
+Time elapsed: 99
+pivot 310
+5 min, 10 second
+No workload for second 310
+Time elapsed: 99
+pivot 311
+5 min, 11 second
+No workload for second 311
+Time elapsed: 99
+pivot 312
+5 min, 12 second
+No workload for second 312
+Time elapsed: 99
+pivot 313
+5 min, 13 second
+User 19: milli: 238 url: "nba.com"
+User 0: milli: 704 url: "finance.google.com"
+Closed: User browsing failed for url finance.google.com with user 0
+User 4: milli: 908 url: "ad.doubleclick.net"
+Closed: User browsing failed for url ad.doubleclick.net with user 4
+DEBUG: ok 1, err 0, timeout 0, closed 2, visit 1
+Time elapsed: 100
+pivot 314
+5 min, 14 second
+User 0: milli: 306 url: "motors.shop.ebay.com"
+Closed: User browsing failed for url motors.shop.ebay.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 100
+pivot 315
+5 min, 15 second
+No workload for second 315
+Time elapsed: 100
+pivot 316
+5 min, 16 second
+User 19: milli: 193 url: "yahoo.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 100
+pivot 317
+5 min, 17 second
+User 19: milli: 103 url: "vimeo.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 100
+pivot 318
+5 min, 18 second
+User 74: milli: 45 url: "images.google.com"
+User 11: milli: 153 url: "tour.naughtyamerica.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 101
+pivot 319
+5 min, 19 second
+User 11: milli: 106 url: "tvlinksdb.com"
+User 52: milli: 115 url: "google.com.vn"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 101
+pivot 320
+5 min, 20 second
+User 74: milli: 542 url: "img1.126.net"
+User 0: milli: 692 url: "tyrashow.warnerbros.com"
+Closed: User browsing failed for url tyrashow.warnerbros.com with user 0
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 102
+pivot 321
+5 min, 21 second
+User 4: milli: 276 url: "apps.facebook.com"
+Closed: User browsing failed for url apps.facebook.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 102
+pivot 322
+5 min, 22 second
+User 74: milli: 472 url: "i.dell.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 102
+pivot 323
+5 min, 23 second
+User 0: milli: 873 url: "acs86.com"
+Closed: User browsing failed for url acs86.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 102
+pivot 324
+5 min, 24 second
+User 74: milli: 219 url: "pics.livejournal.com"
+User 4: milli: 662 url: "ad.doubleclick.net"
+Closed: User browsing failed for url ad.doubleclick.net with user 4
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 103
+pivot 325
+5 min, 25 second
+User 74: milli: 525 url: "sports.163.com"
+User 0: milli: 761 url: "cwtv.com"
+Closed: User browsing failed for url cwtv.com with user 0
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 103
+pivot 326
+5 min, 26 second
+User 4: milli: 431 url: "thenyxie.livejournal.com"
+Closed: User browsing failed for url thenyxie.livejournal.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 103
+pivot 327
+5 min, 27 second
+User 4: milli: 833 url: "dumpalink.com"
+Closed: User browsing failed for url dumpalink.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 103
+pivot 328
+5 min, 28 second
+User 19: milli: 107 url: "pagead2.googlesyndication.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 103
+pivot 329
+5 min, 29 second
+User 52: milli: 815 url: "secure.newegg.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 103
+pivot 330
+5 min, 30 second
+User 4: milli: 349 url: "screwattack.com"
+Closed: User browsing failed for url screwattack.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 103
+pivot 331
+5 min, 31 second
+No workload for second 331
+Time elapsed: 103
+pivot 332
+5 min, 32 second
+User 4: milli: 772 url: "mail.sina.com.cn"
+Closed: User browsing failed for url mail.sina.com.cn with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 103
+pivot 333
+5 min, 33 second
+User 52: milli: 673 url: "bing.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 103
+pivot 334
+5 min, 34 second
+No workload for second 334
+Time elapsed: 103
+pivot 335
+5 min, 35 second
+No workload for second 335
+Time elapsed: 103
+pivot 336
+5 min, 36 second
+User 4: milli: 720 url: "view.atdmt.com"
+Closed: User browsing failed for url view.atdmt.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 103
+pivot 337
+5 min, 37 second
+User 56: milli: 26 url: "dailygalaxy.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 103
+pivot 338
+5 min, 38 second
+User 74: milli: 564 url: "xraex21.livejournal.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 104
+pivot 339
+5 min, 39 second
+No workload for second 339
+Time elapsed: 104
+pivot 340
+5 min, 40 second
+No workload for second 340
+Time elapsed: 104
+pivot 341
+5 min, 41 second
+User 52: milli: 85 url: "secure.newegg.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 104
+pivot 342
+5 min, 42 second
+User 19: milli: 941 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 104
+pivot 343
+5 min, 43 second
+No workload for second 343
+Time elapsed: 104
+pivot 344
+5 min, 44 second
+User 4: milli: 98 url: "bs.serving-sys.com"
+Closed: User browsing failed for url bs.serving-sys.com with user 4
+User 87: milli: 940 url: "stumbleupon.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 104
+pivot 345
+5 min, 45 second
+User 0: milli: 537 url: "vodguide.pps.tv"
+Closed: User browsing failed for url vodguide.pps.tv with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 104
+pivot 346
+5 min, 46 second
+User 19: milli: 117 url: "gdx.mlb.com"
+User 0: milli: 482 url: "parents.com"
+Closed: User browsing failed for url parents.com with user 0
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 104
+pivot 347
+5 min, 47 second
+User 19: milli: 865 url: "princebow.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 104
+pivot 348
+5 min, 48 second
+User 0: milli: 800 url: "bs.serving-sys.com"
+Closed: User browsing failed for url bs.serving-sys.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 104
+pivot 349
+5 min, 49 second
+No workload for second 349
+Time elapsed: 104
+pivot 350
+5 min, 50 second
+User 11: milli: 415 url: "colbertnation.com"
+User 19: milli: 449 url: "mlb.mlb.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 105
+pivot 351
+5 min, 51 second
+No workload for second 351
+Time elapsed: 105
+pivot 352
+5 min, 52 second
+User 52: milli: 120 url: "secure.newegg.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 106
+pivot 353
+5 min, 53 second
+No workload for second 353
+Time elapsed: 106
+pivot 354
+5 min, 54 second
+User 4: milli: 554 url: "images.google.com"
+Closed: User browsing failed for url images.google.com with user 4
+User 11: milli: 605 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 106
+pivot 355
+5 min, 55 second
+User 0: milli: 735 url: "ad.doubleclick.net"
+Closed: User browsing failed for url ad.doubleclick.net with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 106
+pivot 356
+5 min, 56 second
+User 19: milli: 914 url: "urbanout-www.baynote.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 106
+pivot 357
+5 min, 57 second
+User 87: milli: 796 url: "112.webim0213.webim.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 106
+pivot 358
+5 min, 58 second
+No workload for second 358
+Time elapsed: 106
+pivot 359
+5 min, 59 second
+User 74: milli: 151 url: "dell.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 107
+pivot 360
+6 min, 0 second
+User 4: milli: 504 url: "bs.serving-sys.com"
+Closed: User browsing failed for url bs.serving-sys.com with user 4
+User 11: milli: 676 url: "cpalock.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 107
+pivot 361
+6 min, 1 second
+No workload for second 361
+Time elapsed: 107
+pivot 362
+6 min, 2 second
+User 0: milli: 69 url: "antena3.ro"
+Closed: User browsing failed for url antena3.ro with user 0
+User 4: milli: 608 url: "my.ebay.com"
+Closed: User browsing failed for url my.ebay.com with user 4
+User 74: milli: 630 url: "cyworld.com"
+DEBUG: ok 1, err 0, timeout 0, closed 2, visit 1
+Time elapsed: 108
+pivot 363
+6 min, 3 second
+User 4: milli: 789 url: "m1.2mdn.net"
+Closed: User browsing failed for url m1.2mdn.net with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 108
+pivot 364
+6 min, 4 second
+User 74: milli: 533 url: "w.cnzz.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 109
+pivot 365
+6 min, 5 second
+User 19: milli: 145 url: "nba.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 109
+pivot 366
+6 min, 6 second
+User 4: milli: 306 url: "pricegrabber.com"
+Closed: User browsing failed for url pricegrabber.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 109
+pivot 367
+6 min, 7 second
+No workload for second 367
+Time elapsed: 109
+pivot 368
+6 min, 8 second
+User 11: milli: 505 url: "sugardaddyforme.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 110
+pivot 369
+6 min, 9 second
+User 4: milli: 236 url: "amazon.com"
+Closed: User browsing failed for url amazon.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 110
+pivot 370
+6 min, 10 second
+No workload for second 370
+Time elapsed: 110
+pivot 371
+6 min, 11 second
+User 11: milli: 295 url: "core.insightexpressai.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 111
+pivot 372
+6 min, 12 second
+User 11: milli: 769 url: "sugardaddyforme.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 111
+pivot 373
+6 min, 13 second
+User 4: milli: 29 url: "nd.edu"
+Closed: User browsing failed for url nd.edu with user 4
+User 52: milli: 56 url: "switch.atdmt.com"
+User 74: milli: 548 url: "pgatour.com"
+DEBUG: ok 2, err 0, timeout 0, closed 1, visit 2
+Time elapsed: 111
+pivot 374
+6 min, 14 second
+No workload for second 374
+Time elapsed: 111
+pivot 375
+6 min, 15 second
+User 52: milli: 737 url: "aircanada.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 111
+pivot 376
+6 min, 16 second
+User 52: milli: 238 url: "aircanada.com"
+User 11: milli: 454 url: "chem.iupui.edu"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 111
+pivot 377
+6 min, 17 second
+User 52: milli: 600 url: "email.evansville.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 112
+pivot 378
+6 min, 18 second
+User 19: milli: 825 url: "teendestruction.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 112
+pivot 379
+6 min, 19 second
+No workload for second 379
+Time elapsed: 112
+pivot 380
+6 min, 20 second
+User 52: milli: 9 url: "foxnews.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 112
+pivot 381
+6 min, 21 second
+No workload for second 381
+Time elapsed: 112
+pivot 382
+6 min, 22 second
+No workload for second 382
+Time elapsed: 112
+pivot 383
+6 min, 23 second
+User 52: milli: 628 url: "web-proxy2.qq.com"
+Closed: User browsing failed for url web-proxy2.qq.com with user 52
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 112
+pivot 384
+6 min, 24 second
+User 19: milli: 299 url: "gaiaonline.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 113
+pivot 385
+6 min, 25 second
+No workload for second 385
+Time elapsed: 113
+pivot 386
+6 min, 26 second
+No workload for second 386
+Time elapsed: 113
+pivot 387
+6 min, 27 second
+User 4: milli: 335 url: "drudgereport.com"
+Closed: User browsing failed for url drudgereport.com with user 4
+User 52: milli: 578 url: "246.webim0068.webim.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 113
+pivot 388
+6 min, 28 second
+User 4: milli: 92 url: "images.google.com"
+Closed: User browsing failed for url images.google.com with user 4
+User 0: milli: 274 url: "cfile286.uf.daum.net"
+Closed: User browsing failed for url cfile286.uf.daum.net with user 0
+User 56: milli: 813 url: "infotrac.galegroup.com.proxy.ulib.iupui.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 2, visit 1
+Time elapsed: 114
+pivot 389
+6 min, 29 second
+No workload for second 389
+Time elapsed: 114
+pivot 390
+6 min, 30 second
+No workload for second 390
+Time elapsed: 114
+pivot 391
+6 min, 31 second
+No workload for second 391
+Time elapsed: 114
+pivot 392
+6 min, 32 second
+User 52: milli: 118 url: "picnik.com"
+User 0: milli: 990 url: "srx.ebaymotors.ebayrtm.com"
+Closed: User browsing failed for url srx.ebaymotors.ebayrtm.com with user 0
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 114
+pivot 393
+6 min, 33 second
+User 11: milli: 826 url: "deviantart.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 115
+pivot 394
+6 min, 34 second
+User 0: milli: 682 url: "google.com"
+Closed: User browsing failed for url google.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 115
+pivot 395
+6 min, 35 second
+User 0: milli: 862 url: "google.com"
+Closed: User browsing failed for url google.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 115
+pivot 396
+6 min, 36 second
+User 19: milli: 520 url: "teendestruction.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 115
+pivot 397
+6 min, 37 second
+User 4: milli: 122 url: "hoosierdata.in.gov"
+Closed: User browsing failed for url hoosierdata.in.gov with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 115
+pivot 398
+6 min, 38 second
+User 56: milli: 259 url: "pornhost.com"
+User 52: milli: 788 url: "wretch.cc"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 117
+pivot 399
+6 min, 39 second
+User 74: milli: 670 url: "cyworld.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 117
+pivot 400
+6 min, 40 second
+No workload for second 400
+Time elapsed: 117
+pivot 401
+6 min, 41 second
+User 74: milli: 49 url: "blackcrayon.com"
+Closed: User browsing failed for url blackcrayon.com with user 74
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 117
+pivot 402
+6 min, 42 second
+User 11: milli: 295 url: "lawschool.cornell.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 117
+pivot 403
+6 min, 43 second
+No workload for second 403
+Time elapsed: 117
+pivot 404
+6 min, 44 second
+No workload for second 404
+Time elapsed: 117
+pivot 405
+6 min, 45 second
+No workload for second 405
+Time elapsed: 117
+pivot 406
+6 min, 46 second
+No workload for second 406
+Time elapsed: 117
+pivot 407
+6 min, 47 second
+User 19: milli: 962 url: "homeopathymalaysia.com"
+Closed: User browsing failed for url homeopathymalaysia.com with user 19
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 118
+pivot 408
+6 min, 48 second
+User 4: milli: 2 url: "twitter.com"
+Closed: User browsing failed for url twitter.com with user 4
+User 52: milli: 734 url: "xy7.store.qq.com"
+Closed: User browsing failed for url xy7.store.qq.com with user 52
+DEBUG: ok 0, err 0, timeout 0, closed 2, visit 0
+Time elapsed: 133
+pivot 409
+6 min, 49 second
+User 11: milli: 477 url: "ads.specificmedia.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 133
+pivot 410
+6 min, 50 second
+User 62: milli: 260 url: "viewmorepics.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 133
+pivot 411
+6 min, 51 second
+User 62: milli: 707 url: "9ee817c328304cef.users.storage.live.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 133
+pivot 412
+6 min, 52 second
+No workload for second 412
+Time elapsed: 133
+pivot 413
+6 min, 53 second
+User 52: milli: 461 url: "msn.com"
+Closed: User browsing failed for url msn.com with user 52
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 133
+pivot 414
+6 min, 54 second
+No workload for second 414
+Time elapsed: 133
+pivot 415
+6 min, 55 second
+User 62: milli: 576 url: "by124w.bay124.mail.live.com"
+Closed: User browsing failed for url by124w.bay124.mail.live.com with user 62
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 133
+pivot 416
+6 min, 56 second
+User 11: milli: 611 url: "stumbleupon.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 133
+pivot 417
+6 min, 57 second
+User 62: milli: 55 url: "164.webim0283.webim.myspace.com"
+User 11: milli: 685 url: "tour.naughtyamerica.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 134
+pivot 418
+6 min, 58 second
+No workload for second 418
+Time elapsed: 134
+pivot 419
+6 min, 59 second
+No workload for second 419
+Time elapsed: 134
+pivot 420
+7 min, 0 second
+User 4: milli: 579 url: "starpulse.com"
+Closed: User browsing failed for url starpulse.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 134
+pivot 421
+7 min, 1 second
+User 11: milli: 613 url: "amazon.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 134
+pivot 422
+7 min, 2 second
+User 4: milli: 599 url: "gourmandia.com"
+Closed: User browsing failed for url gourmandia.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 134
+pivot 423
+7 min, 3 second
+No workload for second 423
+Time elapsed: 134
+pivot 424
+7 min, 4 second
+No workload for second 424
+Time elapsed: 134
+pivot 425
+7 min, 5 second
+No workload for second 425
+Time elapsed: 134
+pivot 426
+7 min, 6 second
+No workload for second 426
+Time elapsed: 134
+pivot 427
+7 min, 7 second
+User 4: milli: 132 url: "pagead2.googlesyndication.com"
+Closed: User browsing failed for url pagead2.googlesyndication.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 134
+pivot 428
+7 min, 8 second
+No workload for second 428
+Time elapsed: 134
+pivot 429
+7 min, 9 second
+No workload for second 429
+Time elapsed: 134
+pivot 430
+7 min, 10 second
+No workload for second 430
+Time elapsed: 134
+pivot 431
+7 min, 11 second
+No workload for second 431
+Time elapsed: 134
+pivot 432
+7 min, 12 second
+No workload for second 432
+Time elapsed: 134
+pivot 433
+7 min, 13 second
+User 4: milli: 137 url: "zbar2.zynga.com"
+Closed: User browsing failed for url zbar2.zynga.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 134
+pivot 434
+7 min, 14 second
+User 56: milli: 761 url: "animalsex-planet.com"
+Closed: User browsing failed for url animalsex-planet.com with user 56
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 134
+pivot 435
+7 min, 15 second
+No workload for second 435
+Time elapsed: 134
+pivot 436
+7 min, 16 second
+User 11: milli: 197 url: "google.com"
+User 74: milli: 411 url: "hulu.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 135
+pivot 437
+7 min, 17 second
+User 11: milli: 466 url: "tags.bluekai.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 135
+pivot 438
+7 min, 18 second
+User 62: milli: 791 url: "indianapublicmedia.org"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 135
+pivot 439
+7 min, 19 second
+User 4: milli: 938 url: "ib.adnxs.com"
+Closed: User browsing failed for url ib.adnxs.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 135
+pivot 440
+7 min, 20 second
+No workload for second 440
+Time elapsed: 135
+pivot 441
+7 min, 21 second
+User 4: milli: 15 url: "jingwutai.com"
+Closed: User browsing failed for url jingwutai.com with user 4
+User 74: milli: 517 url: "parents.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 135
+pivot 442
+7 min, 22 second
+User 74: milli: 324 url: "noc.syosetu.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 135
+pivot 443
+7 min, 23 second
+User 52: milli: 289 url: "google.com"
+Closed: User browsing failed for url google.com with user 52
+User 74: milli: 847 url: "searchservice.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 135
+pivot 444
+7 min, 24 second
+User 74: milli: 846 url: "loginsvc.cyworld.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 136
+pivot 445
+7 min, 25 second
+No workload for second 445
+Time elapsed: 136
+pivot 446
+7 min, 26 second
+No workload for second 446
+Time elapsed: 136
+pivot 447
+7 min, 27 second
+User 74: milli: 981 url: "deviantart.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 137
+pivot 448
+7 min, 28 second
+User 74: milli: 249 url: "ad.doubleclick.net"
+User 19: milli: 631 url: "uesp.net"
+User 62: milli: 767 url: "apps.facebook.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 137
+pivot 449
+7 min, 29 second
+User 19: milli: 110 url: "hoosierdata.in.gov"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 138
+pivot 450
+7 min, 30 second
+User 74: milli: 497 url: "dm5.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 139
+pivot 451
+7 min, 31 second
+User 19: milli: 970 url: "msn.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 139
+pivot 452
+7 min, 32 second
+User 62: milli: 644 url: "trumba.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 140
+pivot 453
+7 min, 33 second
+No workload for second 453
+Time elapsed: 140
+pivot 454
+7 min, 34 second
+User 56: milli: 162 url: "tv.msn.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 140
+pivot 455
+7 min, 35 second
+User 74: milli: 188 url: "twitter.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 140
+pivot 456
+7 min, 36 second
+User 52: milli: 917 url: "ad.doubleclick.net"
+Closed: User browsing failed for url ad.doubleclick.net with user 52
+User 62: milli: 954 url: "nba.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 141
+pivot 457
+7 min, 37 second
+User 11: milli: 297 url: "media.trafficjunky.net"
+User 19: milli: 593 url: "home.myspace.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 141
+pivot 458
+7 min, 38 second
+No workload for second 458
+Time elapsed: 141
+pivot 459
+7 min, 39 second
+User 74: milli: 481 url: "dm5.com"
+User 52: milli: 492 url: "aircanada.com"
+Closed: User browsing failed for url aircanada.com with user 52
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 142
+pivot 460
+7 min, 40 second
+User 11: milli: 463 url: "sports.espn.go.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 142
+pivot 461
+7 min, 41 second
+User 52: milli: 326 url: "idsnews.com"
+Closed: User browsing failed for url idsnews.com with user 52
+User 11: milli: 967 url: "slis.indiana.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 142
+pivot 462
+7 min, 42 second
+User 11: milli: 175 url: "eeoc.gov"
+User 19: milli: 565 url: "hoosierdata.in.gov"
+User 4: milli: 806 url: "gourmandia.com"
+Closed: User browsing failed for url gourmandia.com with user 4
+DEBUG: ok 2, err 0, timeout 0, closed 1, visit 2
+Time elapsed: 142
+pivot 463
+7 min, 43 second
+No workload for second 463
+Time elapsed: 142
+pivot 464
+7 min, 44 second
+User 19: milli: 514 url: "158.webim0444.webim.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 142
+pivot 465
+7 min, 45 second
+User 74: milli: 178 url: "ws.amazon.com"
+User 11: milli: 932 url: "blogger.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 143
+pivot 466
+7 min, 46 second
+User 19: milli: 244 url: "uesp.net"
+User 74: milli: 706 url: "thenorthface.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 143
+pivot 467
+7 min, 47 second
+User 11: milli: 530 url: "webphysics.iupui.edu"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 143
+pivot 468
+7 min, 48 second
+No workload for second 468
+Time elapsed: 143
+pivot 469
+7 min, 49 second
+User 0: milli: 390 url: "bs.serving-sys.com"
+Closed: User browsing failed for url bs.serving-sys.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 143
+pivot 470
+7 min, 50 second
+User 0: milli: 315 url: "renren.com"
+Closed: User browsing failed for url renren.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 143
+pivot 471
+7 min, 51 second
+No workload for second 471
+Time elapsed: 143
+pivot 472
+7 min, 52 second
+User 0: milli: 565 url: "go.daum.net"
+Closed: User browsing failed for url go.daum.net with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 143
+pivot 473
+7 min, 53 second
+User 74: milli: 384 url: "penciloflight.deviantart.com"
+User 0: milli: 925 url: "track.searchignite.com"
+Closed: User browsing failed for url track.searchignite.com with user 0
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 144
+pivot 474
+7 min, 54 second
+No workload for second 474
+Time elapsed: 144
+pivot 475
+7 min, 55 second
+User 11: milli: 16 url: "bs.serving-sys.com"
+User 74: milli: 584 url: "noc.syosetu.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 145
+pivot 476
+7 min, 56 second
+No workload for second 476
+Time elapsed: 145
+pivot 477
+7 min, 57 second
+User 0: milli: 251 url: "cfile282.uf.daum.net"
+Closed: User browsing failed for url cfile282.uf.daum.net with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 145
+pivot 478
+7 min, 58 second
+No workload for second 478
+Time elapsed: 145
+pivot 479
+7 min, 59 second
+User 62: milli: 583 url: "checkout.buy.com"
+User 19: milli: 998 url: "google.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 145
+pivot 480
+8 min, 0 second
+User 11: milli: 313 url: "slis.indiana.edu"
+User 19: milli: 885 url: "search.yahoo.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 146
+pivot 481
+8 min, 1 second
+User 11: milli: 358 url: "optimized-by.rubiconproject.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 146
+pivot 482
+8 min, 2 second
+User 0: milli: 602 url: "pipi.cn"
+Closed: User browsing failed for url pipi.cn with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 146
+pivot 483
+8 min, 3 second
+No workload for second 483
+Time elapsed: 146
+pivot 484
+8 min, 4 second
+User 19: milli: 656 url: "deviantart.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 147
+pivot 485
+8 min, 5 second
+User 56: milli: 138 url: "stumbleupon.com"
+User 0: milli: 354 url: "google.com"
+Closed: User browsing failed for url google.com with user 0
+User 19: milli: 878 url: "secure-us.imrworldwide.com"
+DEBUG: ok 2, err 0, timeout 0, closed 1, visit 2
+Time elapsed: 147
+pivot 486
+8 min, 6 second
+User 62: milli: 679 url: "searchslate.com"
+User 74: milli: 852 url: "teendestruction.com"
+User 19: milli: 950 url: "friends.myspace.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 148
+pivot 487
+8 min, 7 second
+No workload for second 487
+Time elapsed: 148
+pivot 488
+8 min, 8 second
+No workload for second 488
+Time elapsed: 148
+pivot 489
+8 min, 9 second
+User 19: milli: 420 url: "health.msnbc.us.intellitxt.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 148
+pivot 490
+8 min, 10 second
+User 19: milli: 994 url: "usatoday.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 148
+pivot 491
+8 min, 11 second
+User 19: milli: 230 url: "google.com"
+User 74: milli: 830 url: "google.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 148
+pivot 492
+8 min, 12 second
+User 11: milli: 823 url: "rivals.yahoo.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 149
+pivot 493
+8 min, 13 second
+No workload for second 493
+Time elapsed: 149
+pivot 494
+8 min, 14 second
+No workload for second 494
+Time elapsed: 149
+pivot 495
+8 min, 15 second
+User 11: milli: 170 url: "search.yahoo.com"
+User 19: milli: 306 url: "profile.myspace.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 149
+pivot 496
+8 min, 16 second
+User 54: milli: 255 url: "oah.org"
+User 0: milli: 417 url: "twitter.com"
+Closed: User browsing failed for url twitter.com with user 0
+User 11: milli: 505 url: "in.gov"
+DEBUG: ok 2, err 0, timeout 0, closed 1, visit 2
+Time elapsed: 150
+pivot 497
+8 min, 17 second
+User 54: milli: 161 url: "308.webim0423.webim.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 151
+pivot 498
+8 min, 18 second
+User 11: milli: 98 url: "www"
+Closed: User browsing failed for url www with user 11
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 151
+pivot 499
+8 min, 19 second
+User 74: milli: 347 url: "parents.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 151
+pivot 500
+8 min, 20 second
+User 11: milli: 993 url: "fe1.rivals.sports.ac4.yahoo.com"
+Closed: User browsing failed for url fe1.rivals.sports.ac4.yahoo.com with user 11
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 151
+pivot 501
+8 min, 21 second
+No workload for second 501
+Time elapsed: 151
+pivot 502
+8 min, 22 second
+No workload for second 502
+Time elapsed: 151
+pivot 503
+8 min, 23 second
+User 19: milli: 718 url: "ads.specificmedia.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 151
+pivot 504
+8 min, 24 second
+No workload for second 504
+Time elapsed: 151
+pivot 505
+8 min, 25 second
+User 19: milli: 466 url: "pubads.g.doubleclick.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 151
+pivot 506
+8 min, 26 second
+User 11: milli: 878 url: "tudou.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 152
+pivot 507
+8 min, 27 second
+User 4: milli: 354 url: "bangbrosnetwork.com"
+Closed: User browsing failed for url bangbrosnetwork.com with user 4
+User 74: milli: 448 url: "blog.naver.com"
+User 54: milli: 505 url: "oah.org"
+DEBUG: ok 2, err 0, timeout 0, closed 1, visit 2
+Time elapsed: 154
+pivot 508
+8 min, 28 second
+User 4: milli: 236 url: "woodcliff-lake.com"
+Closed: User browsing failed for url woodcliff-lake.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 154
+pivot 509
+8 min, 29 second
+No workload for second 509
+Time elapsed: 154
+pivot 510
+8 min, 30 second
+User 54: milli: 424 url: "viewmorepics.myspace.com"
+User 0: milli: 900 url: "netlibrary.com.proxy.ulib.iupui.edu"
+Closed: User browsing failed for url netlibrary.com.proxy.ulib.iupui.edu with user 0
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 154
+pivot 511
+8 min, 31 second
+No workload for second 511
+Time elapsed: 154
+pivot 512
+8 min, 32 second
+User 74: milli: 632 url: "nate.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 155
+pivot 513
+8 min, 33 second
+User 19: milli: 39 url: "twitter.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 155
+pivot 514
+8 min, 34 second
+User 74: milli: 839 url: "watch-movies-online.tv"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 156
+pivot 515
+8 min, 35 second
+User 74: milli: 649 url: "bj.house.sina.com.cn"
+User 87: milli: 925 url: "adx.g.doubleclick.net"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 156
+pivot 516
+8 min, 36 second
+No workload for second 516
+Time elapsed: 156
+pivot 517
+8 min, 37 second
+User 19: milli: 403 url: "secure-us.imrworldwide.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 156
+pivot 518
+8 min, 38 second
+User 74: milli: 260 url: "bj.house.sina.com.cn"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 160
+pivot 519
+8 min, 39 second
+User 74: milli: 320 url: "google.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 160
+pivot 520
+8 min, 40 second
+User 87: milli: 117 url: "google.com"
+User 11: milli: 991 url: "rivals.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 160
+pivot 521
+8 min, 41 second
+User 74: milli: 1 url: "bj.house.sina.com.cn"
+User 54: milli: 28 url: "apple.com"
+User 87: milli: 757 url: "adrs.sdo.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 161
+pivot 522
+8 min, 42 second
+User 74: milli: 675 url: "deviantart.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 162
+pivot 523
+8 min, 43 second
+User 74: milli: 327 url: "bj.house.sina.com.cn"
+User 11: milli: 475 url: "pandora.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 162
+pivot 524
+8 min, 44 second
+No workload for second 524
+Time elapsed: 162
+pivot 525
+8 min, 45 second
+User 11: milli: 378 url: "espn-www.baynote.net"
+User 87: milli: 512 url: "timespeople.nytimes.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 163
+pivot 526
+8 min, 46 second
+No workload for second 526
+Time elapsed: 163
+pivot 527
+8 min, 47 second
+No workload for second 527
+Time elapsed: 163
+pivot 528
+8 min, 48 second
+No workload for second 528
+Time elapsed: 163
+pivot 529
+8 min, 49 second
+No workload for second 529
+Time elapsed: 163
+pivot 530
+8 min, 50 second
+No workload for second 530
+Time elapsed: 163
+pivot 531
+8 min, 51 second
+User 56: milli: 576 url: "examiner.com"
+Closed: User browsing failed for url examiner.com with user 56
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 178
+pivot 532
+8 min, 52 second
+User 0: milli: 231 url: "google.com"
+Closed: User browsing failed for url google.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 178
+pivot 533
+8 min, 53 second
+User 19: milli: 961 url: "mlt0.google.com"
+Closed: User browsing failed for url mlt0.google.com with user 19
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 178
+pivot 534
+8 min, 54 second
+No workload for second 534
+Time elapsed: 178
+pivot 535
+8 min, 55 second
+No workload for second 535
+Time elapsed: 178
+pivot 536
+8 min, 56 second
+No workload for second 536
+Time elapsed: 178
+pivot 537
+8 min, 57 second
+No workload for second 537
+Time elapsed: 178
+pivot 538
+8 min, 58 second
+No workload for second 538
+Time elapsed: 178
+pivot 539
+8 min, 59 second
+User 56: milli: 363 url: "nba.com"
+Closed: User browsing failed for url nba.com with user 56
+User 11: milli: 784 url: "tudou.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 178
+pivot 540
+9 min, 0 second
+User 0: milli: 949 url: "boobsmodels.com"
+Closed: User browsing failed for url boobsmodels.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 178
+pivot 541
+9 min, 1 second
+No workload for second 541
+Time elapsed: 178
+pivot 542
+9 min, 2 second
+No workload for second 542
+Time elapsed: 178
+pivot 543
+9 min, 3 second
+User 4: milli: 253 url: "dygod.com"
+Closed: User browsing failed for url dygod.com with user 4
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 178
+pivot 544
+9 min, 4 second
+No workload for second 544
+Time elapsed: 178
+pivot 545
+9 min, 5 second
+User 19: milli: 466 url: "news.kukinews.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 179
+pivot 546
+9 min, 6 second
+No workload for second 546
+Time elapsed: 179
+pivot 547
+9 min, 7 second
+User 19: milli: 981 url: "viewmorepics.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 179
+pivot 548
+9 min, 8 second
+User 74: milli: 61 url: "parents.com"
+User 87: milli: 939 url: "query.nytimes.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 179
+pivot 549
+9 min, 9 second
+No workload for second 549
+Time elapsed: 179
+pivot 550
+9 min, 10 second
+User 11: milli: 329 url: "parents.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 180
+pivot 551
+9 min, 11 second
+User 11: milli: 233 url: "clickclickclick.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 180
+pivot 552
+9 min, 12 second
+No workload for second 552
+Time elapsed: 180
+pivot 553
+9 min, 13 second
+No workload for second 553
+Time elapsed: 180
+pivot 554
+9 min, 14 second
+User 74: milli: 783 url: "parents.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 180
+pivot 555
+9 min, 15 second
+User 56: milli: 456 url: "amazon.com"
+Closed: User browsing failed for url amazon.com with user 56
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 180
+pivot 556
+9 min, 16 second
+No workload for second 556
+Time elapsed: 180
+pivot 557
+9 min, 17 second
+No workload for second 557
+Time elapsed: 180
+pivot 558
+9 min, 18 second
+No workload for second 558
+Time elapsed: 180
+pivot 559
+9 min, 19 second
+No workload for second 559
+Time elapsed: 180
+pivot 560
+9 min, 20 second
+User 11: milli: 696 url: "clickclickclick.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 180
+pivot 561
+9 min, 21 second
+No workload for second 561
+Time elapsed: 180
+pivot 562
+9 min, 22 second
+No workload for second 562
+Time elapsed: 180
+pivot 563
+9 min, 23 second
+User 19: milli: 25 url: "117.webim0278.webim.myspace.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 181
+pivot 564
+9 min, 24 second
+User 54: milli: 159 url: "apple.com"
+User 74: milli: 728 url: "i.cdn.turner.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 181
+pivot 565
+9 min, 25 second
+No workload for second 565
+Time elapsed: 181
+pivot 566
+9 min, 26 second
+User 87: milli: 254 url: "lt.andomedia.com"
+User 11: milli: 255 url: "tashian.com"
+DEBUG: ok 2, err 0, timeout 0, closed 0, visit 2
+Time elapsed: 181
+pivot 567
+9 min, 27 second
+No workload for second 567
+Time elapsed: 181
+pivot 568
+9 min, 28 second
+No workload for second 568
+Time elapsed: 181
+pivot 569
+9 min, 29 second
+User 56: milli: 492 url: "examiner.cleanprint.net"
+Closed: User browsing failed for url examiner.cleanprint.net with user 56
+User 11: milli: 699 url: "anrdoezrs.net"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 181
+pivot 570
+9 min, 30 second
+No workload for second 570
+Time elapsed: 181
+pivot 571
+9 min, 31 second
+User 11: milli: 93 url: "livemixtapes.com"
+User 19: milli: 257 url: "4shared.com"
+User 87: milli: 891 url: "google.com"
+DEBUG: ok 3, err 0, timeout 0, closed 0, visit 3
+Time elapsed: 183
+pivot 572
+9 min, 32 second
+No workload for second 572
+Time elapsed: 183
+pivot 573
+9 min, 33 second
+User 11: milli: 623 url: "tns-counter.ru"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 183
+pivot 574
+9 min, 34 second
+No workload for second 574
+Time elapsed: 183
+pivot 575
+9 min, 35 second
+No workload for second 575
+Time elapsed: 183
+pivot 576
+9 min, 36 second
+User 56: milli: 281 url: "theinformaticsmoment2009.ning.com"
+Closed: User browsing failed for url theinformaticsmoment2009.ning.com with user 56
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 183
+pivot 577
+9 min, 37 second
+User 0: milli: 944 url: "thesartorialist.blogspot.com"
+Closed: User browsing failed for url thesartorialist.blogspot.com with user 0
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 183
+pivot 578
+9 min, 38 second
+User 56: milli: 109 url: "entertainment.msn.us.intellitxt.com"
+Closed: User browsing failed for url entertainment.msn.us.intellitxt.com with user 56
+User 87: milli: 711 url: "dashboard.aim.com"
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 183
+pivot 579
+9 min, 39 second
+User 11: milli: 454 url: "mt0.google.com"
+User 87: milli: 987 url: "pcash.globalmailer5.com"
+Closed: User browsing failed for url pcash.globalmailer5.com with user 87
+DEBUG: ok 1, err 0, timeout 0, closed 1, visit 1
+Time elapsed: 198
+pivot 580
+9 min, 40 second
+No workload for second 580
+Time elapsed: 198
+pivot 581
+9 min, 41 second
+User 56: milli: 311 url: "dailygalaxy.com"
+Closed: User browsing failed for url dailygalaxy.com with user 56
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 198
+pivot 582
+9 min, 42 second
+User 74: milli: 200 url: "bj.house.sina.com.cn"
+User 4: milli: 530 url: "rottentomatoes.com"
+Closed: User browsing failed for url rottentomatoes.com with user 4
+User 56: milli: 760 url: "google.com"
+Closed: User browsing failed for url google.com with user 56
+DEBUG: ok 1, err 0, timeout 0, closed 2, visit 1
+Time elapsed: 198
+pivot 583
+9 min, 43 second
+No workload for second 583
+Time elapsed: 198
+pivot 584
+9 min, 44 second
+User 54: milli: 757 url: "friendlyfinn.livejournal.com"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 199
+pivot 585
+9 min, 45 second
+User 87: milli: 158 url: "pordeo.com"
+Closed: User browsing failed for url pordeo.com with user 87
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 199
+pivot 586
+9 min, 46 second
+User 74: milli: 96 url: "bj.house.sina.com.cn"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 199
+pivot 587
+9 min, 47 second
+User 74: milli: 976 url: "watch-movies-online.tv"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 199
+pivot 588
+9 min, 48 second
+No workload for second 588
+Time elapsed: 199
+pivot 589
+9 min, 49 second
+No workload for second 589
+Time elapsed: 199
+pivot 590
+9 min, 50 second
+User 74: milli: 905 url: "bj.house.sina.com.cn"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 199
+pivot 591
+9 min, 51 second
+No workload for second 591
+Time elapsed: 199
+pivot 592
+9 min, 52 second
+No workload for second 592
+Time elapsed: 199
+pivot 593
+9 min, 53 second
+No workload for second 593
+Time elapsed: 199
+pivot 594
+9 min, 54 second
+User 56: milli: 334 url: "amazon.com"
+Closed: User browsing failed for url amazon.com with user 56
+DEBUG: ok 0, err 0, timeout 0, closed 1, visit 0
+Time elapsed: 199
+pivot 595
+9 min, 55 second
+No workload for second 595
+Time elapsed: 199
+pivot 596
+9 min, 56 second
+No workload for second 596
+Time elapsed: 199
+pivot 597
+9 min, 57 second
+User 74: milli: 963 url: "ad.doubleclick.net"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 199
+pivot 598
+9 min, 58 second
+User 74: milli: 538 url: "bj.house.sina.com.cn"
+DEBUG: ok 1, err 0, timeout 0, closed 0, visit 1
+Time elapsed: 199
+pivot 599
+9 min, 59 second
+No workload for second 599
+Time elapsed: 199
+Time elapsed: 199
+Time elapsed: 199
+Time elapsed: 199
+Time elapsed: 199
+Time elapsed: 199
+Time elapsed: 199
+Time elapsed: 199
+Time elapsed: 199
+Time elapsed: 199
+Time elapsed: 199

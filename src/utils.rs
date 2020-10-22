@@ -48,7 +48,7 @@ pub fn resolve_dns(
 }
 
 pub fn rdr_read_rand_seed(num_of_users: usize, iter: String) -> Result<Vec<i64>> {
-    let rand_seed_file = "/home/jethrosun/dev/pvn/utils/rand_number/rand.json";
+    let rand_seed_file = "/home/jethros/dev/pvn/utils/rand_number/rand.json";
     let mut rand_vec = Vec::new();
     let file = File::open(rand_seed_file).expect("rand seed file should open read only");
     let json_data: Value = from_reader(file).expect("file should be proper JSON");
@@ -150,12 +150,29 @@ pub fn simple_user_browse(
     user: &i64,
 ) -> Fallible<(usize, u128)> {
     let now = Instant::now();
+    let tabs = current_browser.get_tabs().lock().unwrap();
+    let current_tab = tabs.iter().next().unwrap();
+    let http_hostname = "http://".to_string() + &hostname;
+
+    current_tab.navigate_to(&http_hostname)?;
+
+    Ok((1, now.elapsed().as_millis()))
+}
+
+/// Simple user browse.
+pub fn simple_user_browse_old(
+    current_browser: &Browser,
+    hostname: &String,
+    user: &i64,
+) -> Fallible<(usize, u128)> {
+    let now = Instant::now();
     let current_tab = match current_browser.new_tab() {
         Ok(tab) => tab,
         Err(e) => match e {
             Timeout => {
                 // thread::sleep(Duration::from_millis(300));
                 thread::sleep(Duration::from_secs(1));
+
                 let t = match current_browser.new_tab() {
                     Ok(tab) => tab,
                     Err(e) => {
@@ -225,14 +242,25 @@ pub fn rdr_scheduler_ng(
                     }
                     _ => println!("Error: unknown user browsing error type"),
                 },
-                Err(e) => {
-                    println!(
-                        "User browsing failed for url {} with user {} :{:?}",
-                        url, user, e
-                    );
-                    num_of_err += 1;
-                    num_of_visit += 1;
-                }
+                Err(e) => match e {
+                    ConnectionClosed => {
+                        println!(
+                            "Closed: User browsing failed for url {} with user {}",
+                            url, user
+                        );
+                        num_of_closed += 1;
+                        num_of_visit += 1;
+                    }
+
+                    _ => {
+                        println!(
+                            "User browsing failed for url {} with user {} :{:?}",
+                            url, user, e
+                        );
+                        num_of_err += 1;
+                        num_of_visit += 1;
+                    }
+                },
             }
         }
     }

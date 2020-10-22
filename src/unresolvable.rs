@@ -1117,6 +1117,7 @@ pub fn curate_unresolvable_records() -> HashSet<&'static str> {
     broken_urls.insert("widget-b1.slide.com");
     broken_urls.insert("cim.meebo.com");
     broken_urls.insert("biz5c.sandai.net");
+    broken_urls.insert("lakeland.k12.in.us");
 
     return broken_urls;
 }
