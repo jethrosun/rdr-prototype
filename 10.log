@@ -1,0 +1,1339 @@
+Fetch rand seed for num_of_users: 10, iter: "3".
+rdr users: [0, 4, 11, 19, 52, 54, 56, 62, 74, 87]
+Workload is generated
+10 browsers are created 
+Time elapsed: 0
+pivot 1
+0 min, 1 second
+No workload for second 1
+Time elapsed: 0
+pivot 2
+0 min, 2 second
+No workload for second 2
+Time elapsed: 0
+pivot 3
+0 min, 3 second
+No workload for second 3
+Time elapsed: 0
+pivot 4
+0 min, 4 second
+No workload for second 4
+Time elapsed: 0
+pivot 5
+0 min, 5 second
+No workload for second 5
+Time elapsed: 0
+pivot 6
+0 min, 6 second
+No workload for second 6
+Time elapsed: 0
+pivot 7
+0 min, 7 second
+No workload for second 7
+Time elapsed: 0
+pivot 8
+0 min, 8 second
+No workload for second 8
+Time elapsed: 0
+pivot 9
+0 min, 9 second
+User 19: milli: 201 url: "photo.media.daum.net"
+Time elapsed: 4
+pivot 10
+0 min, 10 second
+No workload for second 10
+Time elapsed: 4
+pivot 11
+0 min, 11 second
+User 56: milli: 337 url: "polls.polldaddy.com"
+Time elapsed: 5
+pivot 12
+0 min, 12 second
+No workload for second 12
+Time elapsed: 5
+pivot 13
+0 min, 13 second
+User 19: milli: 392 url: "photo.media.daum.net"
+Time elapsed: 6
+pivot 14
+0 min, 14 second
+User 56: milli: 339 url: "pandora.com"
+User 19: milli: 601 url: "nba.com"
+User 0: milli: 933 url: "images.search.yahoo.com"
+Time elapsed: 11
+pivot 15
+0 min, 15 second
+User 56: milli: 492 url: "jiayuan.com"
+Time elapsed: 15
+pivot 16
+0 min, 16 second
+No workload for second 16
+Time elapsed: 15
+pivot 17
+0 min, 17 second
+No workload for second 17
+Time elapsed: 15
+pivot 18
+0 min, 18 second
+No workload for second 18
+Time elapsed: 15
+pivot 19
+0 min, 19 second
+User 0: milli: 79 url: "weather.com"
+User 56: milli: 683 url: "m1.2mdn.net"
+Time elapsed: 16
+pivot 20
+0 min, 20 second
+User 56: milli: 938 url: "images.jiayuan.com"
+Time elapsed: 17
+pivot 21
+0 min, 21 second
+User 56: milli: 430 url: "t.mookie1.com"
+User 0: milli: 434 url: "profootballtalk.nbcsports.com"
+Time elapsed: 17
+pivot 22
+0 min, 22 second
+User 0: milli: 787 url: "sidereel.com"
+Time elapsed: 17
+pivot 23
+0 min, 23 second
+User 19: milli: 643 url: "tw.linkspot.search.yahoo.com"
+Time elapsed: 22
+pivot 24
+0 min, 24 second
+User 19: milli: 338 url: "google.com"
+Time elapsed: 22
+pivot 25
+0 min, 25 second
+User 19: milli: 510 url: "169.webim0444.webim.myspace.com"
+Time elapsed: 24
+pivot 26
+0 min, 26 second
+No workload for second 26
+Time elapsed: 24
+pivot 27
+0 min, 27 second
+No workload for second 27
+Time elapsed: 24
+pivot 28
+0 min, 28 second
+User 19: milli: 741 url: "lakeland.k12.in.us"
+User browsing failed for url lakeland.k12.in.us with user 19 :Timeout
+
+   0: failure::backtrace::internal::InternalBacktrace::new
+   1: failure::backtrace::Backtrace::new
+   2: headless_chrome::browser::transport::Transport::call_method_on_target
+   3: headless_chrome::browser::tab::Tab::navigate_to
+   4: rdr_prototype::utils::rdr_scheduler_ng
+   5: rdr_prototype::main
+   6: std::rt::lang_start::{{closure}}
+   7: std::rt::lang_start_internal::{{closure}}
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:52:13
+      std::panicking::try::do_call
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:348:40
+      std::panicking::try
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:325:15
+      std::panic::catch_unwind
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panic.rs:394:14
+      std::rt::lang_start_internal
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:51:25
+   8: main
+   9: __libc_start_main
+  10: _start
+
+Time elapsed: 39
+pivot 29
+0 min, 29 second
+User 19: milli: 103 url: "nytimes.com"
+Time elapsed: 40
+pivot 30
+0 min, 30 second
+No workload for second 30
+Time elapsed: 40
+pivot 31
+0 min, 31 second
+No workload for second 31
+Time elapsed: 40
+pivot 32
+0 min, 32 second
+No workload for second 32
+Time elapsed: 40
+pivot 33
+0 min, 33 second
+No workload for second 33
+Time elapsed: 40
+pivot 34
+0 min, 34 second
+No workload for second 34
+Time elapsed: 40
+pivot 35
+0 min, 35 second
+No workload for second 35
+Time elapsed: 40
+pivot 36
+0 min, 36 second
+User 87: milli: 578 url: "mail.google.com"
+Time elapsed: 51
+pivot 37
+0 min, 37 second
+No workload for second 37
+Time elapsed: 51
+pivot 38
+0 min, 38 second
+No workload for second 38
+Time elapsed: 51
+pivot 39
+0 min, 39 second
+User 0: milli: 107 url: "tags.bluekai.com"
+User 19: milli: 139 url: "tw.dictionary.yahoo.com"
+User 11: milli: 675 url: "google.com"
+User browsing failed for url google.com with user 11 :Timeout
+
+   0: failure::backtrace::internal::InternalBacktrace::new
+   1: failure::backtrace::Backtrace::new
+   2: headless_chrome::browser::transport::Transport::call_method_on_target
+   3: headless_chrome::browser::tab::Tab::navigate_to
+   4: rdr_prototype::utils::rdr_scheduler_ng
+   5: rdr_prototype::main
+   6: std::rt::lang_start::{{closure}}
+   7: std::rt::lang_start_internal::{{closure}}
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:52:13
+      std::panicking::try::do_call
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:348:40
+      std::panicking::try
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:325:15
+      std::panic::catch_unwind
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panic.rs:394:14
+      std::rt::lang_start_internal
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:51:25
+   8: main
+   9: __libc_start_main
+  10: _start
+
+Time elapsed: 74
+pivot 40
+0 min, 40 second
+User 19: milli: 175 url: "static.awempire.com"
+User 0: milli: 441 url: "core.insightexpressai.com"
+Time elapsed: 76
+pivot 41
+0 min, 41 second
+User 87: milli: 682 url: "secure-us.imrworldwide.com"
+Time elapsed: 77
+pivot 42
+0 min, 42 second
+User 87: milli: 20 url: "google.com"
+User 11: milli: 584 url: "nike.com"
+RDR Tab timeout after the second try for hostname: "nike.com" and user: 11
+Time elapsed: 77
+pivot 43
+0 min, 43 second
+No workload for second 43
+Time elapsed: 77
+pivot 44
+0 min, 44 second
+User 62: milli: 284 url: "spreadsheets.google.com"
+User 11: milli: 501 url: "google.com"
+RDR Tab timeout after the second try for hostname: "google.com" and user: 11
+Time elapsed: 91
+pivot 45
+0 min, 45 second
+User 56: milli: 398 url: "npr.org"
+User 11: milli: 689 url: "stanford.edu"
+RDR Tab timeout after the second try for hostname: "stanford.edu" and user: 11
+Time elapsed: 91
+pivot 46
+0 min, 46 second
+User 11: milli: 789 url: "parents.com"
+RDR Tab timeout after the second try for hostname: "parents.com" and user: 11
+Time elapsed: 92
+pivot 47
+0 min, 47 second
+User 11: milli: 335 url: "ad.doubleclick.net"
+RDR Tab timeout after the second try for hostname: "ad.doubleclick.net" and user: 11
+User 62: milli: 336 url: "docs.google.com"
+User 0: milli: 690 url: "penciloflight.deviantart.com"
+Time elapsed: 93
+pivot 48
+0 min, 48 second
+No workload for second 48
+Time elapsed: 93
+pivot 49
+0 min, 49 second
+User 11: milli: 559 url: "projectwonderful.com"
+RDR Tab timeout after the second try for hostname: "projectwonderful.com" and user: 11
+Time elapsed: 94
+pivot 50
+0 min, 50 second
+No workload for second 50
+Time elapsed: 94
+pivot 51
+0 min, 51 second
+User 0: milli: 28 url: "deviantart.com"
+User 11: milli: 439 url: "undergrad.stanford.edu"
+RDR Tab timeout after the second try for hostname: "undergrad.stanford.edu" and user: 11
+Time elapsed: 95
+pivot 52
+0 min, 52 second
+User 74: milli: 756 url: "media.trafficjunky.net"
+Time elapsed: 103
+pivot 53
+0 min, 53 second
+No workload for second 53
+Time elapsed: 103
+pivot 54
+0 min, 54 second
+User 62: milli: 139 url: "google.com"
+Time elapsed: 103
+pivot 55
+0 min, 55 second
+No workload for second 55
+Time elapsed: 103
+pivot 56
+0 min, 56 second
+No workload for second 56
+Time elapsed: 103
+pivot 57
+0 min, 57 second
+No workload for second 57
+Time elapsed: 103
+pivot 58
+0 min, 58 second
+No workload for second 58
+Time elapsed: 103
+pivot 59
+0 min, 59 second
+User 56: milli: 966 url: "ad.reduxmedia.com"
+Time elapsed: 103
+pivot 60
+1 min, 0 second
+User 19: milli: 0 url: "en.wikipedia.org"
+User 62: milli: 155 url: "wunderground.com"
+Time elapsed: 104
+pivot 61
+1 min, 1 second
+User 19: milli: 809 url: "friends.myspace.com"
+Time elapsed: 104
+pivot 62
+1 min, 2 second
+No workload for second 62
+Time elapsed: 104
+pivot 63
+1 min, 3 second
+User 11: milli: 626 url: "indystar.com"
+RDR Tab timeout after the second try for hostname: "indystar.com" and user: 11
+User 0: milli: 778 url: "nytimes.com"
+Time elapsed: 105
+pivot 64
+1 min, 4 second
+User 11: milli: 385 url: "nike.com"
+RDR Tab timeout after the second try for hostname: "nike.com" and user: 11
+User 56: milli: 579 url: "theinformaticsmoment2009.ning.com"
+User 87: milli: 760 url: "gdx.mlb.com"
+Time elapsed: 106
+pivot 65
+1 min, 5 second
+User 19: milli: 57 url: "messaging.myspace.com"
+Time elapsed: 106
+pivot 66
+1 min, 6 second
+User 62: milli: 757 url: "cnn.com"
+Time elapsed: 106
+pivot 67
+1 min, 7 second
+No workload for second 67
+Time elapsed: 106
+pivot 68
+1 min, 8 second
+User 4: milli: 226 url: "google.com"
+User browsing failed for url google.com with user 4 :Timeout
+
+   0: failure::backtrace::internal::InternalBacktrace::new
+   1: failure::backtrace::Backtrace::new
+   2: headless_chrome::browser::transport::Transport::call_method_on_target
+   3: headless_chrome::browser::tab::Tab::navigate_to
+   4: rdr_prototype::utils::rdr_scheduler_ng
+   5: rdr_prototype::main
+   6: std::rt::lang_start::{{closure}}
+   7: std::rt::lang_start_internal::{{closure}}
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:52:13
+      std::panicking::try::do_call
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:348:40
+      std::panicking::try
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:325:15
+      std::panic::catch_unwind
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panic.rs:394:14
+      std::rt::lang_start_internal
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:51:25
+   8: main
+   9: __libc_start_main
+  10: _start
+
+Time elapsed: 121
+pivot 69
+1 min, 9 second
+User 56: milli: 551 url: "stumbleupon.com"
+User 0: milli: 632 url: "slis.indiana.edu"
+User 11: milli: 933 url: "deviantart.com"
+RDR Tab timeout after the second try for hostname: "deviantart.com" and user: 11
+Time elapsed: 125
+pivot 70
+1 min, 10 second
+User 4: milli: 135 url: "43.wcmcs.net"
+RDR Tab timeout after the second try for hostname: "43.wcmcs.net" and user: 4
+User 0: milli: 790 url: "cs.missouri.edu"
+Time elapsed: 127
+pivot 71
+1 min, 11 second
+User 56: milli: 146 url: "l-userpic.livejournal.com"
+User 0: milli: 194 url: "slis.indiana.edu"
+Time elapsed: 128
+pivot 72
+1 min, 12 second
+No workload for second 72
+Time elapsed: 128
+pivot 73
+1 min, 13 second
+No workload for second 73
+Time elapsed: 128
+pivot 74
+1 min, 14 second
+User 0: milli: 185 url: "disneyworld.disney.go.com"
+Time elapsed: 128
+pivot 75
+1 min, 15 second
+User 11: milli: 287 url: "base.googlehosted.com"
+RDR Tab timeout after the second try for hostname: "base.googlehosted.com" and user: 11
+Time elapsed: 129
+pivot 76
+1 min, 16 second
+No workload for second 76
+Time elapsed: 129
+pivot 77
+1 min, 17 second
+No workload for second 77
+Time elapsed: 129
+pivot 78
+1 min, 18 second
+User 19: milli: 273 url: "10910239424.basketball.cbssports.com"
+User 0: milli: 407 url: "cbssports.com"
+Time elapsed: 130
+pivot 79
+1 min, 19 second
+User 19: milli: 21 url: "google.com"
+Time elapsed: 130
+pivot 80
+1 min, 20 second
+User 19: milli: 286 url: "245.webim0213.webim.myspace.com"
+Time elapsed: 130
+pivot 81
+1 min, 21 second
+No workload for second 81
+Time elapsed: 130
+pivot 82
+1 min, 22 second
+No workload for second 82
+Time elapsed: 130
+pivot 83
+1 min, 23 second
+No workload for second 83
+Time elapsed: 130
+pivot 84
+1 min, 24 second
+User 62: milli: 175 url: "nba.com"
+Time elapsed: 136
+pivot 85
+1 min, 25 second
+No workload for second 85
+Time elapsed: 136
+pivot 86
+1 min, 26 second
+No workload for second 86
+Time elapsed: 136
+pivot 87
+1 min, 27 second
+User 0: milli: 236 url: "jessica-alba-pics.org"
+User browsing failed for url jessica-alba-pics.org with user 0 :NavigationFailed { error_text: "net::ERR_NAME_NOT_RESOLVED" }
+
+   0: failure::backtrace::internal::InternalBacktrace::new
+   1: failure::backtrace::Backtrace::new
+   2: headless_chrome::browser::tab::Tab::navigate_to
+   3: rdr_prototype::utils::rdr_scheduler_ng
+   4: rdr_prototype::main
+   5: std::rt::lang_start::{{closure}}
+   6: std::rt::lang_start_internal::{{closure}}
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:52:13
+      std::panicking::try::do_call
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:348:40
+      std::panicking::try
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:325:15
+      std::panic::catch_unwind
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panic.rs:394:14
+      std::rt::lang_start_internal
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:51:25
+   7: main
+   8: __libc_start_main
+   9: _start
+
+Time elapsed: 145
+pivot 88
+1 min, 28 second
+User 4: milli: 344 url: "bs.serving-sys.com"
+RDR Tab timeout after the second try for hostname: "bs.serving-sys.com" and user: 4
+Time elapsed: 146
+pivot 89
+1 min, 29 second
+No workload for second 89
+Time elapsed: 146
+pivot 90
+1 min, 30 second
+No workload for second 90
+Time elapsed: 146
+pivot 91
+1 min, 31 second
+No workload for second 91
+Time elapsed: 146
+pivot 92
+1 min, 32 second
+No workload for second 92
+Time elapsed: 146
+pivot 93
+1 min, 33 second
+User 62: milli: 570 url: "google.com"
+Time elapsed: 154
+pivot 94
+1 min, 34 second
+User 19: milli: 254 url: "t.mookie1.com"
+RDR Tab timeout after the second try for hostname: "t.mookie1.com" and user: 19
+Time elapsed: 154
+pivot 95
+1 min, 35 second
+User 4: milli: 589 url: "tesnexus.com"
+RDR Tab timeout after the second try for hostname: "tesnexus.com" and user: 4
+Time elapsed: 155
+pivot 96
+1 min, 36 second
+User 19: milli: 673 url: "photo.media.daum.net"
+RDR Tab timeout after the second try for hostname: "photo.media.daum.net" and user: 19
+Time elapsed: 155
+pivot 97
+1 min, 37 second
+No workload for second 97
+Time elapsed: 155
+pivot 98
+1 min, 38 second
+User 4: milli: 542 url: "dynamicads.g.doubleclick.net"
+RDR Tab timeout after the second try for hostname: "dynamicads.g.doubleclick.net" and user: 4
+Time elapsed: 155
+pivot 99
+1 min, 39 second
+No workload for second 99
+Time elapsed: 155
+pivot 100
+1 min, 40 second
+User 11: milli: 825 url: "loginsvc.cyworld.com"
+RDR Tab timeout after the second try for hostname: "loginsvc.cyworld.com" and user: 11
+Time elapsed: 156
+pivot 101
+1 min, 41 second
+No workload for second 101
+Time elapsed: 156
+pivot 102
+1 min, 42 second
+User 19: milli: 12 url: "cbssports.com"
+RDR Tab timeout after the second try for hostname: "cbssports.com" and user: 19
+User 11: milli: 602 url: "s.xvideos.com"
+RDR Tab timeout after the second try for hostname: "s.xvideos.com" and user: 11
+Time elapsed: 156
+pivot 103
+1 min, 43 second
+No workload for second 103
+Time elapsed: 156
+pivot 104
+1 min, 44 second
+User 62: milli: 753 url: "apple.com"
+Time elapsed: 160
+pivot 105
+1 min, 45 second
+No workload for second 105
+Time elapsed: 160
+pivot 106
+1 min, 46 second
+No workload for second 106
+Time elapsed: 160
+pivot 107
+1 min, 47 second
+No workload for second 107
+Time elapsed: 160
+pivot 108
+1 min, 48 second
+No workload for second 108
+Time elapsed: 160
+pivot 109
+1 min, 49 second
+User 11: milli: 920 url: "autoblog.com"
+RDR Tab timeout after the second try for hostname: "autoblog.com" and user: 11
+Time elapsed: 161
+pivot 110
+1 min, 50 second
+No workload for second 110
+Time elapsed: 161
+pivot 111
+1 min, 51 second
+User 11: milli: 376 url: "stumbleupon.com"
+RDR Tab timeout after the second try for hostname: "stumbleupon.com" and user: 11
+Time elapsed: 161
+pivot 112
+1 min, 52 second
+No workload for second 112
+Time elapsed: 161
+pivot 113
+1 min, 53 second
+No workload for second 113
+Time elapsed: 161
+pivot 114
+1 min, 54 second
+No workload for second 114
+Time elapsed: 161
+pivot 115
+1 min, 55 second
+No workload for second 115
+Time elapsed: 161
+pivot 116
+1 min, 56 second
+User 0: milli: 266 url: "ad.doubleclick.net"
+Time elapsed: 173
+pivot 117
+1 min, 57 second
+No workload for second 117
+Time elapsed: 173
+pivot 118
+1 min, 58 second
+User 11: milli: 302 url: "greyhound.com"
+RDR Tab timeout after the second try for hostname: "greyhound.com" and user: 11
+Time elapsed: 173
+pivot 119
+1 min, 59 second
+No workload for second 119
+Time elapsed: 173
+pivot 120
+2 min, 0 second
+No workload for second 120
+Time elapsed: 173
+pivot 121
+2 min, 1 second
+User 56: milli: 640 url: "music.myspace.com"
+Time elapsed: 173
+pivot 122
+2 min, 2 second
+No workload for second 122
+Time elapsed: 173
+pivot 123
+2 min, 3 second
+No workload for second 123
+Time elapsed: 173
+pivot 124
+2 min, 4 second
+No workload for second 124
+Time elapsed: 173
+pivot 125
+2 min, 5 second
+User 4: milli: 325 url: "google.com"
+RDR Tab timeout after the second try for hostname: "google.com" and user: 4
+Time elapsed: 174
+pivot 126
+2 min, 6 second
+No workload for second 126
+Time elapsed: 174
+pivot 127
+2 min, 7 second
+No workload for second 127
+Time elapsed: 174
+pivot 128
+2 min, 8 second
+No workload for second 128
+Time elapsed: 174
+pivot 129
+2 min, 9 second
+No workload for second 129
+Time elapsed: 174
+pivot 130
+2 min, 10 second
+User 56: milli: 482 url: "gametrailers.com"
+Time elapsed: 175
+pivot 131
+2 min, 11 second
+No workload for second 131
+Time elapsed: 175
+pivot 132
+2 min, 12 second
+No workload for second 132
+Time elapsed: 175
+pivot 133
+2 min, 13 second
+User 0: milli: 56 url: "cs.missouri.edu"
+Time elapsed: 176
+pivot 134
+2 min, 14 second
+User 56: milli: 686 url: "s7.addthis.com"
+Time elapsed: 176
+pivot 135
+2 min, 15 second
+User 56: milli: 61 url: "google.com"
+Time elapsed: 176
+pivot 136
+2 min, 16 second
+No workload for second 136
+Time elapsed: 176
+pivot 137
+2 min, 17 second
+No workload for second 137
+Time elapsed: 176
+pivot 138
+2 min, 18 second
+User 56: milli: 542 url: "blog.naver.com"
+Time elapsed: 181
+pivot 139
+2 min, 19 second
+No workload for second 139
+Time elapsed: 181
+pivot 140
+2 min, 20 second
+No workload for second 140
+Time elapsed: 181
+pivot 141
+2 min, 21 second
+User 56: milli: 135 url: "office.microsoft.com"
+Time elapsed: 181
+pivot 142
+2 min, 22 second
+User 56: milli: 308 url: "bh.contextweb.com"
+Time elapsed: 184
+pivot 143
+2 min, 23 second
+No workload for second 143
+Time elapsed: 184
+pivot 144
+2 min, 24 second
+No workload for second 144
+Time elapsed: 184
+pivot 145
+2 min, 25 second
+User 19: milli: 114 url: "farfesh.com"
+RDR Tab timeout after the second try for hostname: "farfesh.com" and user: 19
+User 56: milli: 224 url: "stellasmagazine.com"
+User 4: milli: 313 url: "881903.com"
+RDR Tab timeout after the second try for hostname: "881903.com" and user: 4
+Time elapsed: 189
+pivot 146
+2 min, 26 second
+No workload for second 146
+Time elapsed: 189
+pivot 147
+2 min, 27 second
+No workload for second 147
+Time elapsed: 189
+pivot 148
+2 min, 28 second
+User 56: milli: 112 url: "view.atdmt.com"
+User 4: milli: 327 url: "searchservice.myspace.com"
+RDR Tab timeout after the second try for hostname: "searchservice.myspace.com" and user: 4
+Time elapsed: 191
+pivot 149
+2 min, 29 second
+User 19: milli: 753 url: "forums.metalsludge.tv"
+RDR Tab timeout after the second try for hostname: "forums.metalsludge.tv" and user: 19
+Time elapsed: 191
+pivot 150
+2 min, 30 second
+User 4: milli: 290 url: "thenyxie.livejournal.com"
+RDR Tab timeout after the second try for hostname: "thenyxie.livejournal.com" and user: 4
+Time elapsed: 192
+pivot 151
+2 min, 31 second
+No workload for second 151
+Time elapsed: 192
+pivot 152
+2 min, 32 second
+User 19: milli: 278 url: "ad5.adtive.co.kr"
+RDR Tab timeout after the second try for hostname: "ad5.adtive.co.kr" and user: 19
+Time elapsed: 192
+pivot 153
+2 min, 33 second
+No workload for second 153
+Time elapsed: 192
+pivot 154
+2 min, 34 second
+No workload for second 154
+Time elapsed: 192
+pivot 155
+2 min, 35 second
+User 19: milli: 237 url: "google.com"
+RDR Tab timeout after the second try for hostname: "google.com" and user: 19
+Time elapsed: 192
+pivot 156
+2 min, 36 second
+No workload for second 156
+Time elapsed: 192
+pivot 157
+2 min, 37 second
+User 19: milli: 62 url: "forums.metalsludge.tv"
+RDR Tab timeout after the second try for hostname: "forums.metalsludge.tv" and user: 19
+Time elapsed: 193
+pivot 158
+2 min, 38 second
+User 0: milli: 243 url: "adparlor.com"
+Time elapsed: 193
+pivot 159
+2 min, 39 second
+No workload for second 159
+Time elapsed: 193
+pivot 160
+2 min, 40 second
+No workload for second 160
+Time elapsed: 193
+pivot 161
+2 min, 41 second
+No workload for second 161
+Time elapsed: 193
+pivot 162
+2 min, 42 second
+No workload for second 162
+Time elapsed: 193
+pivot 163
+2 min, 43 second
+No workload for second 163
+Time elapsed: 193
+pivot 164
+2 min, 44 second
+No workload for second 164
+Time elapsed: 193
+pivot 165
+2 min, 45 second
+No workload for second 165
+Time elapsed: 193
+pivot 166
+2 min, 46 second
+No workload for second 166
+Time elapsed: 193
+pivot 167
+2 min, 47 second
+No workload for second 167
+Time elapsed: 193
+pivot 168
+2 min, 48 second
+No workload for second 168
+Time elapsed: 193
+pivot 169
+2 min, 49 second
+User 4: milli: 789 url: "211.webim0116.webim.myspace.com"
+RDR Tab timeout after the second try for hostname: "211.webim0116.webim.myspace.com" and user: 4
+Time elapsed: 194
+pivot 170
+2 min, 50 second
+No workload for second 170
+Time elapsed: 194
+pivot 171
+2 min, 51 second
+No workload for second 171
+Time elapsed: 194
+pivot 172
+2 min, 52 second
+No workload for second 172
+Time elapsed: 194
+pivot 173
+2 min, 53 second
+No workload for second 173
+Time elapsed: 194
+pivot 174
+2 min, 54 second
+User 19: milli: 13 url: "l.yimg.com"
+RDR Tab timeout after the second try for hostname: "l.yimg.com" and user: 19
+User 11: milli: 673 url: "autoblog.com"
+RDR Tab timeout after the second try for hostname: "autoblog.com" and user: 11
+Time elapsed: 194
+pivot 175
+2 min, 55 second
+User 56: milli: 603 url: "wunderground.com"
+Time elapsed: 205
+pivot 176
+2 min, 56 second
+User 56: milli: 151 url: "indystar.com"
+Time elapsed: 218
+pivot 177
+2 min, 57 second
+User 19: milli: 306 url: "ttb2.aladdin.co.kr"
+RDR Tab timeout after the second try for hostname: "ttb2.aladdin.co.kr" and user: 19
+User 4: milli: 963 url: "postsecret.blogspot.com"
+RDR Tab timeout after the second try for hostname: "postsecret.blogspot.com" and user: 4
+Time elapsed: 219
+pivot 178
+2 min, 58 second
+User 4: milli: 834 url: "encyclopediadramatica.com"
+RDR Tab timeout after the second try for hostname: "encyclopediadramatica.com" and user: 4
+Time elapsed: 219
+pivot 179
+2 min, 59 second
+No workload for second 179
+Time elapsed: 219
+pivot 180
+3 min, 0 second
+No workload for second 180
+Time elapsed: 219
+pivot 181
+3 min, 1 second
+User 4: milli: 625 url: "f96jedi.com"
+RDR Tab timeout after the second try for hostname: "f96jedi.com" and user: 4
+Time elapsed: 219
+pivot 182
+3 min, 2 second
+No workload for second 182
+Time elapsed: 219
+pivot 183
+3 min, 3 second
+No workload for second 183
+Time elapsed: 219
+pivot 184
+3 min, 4 second
+No workload for second 184
+Time elapsed: 219
+pivot 185
+3 min, 5 second
+No workload for second 185
+Time elapsed: 219
+pivot 186
+3 min, 6 second
+No workload for second 186
+Time elapsed: 219
+pivot 187
+3 min, 7 second
+No workload for second 187
+Time elapsed: 219
+pivot 188
+3 min, 8 second
+No workload for second 188
+Time elapsed: 219
+pivot 189
+3 min, 9 second
+No workload for second 189
+Time elapsed: 219
+pivot 190
+3 min, 10 second
+User 19: milli: 108 url: "motors.shop.ebay.com"
+RDR Tab timeout after the second try for hostname: "motors.shop.ebay.com" and user: 19
+Time elapsed: 219
+pivot 191
+3 min, 11 second
+No workload for second 191
+Time elapsed: 219
+pivot 192
+3 min, 12 second
+No workload for second 192
+Time elapsed: 219
+pivot 193
+3 min, 13 second
+User 4: milli: 170 url: "vodguide.pps.tv"
+RDR Tab timeout after the second try for hostname: "vodguide.pps.tv" and user: 4
+Time elapsed: 220
+pivot 194
+3 min, 14 second
+No workload for second 194
+Time elapsed: 220
+pivot 195
+3 min, 15 second
+No workload for second 195
+Time elapsed: 220
+pivot 196
+3 min, 16 second
+User 56: milli: 70 url: "hulu.com"
+Time elapsed: 231
+pivot 197
+3 min, 17 second
+No workload for second 197
+Time elapsed: 231
+pivot 198
+3 min, 18 second
+No workload for second 198
+Time elapsed: 231
+pivot 199
+3 min, 19 second
+User 4: milli: 509 url: "zillow.com"
+RDR Tab timeout after the second try for hostname: "zillow.com" and user: 4
+Time elapsed: 231
+pivot 200
+3 min, 20 second
+No workload for second 200
+Time elapsed: 231
+pivot 201
+3 min, 21 second
+No workload for second 201
+Time elapsed: 231
+pivot 202
+3 min, 22 second
+No workload for second 202
+Time elapsed: 231
+pivot 203
+3 min, 23 second
+User 62: milli: 989 url: "kidsmiracles.org"
+Time elapsed: 232
+pivot 204
+3 min, 24 second
+User 62: milli: 840 url: "google.com"
+Time elapsed: 232
+pivot 205
+3 min, 25 second
+No workload for second 205
+Time elapsed: 232
+pivot 206
+3 min, 26 second
+User 62: milli: 960 url: "nursingsociety.org"
+Time elapsed: 233
+pivot 207
+3 min, 27 second
+No workload for second 207
+Time elapsed: 233
+pivot 208
+3 min, 28 second
+No workload for second 208
+Time elapsed: 233
+pivot 209
+3 min, 29 second
+User 62: milli: 893 url: "881903.com"
+Time elapsed: 241
+pivot 210
+3 min, 30 second
+User 19: milli: 615 url: "55640.cim.meebo.com"
+RDR Tab timeout after the second try for hostname: "55640.cim.meebo.com" and user: 19
+Time elapsed: 241
+pivot 211
+3 min, 31 second
+No workload for second 211
+Time elapsed: 241
+pivot 212
+3 min, 32 second
+User 62: milli: 451 url: "kidsmiracles.org"
+Time elapsed: 242
+pivot 213
+3 min, 33 second
+No workload for second 213
+Time elapsed: 242
+pivot 214
+3 min, 34 second
+No workload for second 214
+Time elapsed: 242
+pivot 215
+3 min, 35 second
+No workload for second 215
+Time elapsed: 242
+pivot 216
+3 min, 36 second
+User 19: milli: 422 url: "media.trafficjunky.net"
+RDR Tab timeout after the second try for hostname: "media.trafficjunky.net" and user: 19
+Time elapsed: 242
+pivot 217
+3 min, 37 second
+User 4: milli: 350 url: "google.com"
+RDR Tab timeout after the second try for hostname: "google.com" and user: 4
+Time elapsed: 243
+pivot 218
+3 min, 38 second
+User 19: milli: 824 url: "pandora.com"
+RDR Tab timeout after the second try for hostname: "pandora.com" and user: 19
+Time elapsed: 243
+pivot 219
+3 min, 39 second
+User 62: milli: 819 url: "lezhin.com"
+Time elapsed: 256
+pivot 220
+3 min, 40 second
+User 4: milli: 664 url: "google.com"
+RDR Tab timeout after the second try for hostname: "google.com" and user: 4
+Time elapsed: 256
+pivot 221
+3 min, 41 second
+User 87: milli: 400 url: "jcmc.indiana.edu"
+User 19: milli: 615 url: "news.google.com.tw"
+RDR Tab timeout after the second try for hostname: "news.google.com.tw" and user: 19
+Time elapsed: 257
+pivot 222
+3 min, 42 second
+No workload for second 222
+Time elapsed: 257
+pivot 223
+3 min, 43 second
+No workload for second 223
+Time elapsed: 257
+pivot 224
+3 min, 44 second
+User 0: milli: 887 url: "waterjet.net"
+Time elapsed: 257
+pivot 225
+3 min, 45 second
+User 11: milli: 768 url: "bs.serving-sys.com"
+RDR Tab timeout after the second try for hostname: "bs.serving-sys.com" and user: 11
+Time elapsed: 258
+pivot 226
+3 min, 46 second
+User 11: milli: 265 url: "399.webim0105.webim.myspace.com"
+RDR Tab timeout after the second try for hostname: "399.webim0105.webim.myspace.com" and user: 11
+User 0: milli: 723 url: "ads.revsci.net"
+Time elapsed: 258
+pivot 227
+3 min, 47 second
+User 0: milli: 288 url: "zfile.co.kr"
+User 11: milli: 736 url: "google.com"
+RDR Tab timeout after the second try for hostname: "google.com" and user: 11
+User 19: milli: 932 url: "192.webim0316.webim.myspace.com"
+RDR Tab timeout after the second try for hostname: "192.webim0316.webim.myspace.com" and user: 19
+Time elapsed: 269
+pivot 228
+3 min, 48 second
+No workload for second 228
+Time elapsed: 269
+pivot 229
+3 min, 49 second
+No workload for second 229
+Time elapsed: 269
+pivot 230
+3 min, 50 second
+No workload for second 230
+Time elapsed: 269
+pivot 231
+3 min, 51 second
+No workload for second 231
+Time elapsed: 269
+pivot 232
+3 min, 52 second
+No workload for second 232
+Time elapsed: 269
+pivot 233
+3 min, 53 second
+User 19: milli: 115 url: "secure-us.imrworldwide.com"
+RDR Tab timeout after the second try for hostname: "secure-us.imrworldwide.com" and user: 19
+User 11: milli: 561 url: "papajackspizza.com"
+RDR Tab timeout after the second try for hostname: "papajackspizza.com" and user: 11
+User 0: milli: 733 url: "view.atdmt.com"
+Time elapsed: 270
+pivot 234
+3 min, 54 second
+User 19: milli: 528 url: "secure-us.imrworldwide.com"
+RDR Tab timeout after the second try for hostname: "secure-us.imrworldwide.com" and user: 19
+Time elapsed: 270
+pivot 235
+3 min, 55 second
+User 11: milli: 708 url: "google.com"
+RDR Tab timeout after the second try for hostname: "google.com" and user: 11
+Time elapsed: 271
+pivot 236
+3 min, 56 second
+User 11: milli: 286 url: "search.ebscohost.com"
+RDR Tab timeout after the second try for hostname: "search.ebscohost.com" and user: 11
+User 19: milli: 780 url: "teendestruction.com"
+RDR Tab timeout after the second try for hostname: "teendestruction.com" and user: 19
+Time elapsed: 271
+pivot 237
+3 min, 57 second
+No workload for second 237
+Time elapsed: 271
+pivot 238
+3 min, 58 second
+User 19: milli: 75 url: "homeopathymalaysia.com"
+RDR Tab timeout after the second try for hostname: "homeopathymalaysia.com" and user: 19
+Time elapsed: 272
+pivot 239
+3 min, 59 second
+No workload for second 239
+Time elapsed: 272
+pivot 240
+4 min, 0 second
+No workload for second 240
+Time elapsed: 272
+pivot 241
+4 min, 1 second
+No workload for second 241
+Time elapsed: 272
+pivot 242
+4 min, 2 second
+No workload for second 242
+Time elapsed: 272
+pivot 243
+4 min, 3 second
+No workload for second 243
+Time elapsed: 272
+pivot 244
+4 min, 4 second
+No workload for second 244
+Time elapsed: 272
+pivot 245
+4 min, 5 second
+User 4: milli: 431 url: "f96jedi.com"
+RDR Tab timeout after the second try for hostname: "f96jedi.com" and user: 4
+Time elapsed: 272
+pivot 246
+4 min, 6 second
+User 87: milli: 121 url: "secure-us.imrworldwide.com"
+User 4: milli: 290 url: "c31.statcounter.com"
+RDR Tab timeout after the second try for hostname: "c31.statcounter.com" and user: 4
+Time elapsed: 272
+pivot 247
+4 min, 7 second
+No workload for second 247
+Time elapsed: 272
+pivot 248
+4 min, 8 second
+User 4: milli: 308 url: "g2.ykimg.com"
+RDR Tab timeout after the second try for hostname: "g2.ykimg.com" and user: 4
+User 62: milli: 923 url: "pixel-hk.pixelinteractivemedia.com"
+Time elapsed: 275
+pivot 249
+4 min, 9 second
+No workload for second 249
+Time elapsed: 275
+pivot 250
+4 min, 10 second
+No workload for second 250
+Time elapsed: 275
+pivot 251
+4 min, 11 second
+No workload for second 251
+Time elapsed: 275
+pivot 252
+4 min, 12 second
+No workload for second 252
+Time elapsed: 275
+pivot 253
+4 min, 13 second
+No workload for second 253
+Time elapsed: 275
+pivot 254
+4 min, 14 second
+No workload for second 254
+Time elapsed: 275
+pivot 255
+4 min, 15 second
+User 0: milli: 980 url: "bing.com"
+Time elapsed: 276
+pivot 256
+4 min, 16 second
+User 19: milli: 120 url: "tianya.cn"
+RDR Tab timeout after the second try for hostname: "tianya.cn" and user: 19
+Time elapsed: 277
+pivot 257
+4 min, 17 second
+No workload for second 257
+Time elapsed: 277
+pivot 258
+4 min, 18 second
+No workload for second 258
+Time elapsed: 277
+pivot 259
+4 min, 19 second
+No workload for second 259
+Time elapsed: 277
+pivot 260
+4 min, 20 second
+User 11: milli: 576 url: "bing.com"
+RDR Tab timeout after the second try for hostname: "bing.com" and user: 11
+Time elapsed: 277
+pivot 261
+4 min, 21 second
+User 0: milli: 119 url: "daum.net"
+Time elapsed: 282
+pivot 262
+4 min, 22 second
+No workload for second 262
+Time elapsed: 282
+pivot 263
+4 min, 23 second
+User 0: milli: 397 url: "www2.im.alisoft.com"
+Time elapsed: 284
+pivot 264
+4 min, 24 second
+User 0: milli: 583 url: "423.webim0213.webim.myspace.com"
+Time elapsed: 288
+pivot 265
+4 min, 25 second
+No workload for second 265
+Time elapsed: 288
+pivot 266
+4 min, 26 second
+User 62: milli: 697 url: "communistdanceparty.blogspot.com"
+User 0: milli: 800 url: "im.alisoft.com"
+User browsing failed for url im.alisoft.com with user 0 :Timeout
+
+   0: failure::backtrace::internal::InternalBacktrace::new
+   1: failure::backtrace::Backtrace::new
+   2: headless_chrome::browser::transport::Transport::call_method_on_target
+   3: headless_chrome::browser::tab::Tab::navigate_to
+   4: rdr_prototype::utils::rdr_scheduler_ng
+   5: rdr_prototype::main
+   6: std::rt::lang_start::{{closure}}
+   7: std::rt::lang_start_internal::{{closure}}
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:52:13
+      std::panicking::try::do_call
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:348:40
+      std::panicking::try
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panicking.rs:325:15
+      std::panic::catch_unwind
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/panic.rs:394:14
+      std::rt::lang_start_internal
+             at /rustc/6c8927b0cf80ceee19386026cf9d7fd4fd9d486f/src/libstd/rt.rs:51:25
+   8: main
+   9: __libc_start_main
+  10: _start
+
+Time elapsed: 303
+pivot 267
+4 min, 27 second
+No workload for second 267
+Time elapsed: 303
+pivot 268
+4 min, 28 second
+No workload for second 268
+Time elapsed: 303
+pivot 269
+4 min, 29 second
+User 62: milli: 505 url: "google.com"
+Time elapsed: 306
+pivot 270
+4 min, 30 second
+User 19: milli: 456 url: "search.yahoo.com"
+RDR Tab timeout after the second try for hostname: "search.yahoo.com" and user: 19
+User 62: milli: 801 url: "slate.com"
+Time elapsed: 307
+pivot 271
+4 min, 31 second
+No workload for second 271
+Time elapsed: 307
+pivot 272
+4 min, 32 second
+No workload for second 272
+Time elapsed: 307
+pivot 273
+4 min, 33 second
+User 0: milli: 420 url: "gourmandia.com"
+Time elapsed: 308
+pivot 274
+4 min, 34 second
+No workload for second 274
+Time elapsed: 308
+pivot 275
+4 min, 35 second
+No workload for second 275
+Time elapsed: 308
+pivot 276
+4 min, 36 second
+No workload for second 276
+Time elapsed: 308
+pivot 277
+4 min, 37 second
+No workload for second 277
+Time elapsed: 308
+pivot 278
+4 min, 38 second
+User 4: milli: 697 url: "view.atdmt.com"
+RDR Tab timeout after the second try for hostname: "view.atdmt.com" and user: 4
+Time elapsed: 308
+pivot 279
+4 min, 39 second
+User 0: milli: 807 url: "dell.msn.com"

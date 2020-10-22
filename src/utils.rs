@@ -48,7 +48,7 @@ pub fn resolve_dns(
 }
 
 pub fn rdr_read_rand_seed(num_of_users: usize, iter: String) -> Result<Vec<i64>> {
-    let rand_seed_file = "/home/jethros/dev/pvn/utils/rand_number/rand.json";
+    let rand_seed_file = "/home/jethrosun/dev/pvn/utils/rand_number/rand.json";
     let mut rand_vec = Vec::new();
     let file = File::open(rand_seed_file).expect("rand seed file should open read only");
     let json_data: Value = from_reader(file).expect("file should be proper JSON");
@@ -154,7 +154,8 @@ pub fn simple_user_browse(
         Ok(tab) => tab,
         Err(e) => match e {
             Timeout => {
-                thread::sleep(Duration::from_millis(100));
+                // thread::sleep(Duration::from_millis(300));
+                thread::sleep(Duration::from_secs(1));
                 let t = match current_browser.new_tab() {
                     Ok(tab) => tab,
                     Err(e) => {

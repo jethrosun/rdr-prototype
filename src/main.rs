@@ -27,12 +27,12 @@ fn main() -> Fallible<()> {
     // Workloads:
 
     let workload_path =
-        "/home/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_3.json";
+        "/home/jethrosun/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_3.json";
 
-    let num_of_users = 100;
+    let num_of_users = 10;
     let num_of_secs = 600;
 
-    let rdr_users = rdr_read_rand_seed(100, 3.to_string()).unwrap();
+    let rdr_users = rdr_read_rand_seed(num_of_users, 3.to_string()).unwrap();
     let mut rdr_workload =
         rdr_load_workload(workload_path.to_string(), num_of_secs, rdr_users.clone()).unwrap();
     println!("Workload is generated",);
