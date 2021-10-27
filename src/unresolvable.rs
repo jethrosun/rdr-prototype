@@ -1,5 +1,7 @@
+//! Resolve the issue with no longer resolvable URLs in Click traces.
 use std::collections::HashSet;
 
+/// Dump the URLs that are no longer resolvable from the Click trace.
 pub fn curate_unresolvable_records() -> HashSet<&'static str> {
     let mut broken_urls = HashSet::new();
 
@@ -1117,7 +1119,6 @@ pub fn curate_unresolvable_records() -> HashSet<&'static str> {
     broken_urls.insert("widget-b1.slide.com");
     broken_urls.insert("cim.meebo.com");
     broken_urls.insert("biz5c.sandai.net");
-    broken_urls.insert("lakeland.k12.in.us");
 
-    return broken_urls;
+    broken_urls
 }
