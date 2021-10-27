@@ -1,0 +1,1158 @@
+Fetch rand seed for num_of_users: 80, iter: 0.
+rdr users: [1, 2, 5, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 19, 20, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 49, 50, 52, 54, 55, 57, 58, 61, 62, 63, 64, 66, 67, 69, 71, 72, 73, 75, 76, 77, 78, 79, 80, 81, 82, 83, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+"/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_0.json"
+Workload is generated
+80 browsers are created 
+Timer started
+Time elapsed: 0
+Time elapsed: 0
+0 min, 2 second
+Time elapsed: 0
+0 min, 3 second
+User 34: milli: 265 url: "people.com"
+Time elapsed: 0
+0 min, 4 second
+Time elapsed: 0
+0 min, 5 second
+Time elapsed: 0
+0 min, 6 second
+User 14: milli: 353 url: "musicbanter.com"
+Time elapsed: 0
+0 min, 7 second
+Time elapsed: 0
+0 min, 8 second
+User 95: milli: 937 url: "viewmorepics.myspace.com"
+Time elapsed: 1
+0 min, 9 second
+User 2: milli: 133 url: "xvideos.com"
+Time elapsed: 2
+0 min, 10 second
+User 14: milli: 339 url: "bing.com"
+User 52: milli: 973 url: "54.webim0366.webim.myspace.com"
+Time elapsed: 2
+0 min, 11 second
+User 95: milli: 619 url: "view.atdmt.com"
+Time elapsed: 2
+0 min, 12 second
+User 52: milli: 350 url: "teendestruction.com"
+Time elapsed: 3
+0 min, 13 second
+User 28: milli: 314 url: "webapps.easy2.com"
+User 14: milli: 547 url: "images.google.com"
+User 95: milli: 763 url: "sega.com"
+Time elapsed: 4
+0 min, 14 second
+User 12: milli: 438 url: "parents.com"
+User 14: milli: 949 url: "msn.com"
+Time elapsed: 5
+0 min, 15 second
+User 29: milli: 922 url: "penciloflight.deviantart.com"
+User 95: milli: 940 url: "yahoo.com"
+User 28: milli: 997 url: "msn.com"
+Time elapsed: 6
+0 min, 16 second
+User 52: milli: 126 url: "cook.chem.indiana.edu"
+User 33: milli: 131 url: "fe1.rivals.sports.ac4.yahoo.com"
+User 12: milli: 178 url: "google.com"
+User 77: milli: 648 url: "llbean.com"
+Time elapsed: 10
+0 min, 17 second
+User 29: milli: 101 url: "abebooks.com"
+User 95: milli: 236 url: "cracked.com"
+User 52: milli: 265 url: "mitbbs.com"
+User 5: milli: 538 url: "content.ebscohost.com.proxy.ulib.iupui.edu"
+User 33: milli: 560 url: "rivals.yahoo.com"
+Time elapsed: 11
+0 min, 18 second
+User 24: milli: 717 url: "weather.com"
+Time elapsed: 11
+0 min, 19 second
+User 2: milli: 415 url: "miniclip.com"
+User 12: milli: 415 url: "parents.com"
+User 38: milli: 916 url: "amazon.com"
+Time elapsed: 12
+0 min, 20 second
+User 24: milli: 677 url: "digg.com"
+Time elapsed: 12
+0 min, 21 second
+User 5: milli: 273 url: "waterjet.net"
+User 29: milli: 363 url: "google.com"
+User 24: milli: 493 url: "smbc-comics.com"
+Time elapsed: 14
+0 min, 22 second
+User 95: milli: 359 url: "findarticles.com"
+User 5: milli: 595 url: "google.com"
+Time elapsed: 15
+0 min, 23 second
+User 35: milli: 579 url: "iphone.dailymotion.com"
+User 12: milli: 940 url: "fb-0.cafe.zynga.com"
+Time elapsed: 15
+0 min, 24 second
+User 24: milli: 392 url: "m1.2mdn.net"
+User 12: milli: 454 url: "weather.com"
+User 55: milli: 694 url: "forums.animesuki.com"
+Time elapsed: 16
+0 min, 25 second
+User 12: milli: 70 url: "core.insightexpressai.com"
+User 33: milli: 419 url: "rivals.com"
+User 38: milli: 446 url: "my.freeze.com"
+User 55: milli: 455 url: "iphone.dailymotion.com"
+User 31: milli: 932 url: "wunderground.com"
+Time elapsed: 21
+0 min, 26 second
+User 5: milli: 52 url: "is1.j.tv2n.net"
+User 96: milli: 490 url: "m.www.yahoo.com"
+User 35: milli: 943 url: "ohmynews.com"
+Time elapsed: 22
+0 min, 27 second
+Time elapsed: 22
+0 min, 28 second
+User 24: milli: 195 url: "ftjcfx.com"
+User 52: milli: 321 url: "apps.facebook.com"
+User 31: milli: 915 url: "banners.wunderground.com"
+Time elapsed: 22
+0 min, 29 second
+User 27: milli: 735 url: "downs.co.kr"
+User 36: milli: 749 url: "cell.com"
+User 14: milli: 809 url: "waterjet.net"
+Time elapsed: 25
+0 min, 30 second
+User 36: milli: 295 url: "ncbi.nlm.nih.gov"
+User 35: milli: 505 url: "utexas.edu"
+Time elapsed: 26
+0 min, 31 second
+User 55: milli: 235 url: "google.com"
+User 28: milli: 436 url: "images.google.com"
+User 31: milli: 577 url: "kaboodle.com"
+User 29: milli: 627 url: "learn.genetics.utah.edu"
+User 24: milli: 827 url: "mail.google.com"
+Time elapsed: 29
+0 min, 32 second
+User 36: milli: 256 url: "web.ebscohost.com"
+User 12: milli: 347 url: "static16.photo.sina.com.cn"
+User 31: milli: 467 url: "kaboodle.com"
+Time elapsed: 32
+0 min, 33 second
+User 35: milli: 26 url: "utexas.edu"
+User 12: milli: 599 url: "parents.com"
+Time elapsed: 32
+0 min, 34 second
+User 96: milli: 672 url: "yahoo.com"
+Time elapsed: 33
+0 min, 35 second
+User 72: milli: 325 url: "home.myspace.com"
+Time elapsed: 33
+0 min, 36 second
+User 72: milli: 73 url: "www"
+User 24: milli: 650 url: "bs.serving-sys.com"
+User 27: milli: 957 url: "downs.co.kr"
+Time elapsed: 34
+0 min, 37 second
+User 17: milli: 372 url: "viewmorepics.myspace.com"
+User 27: milli: 751 url: "cyworld.com"
+User 50: milli: 779 url: "comet03.plurk.com"
+User 24: milli: 840 url: "core.insightexpressai.com"
+Time elapsed: 36
+0 min, 38 second
+User 2: milli: 190 url: "www3.interscience.wiley.com.proxy.medlib.iupui.edu"
+User 27: milli: 469 url: "azlyrics.com"
+User 55: milli: 772 url: "ad.doubleclick.net"
+User 50: milli: 830 url: "plurk.com"
+Time elapsed: 38
+0 min, 39 second
+User 17: milli: 187 url: "c1img.cyworld.co.kr"
+User 72: milli: 241 url: "nba.com"
+User 86: milli: 734 url: "ad.doubleclick.net"
+Time elapsed: 53
+0 min, 40 second
+User 86: milli: 7 url: "parents.com"
+User 55: milli: 485 url: "ads.ultimate-guitar.com"
+User 77: milli: 528 url: "en.wikipedia.org"
+User 95: milli: 638 url: "aol.com"
+User 72: milli: 888 url: "loginsvc.cyworld.com"
+Time elapsed: 55
+0 min, 41 second
+User 55: milli: 128 url: "amazon.com"
+User 86: milli: 145 url: "google.com"
+User 66: milli: 903 url: "google.com"
+Time elapsed: 56
+0 min, 42 second
+User 86: milli: 520 url: "parents.com"
+User 77: milli: 910 url: "static-cache.loomia.com"
+Time elapsed: 57
+0 min, 43 second
+User 12: milli: 493 url: "weather.com"
+User 40: milli: 803 url: "livejasmin.com"
+User 17: milli: 885 url: "282.webim0366.webim.myspace.com"
+Time elapsed: 57
+0 min, 44 second
+User 40: milli: 139 url: "m.www.yahoo.com"
+User 17: milli: 190 url: "google.com"
+User 24: milli: 433 url: "theonion.com"
+User 54: milli: 487 url: "i.dell.com"
+User 77: milli: 885 url: "washingtonpost.com"
+Time elapsed: 66
+0 min, 45 second
+User 77: milli: 205 url: "bs.serving-sys.com"
+User 5: milli: 400 url: "penciloflight.deviantart.com"
+User 96: milli: 657 url: "google.com"
+Time elapsed: 67
+0 min, 46 second
+User 40: milli: 216 url: "livejasmin.com"
+User 72: milli: 570 url: "realclearpolitics.com"
+User 17: milli: 933 url: "nate.com"
+Time elapsed: 68
+0 min, 47 second
+User 2: milli: 494 url: "miniclip.com"
+Time elapsed: 69
+0 min, 48 second
+User 55: milli: 127 url: "g-ecx.images-amazon.com"
+User 95: milli: 147 url: "custom.videosz.com"
+User 57: milli: 416 url: "parents.com"
+Time elapsed: 69
+0 min, 49 second
+User 38: milli: 68 url: "buy.com"
+User 36: milli: 578 url: "search.ebscohost.com"
+User 35: milli: 583 url: "dailymotion.com"
+Time elapsed: 70
+0 min, 50 second
+User 57: milli: 99 url: "ad.doubleclick.net"
+User 55: milli: 214 url: "deviantart.com"
+User 54: milli: 218 url: "animelyrics.com"
+User 36: milli: 282 url: "linkinghub.elsevier.com"
+User 5: milli: 628 url: "nytimes.com"
+User 17: milli: 679 url: "informatics.indiana.edu"
+User 86: milli: 774 url: "slis.indiana.edu"
+Time elapsed: 79
+0 min, 51 second
+User 5: milli: 198 url: "search.ebscohost.com"
+User 25: milli: 318 url: "ad.doubleclick.net"
+User 77: milli: 413 url: "ads.revsci.net"
+User 99: milli: 964 url: "im.adtechus.com"
+User 31: milli: 991 url: "ad.doubleclick.net"
+Time elapsed: 86
+0 min, 52 second
+User 89: milli: 224 url: "pandora.com"
+User 86: milli: 398 url: "cafe427.daum.net"
+Time elapsed: 89
+0 min, 53 second
+User 29: milli: 21 url: "google.cn"
+User 86: milli: 429 url: "dbi.video.cyworld.com"
+Time elapsed: 105
+0 min, 54 second
+User 29: milli: 98 url: "bizad.nikkeibp.co.jp"
+User 40: milli: 306 url: "vimg5.youku.com"
+User 54: milli: 376 url: "animatedsoftware.com"
+User 28: milli: 439 url: "mensfashion.about.com"
+User 96: milli: 807 url: "transit.511.org"
+Time elapsed: 122
+0 min, 55 second
+User 5: milli: 21 url: "search.ebscohost.com"
+User 25: milli: 222 url: "beautifulagony.com"
+User 52: milli: 974 url: "teendestruction.com"
+Time elapsed: 122
+0 min, 56 second
+User 92: milli: 157 url: "s0.2mdn.net"
+User 55: milli: 309 url: "cs.wisc.edu"
+User 27: milli: 312 url: "msn.com"
+User 31: milli: 499 url: "abc.go.com"
+Time elapsed: 124
+0 min, 57 second
+User 96: milli: 225 url: "mp3.sogou.com"
+User 86: milli: 555 url: "blog.naver.com"
+User 36: milli: 622 url: "xtube.com"
+Time elapsed: 125
+0 min, 58 second
+User 34: milli: 49 url: "google.com"
+User 91: milli: 693 url: "mmo-champion.com"
+User 28: milli: 740 url: "haaretz.com"
+Time elapsed: 126
+0 min, 59 second
+User 35: milli: 620 url: "www3.interscience.wiley.com"
+User 92: milli: 750 url: "cdngiftsmyspace.applatform.com"
+Time elapsed: 127
+1 min, 0 second
+User 71: milli: 247 url: "craigslist.org"
+User 95: milli: 475 url: "sexbot.com"
+User 92: milli: 854 url: "en.wikipedia.org"
+Time elapsed: 128
+1 min, 1 second
+User 58: milli: 110 url: "spike.com"
+User 86: milli: 474 url: "news.bbc.co.uk"
+User 55: milli: 610 url: "cerner"
+User 25: milli: 625 url: "icanhascheezburger.com"
+User 33: milli: 874 url: "wwar.storm8.com"
+User 91: milli: 986 url: "ad.doubleclick.net"
+Time elapsed: 130
+1 min, 2 second
+User 91: milli: 211 url: "feedproxy.google.com"
+User 58: milli: 373 url: "ts.vimeo.com.s3.amazonaws.com"
+User 72: milli: 437 url: "google.com"
+User 27: milli: 558 url: "abcnews.go.com"
+User 78: milli: 674 url: "harmony-central.com"
+User 28: milli: 692 url: "up.nytimes.com"
+User 24: milli: 862 url: "mwfb.zynga.com"
+Time elapsed: 132
+1 min, 3 second
+User 91: milli: 133 url: "entertainment.msn.us.intellitxt.com"
+Time elapsed: 132
+1 min, 4 second
+User 27: milli: 58 url: "service2.predictad.com"
+User 97: milli: 361 url: "community.livejournal.com"
+User 55: milli: 680 url: "deviantart.com"
+User 58: milli: 900 url: "blog.naver.com"
+Time elapsed: 150
+1 min, 5 second
+User 58: milli: 201 url: "search.yahoo.com"
+User 71: milli: 208 url: "basicinstructions.net"
+User 24: milli: 427 url: "74.86.114.116"
+User 97: milli: 593 url: "burstbeacon.com"
+User 91: milli: 645 url: "nate.com"
+Time elapsed: 166
+1 min, 6 second
+User 22: milli: 110 url: "psych.iupui.edu"
+User 27: milli: 302 url: "mads.cnet.com"
+User 32: milli: 805 url: "a1.powerset.com"
+User 91: milli: 830 url: "harrypotter.wikia.com"
+User 58: milli: 922 url: "woot.com"
+Time elapsed: 168
+1 min, 7 second
+User 29: milli: 1 url: "deviantart.com"
+User 22: milli: 358 url: "weather.com"
+User 14: milli: 561 url: "tags.bluekai.com"
+User 91: milli: 922 url: "30909063768.football.nfl.com"
+Time elapsed: 183
+1 min, 8 second
+User 91: milli: 632 url: "nfl.com"
+User 95: milli: 929 url: "sports.yahoo.com"
+Time elapsed: 184
+1 min, 9 second
+User 95: milli: 11 url: "custom.videosz.com"
+User 29: milli: 70 url: "deviantart.com"
+User 72: milli: 171 url: "nate.com"
+User 86: milli: 265 url: "dbi.video.cyworld.com"
+User 55: milli: 511 url: "pn2.adserver.yahoo.com"
+User 97: milli: 560 url: "teendestruction.com"
+User 26: milli: 961 url: "nrg.co.il"
+User 77: milli: 999 url: "google.com.tw"
+Time elapsed: 200
+1 min, 10 second
+User 14: milli: 102 url: "vodguide.pps.tv"
+User 95: milli: 155 url: "google.com"
+User 91: milli: 498 url: "nytimes.com"
+User 32: milli: 598 url: "teendestruction.com"
+User 29: milli: 990 url: "translate.google.cn"
+Time elapsed: 201
+1 min, 11 second
+User 17: milli: 64 url: "bs.serving-sys.com"
+User 89: milli: 169 url: "blog.sina.com.cn"
+User 32: milli: 204 url: "by113w.bay113.mail.live.com"
+User 58: milli: 290 url: "bp.specificclick.net"
+User 27: milli: 295 url: "home.dict.cn"
+Time elapsed: 206
+1 min, 12 second
+User 64: milli: 322 url: "nate.com"
+User 86: milli: 392 url: "bs.serving-sys.com"
+User 97: milli: 401 url: "linkedin.com"
+User 89: milli: 522 url: "google.com"
+Time elapsed: 207
+1 min, 13 second
+User 91: milli: 767 url: "loginsvc.cyworld.com"
+User 95: milli: 930 url: "teendestruction.com"
+Time elapsed: 207
+1 min, 14 second
+User 64: milli: 23 url: "loginsvc.cyworld.com"
+User 22: milli: 339 url: "core.insightexpressai.com"
+User 92: milli: 570 url: "bs.serving-sys.com"
+User 39: milli: 907 url: "sports.espn.go.com"
+User 32: milli: 958 url: "google.com"
+User 87: milli: 978 url: "core.insightexpressai.com"
+Time elapsed: 212
+1 min, 15 second
+User 72: milli: 476 url: "fandango.com"
+User 87: milli: 563 url: "158.webim0074.webim.myspace.com"
+User 38: milli: 632 url: "people.com"
+User 24: milli: 638 url: "whatismyip.com"
+User 64: milli: 714 url: "webmail.aol.com"
+Time elapsed: 213
+1 min, 16 second
+User 32: milli: 72 url: "ws.amazon.com"
+User 24: milli: 75 url: "cymbalholic.com"
+User 55: milli: 610 url: "cheaptickets.com"
+User 91: milli: 800 url: "search.yahoo.com"
+Time elapsed: 214
+1 min, 17 second
+User 86: milli: 273 url: "sonystyle.com"
+User 5: milli: 801 url: "bing.com"
+Time elapsed: 214
+1 min, 18 second
+User 71: milli: 437 url: "ctrlaltdel-online.com"
+User 31: milli: 463 url: "fanfiction.net"
+User 15: milli: 828 url: "google.com"
+User 26: milli: 855 url: "mlpads.com"
+Time elapsed: 216
+1 min, 19 second
+User 72: milli: 46 url: "ar.wikipedia.org"
+User 12: milli: 382 url: "i.word.com"
+Time elapsed: 217
+1 min, 20 second
+User 26: milli: 160 url: "apps.facebook.com"
+User 33: milli: 283 url: "wwar.storm8.com"
+User 38: milli: 458 url: "anrdoezrs.net"
+User 91: milli: 712 url: "video.msn.com"
+User 44: milli: 970 url: "iframes.awempire.com"
+Time elapsed: 218
+1 min, 21 second
+User 69: milli: 118 url: "otniga.blu.livefilestore.com"
+User 12: milli: 234 url: "ad.doubleclick.net"
+User 97: milli: 522 url: "analytics.live.com"
+User 72: milli: 654 url: "download.aim.com"
+User 28: milli: 979 url: "server-uk.imrworldwide.com"
+Time elapsed: 233
+1 min, 22 second
+User 32: milli: 154 url: "espn-www.baynote.net"
+User 15: milli: 247 url: "google.com"
+User 40: milli: 264 url: "apple.com"
+Time elapsed: 234
+1 min, 23 second
+User 29: milli: 2 url: "stumbleupon.com"
+User 39: milli: 62 url: "tracking.searchmarketing.com"
+User 42: milli: 362 url: "orbitz.com"
+User 33: milli: 929 url: "modules.nike.com"
+Time elapsed: 235
+1 min, 24 second
+User 13: milli: 74 url: "clips4sale.com"
+User 39: milli: 91 url: "espn-www.baynote.net"
+User 15: milli: 387 url: "espn-www.baynote.net"
+User 69: milli: 438 url: "google.com"
+User 34: milli: 589 url: "ad.doubleclick.net"
+Time elapsed: 237
+1 min, 25 second
+User 38: milli: 6 url: "studentfreestuff.com"
+User 78: milli: 117 url: "d13.zedo.com"
+User 26: milli: 128 url: "cs.indiana.edu"
+User 42: milli: 187 url: "adserver.adtechus.com"
+User 69: milli: 291 url: "nursingsociety.org"
+User 34: milli: 567 url: "swimoutlet.com"
+User 86: milli: 609 url: "sonystyle.com"
+User 91: milli: 623 url: "informatics.indiana.edu"
+User 13: milli: 739 url: "bs.serving-sys.com"
+Time elapsed: 240
+1 min, 26 second
+User 13: milli: 94 url: "weather.com"
+User 50: milli: 324 url: "tg.ebay.cachetastic.com"
+User 42: milli: 402 url: "adserver.wenxuecity.com"
+Time elapsed: 240
+1 min, 27 second
+User 77: milli: 45 url: "att.my.yahoo.com"
+User 69: milli: 568 url: "t.mookie1.com"
+User 5: milli: 687 url: "106.webim0366.webim.myspace.com"
+User 22: milli: 926 url: "harrypotter.wikia.com"
+Time elapsed: 242
+1 min, 28 second
+User 13: milli: 186 url: "911tabs.com"
+User 94: milli: 238 url: "s7.addthis.com"
+User 32: milli: 362 url: "teendestruction.com"
+User 89: milli: 761 url: "m1.2mdn.net"
+User 34: milli: 794 url: "apple.com"
+User 2: milli: 864 url: "www3.interscience.wiley.com.proxy.medlib.iupui.edu"
+Time elapsed: 244
+1 min, 29 second
+User 36: milli: 237 url: "nfl.com"
+User 95: milli: 349 url: "search.yahoo.com"
+User 52: milli: 772 url: "google.com"
+User 87: milli: 898 url: "espn-www.baynote.net"
+User 83: milli: 902 url: "clients1.google.com"
+User 55: milli: 961 url: "c3.ac-images.myspacecdn.com"
+Time elapsed: 246
+1 min, 30 second
+User 42: milli: 12 url: "mail.google.com"
+User 13: milli: 372 url: "geo.gorillanation.com"
+User 34: milli: 627 url: "images.vodone.com"
+User 95: milli: 879 url: "informatics.indiana.edu"
+User 78: milli: 995 url: "ad.doubleclick.net"
+Time elapsed: 248
+1 min, 31 second
+User 72: milli: 284 url: "merriam-webster.com"
+User 42: milli: 350 url: "fanfiction.net"
+User 22: milli: 864 url: "xhxb.net"
+User 5: milli: 920 url: "secure-us.imrworldwide.com"
+User 92: milli: 949 url: "en.wikiquote.org"
+Time elapsed: 249
+1 min, 32 second
+User 83: milli: 9 url: "hulu.com"
+User 29: milli: 592 url: "ads.revsci.net"
+User 34: milli: 627 url: "ad.doubleclick.net"
+User 72: milli: 739 url: "google.com"
+User 97: milli: 865 url: "google.com"
+User 22: milli: 885 url: "300.webim0316.webim.myspace.com"
+Time elapsed: 250
+1 min, 33 second
+User 40: milli: 109 url: "douban.com"
+User 54: milli: 185 url: "subeta.net"
+User 9: milli: 278 url: "medicine.iu.edu"
+User 27: milli: 338 url: "cid-bf79ca8723638220.profile.live.com"
+User 33: milli: 372 url: "flystocks.bio.indiana.edu"
+User 94: milli: 515 url: "nba.com"
+User 55: milli: 968 url: "google.com"
+Time elapsed: 254
+1 min, 34 second
+User 63: milli: 57 url: "tvlistings.aol.com"
+User 47: milli: 65 url: "tag.contextweb.com"
+User 28: milli: 325 url: "open-mpi.org"
+User 42: milli: 425 url: "orbitz.com"
+User 97: milli: 618 url: "tvduck.com"
+User 87: milli: 798 url: "idsnews.com"
+User 15: milli: 836 url: "kbs.co.kr"
+User 31: milli: 977 url: "ad.doubleclick.net"
+Time elapsed: 257
+1 min, 35 second
+User 69: milli: 149 url: "abcnews.go.com"
+User 34: milli: 206 url: "laptopmag.com"
+User 29: milli: 566 url: "google.com"
+User 57: milli: 957 url: "loginsvc.cyworld.com"
+Time elapsed: 258
+1 min, 36 second
+User 71: milli: 41 url: "rcm.amazon.com"
+User 34: milli: 98 url: "cdn.craveonline.com"
+User 27: milli: 413 url: "bs.serving-sys.com"
+User 45: milli: 419 url: "msn.com"
+User 54: milli: 716 url: "ihasahotdog.com"
+User 94: milli: 999 url: "gametrailers.com"
+Time elapsed: 275
+1 min, 37 second
+User 97: milli: 95 url: "digg.com"
+User 47: milli: 134 url: "teendestruction.com"
+User 69: milli: 373 url: "ads.iknowthatgirl.com"
+User 27: milli: 396 url: "www10.dict.cn"
+User 57: milli: 644 url: "parents.com"
+User 55: milli: 675 url: "penciloflight.deviantart.com"
+User 54: milli: 826 url: "bs.serving-sys.com"
+User 94: milli: 841 url: "pagead2.googlesyndication.com"
+User 9: milli: 889 url: "sina.com.cn"
+Time elapsed: 278
+1 min, 38 second
+User 54: milli: 298 url: "gifts.com"
+User 99: milli: 695 url: "im.storm8.com"
+User 29: milli: 865 url: "pogo.com"
+User 47: milli: 968 url: "portal.wku.edu"
+User 34: milli: 985 url: "whatismyip.com"
+Time elapsed: 279
+1 min, 39 second
+User 47: milli: 124 url: "nytimes.com"
+User 5: milli: 230 url: "netsexe.fr"
+User 26: milli: 306 url: "mt1.google.com"
+User 63: milli: 820 url: "graphics.ocsn.com"
+Time elapsed: 283
+1 min, 40 second
+User 15: milli: 11 url: "c.brightcove.com"
+User 40: milli: 275 url: "sidereel.com"
+User 13: milli: 311 url: "ad.doubleclick.net"
+User 92: milli: 531 url: "apps.facebook.com"
+User 26: milli: 553 url: "nrg.co.il"
+User 22: milli: 817 url: "xhxb.net"
+Time elapsed: 292
+1 min, 41 second
+User 63: milli: 118 url: "mt1.google.com"
+User 61: milli: 484 url: "stumbleupon.com"
+User 91: milli: 646 url: "yahoo.com"
+User 58: milli: 649 url: "399.webim0105.webim.myspace.com"
+User 54: milli: 736 url: "gifts.com"
+User 29: milli: 993 url: "pn2.adserver.yahoo.com"
+Time elapsed: 294
+1 min, 42 second
+User 95: milli: 343 url: "google.com"
+User 45: milli: 541 url: "sidereel.com"
+User 15: milli: 595 url: "dickies.com"
+User 96: milli: 735 url: "search.yahoo.com"
+Time elapsed: 295
+1 min, 43 second
+User 24: milli: 311 url: "pandora.com"
+User 97: milli: 607 url: "kitt-creations.livejournal.com"
+User 91: milli: 674 url: "secure-us.imrworldwide.com"
+User 73: milli: 736 url: "ar.voicefive.com"
+User 71: milli: 814 url: "search.yahoo.com"
+User 35: milli: 963 url: "gourmandia.com"
+User 9: milli: 976 url: "medicine.iu.edu"
+Time elapsed: 296
+1 min, 44 second
+User 72: milli: 141 url: "ar.wikipedia.org"
+User 15: milli: 146 url: "lezhin.com"
+User 47: milli: 184 url: "portal.wku.edu"
+User 22: milli: 186 url: "social.bidsystem.c"
+User 55: milli: 428 url: "wowhead.com"
+User 40: milli: 595 url: "google.com"
+User 87: milli: 747 url: "weather.com"
+Time elapsed: 299
+1 min, 45 second
+User 24: milli: 215 url: "cymbalholic.com"
+User 97: milli: 389 url: "v.ku6.com"
+User 5: milli: 516 url: "npr.org"
+User 27: milli: 651 url: "bing.com"
+User 55: milli: 827 url: "forums.animesuki.com"
+User 91: milli: 875 url: "google.com"
+Time elapsed: 300
+1 min, 46 second
+User 88: milli: 137 url: "flystocks.bio.indiana.edu"
+User 71: milli: 174 url: "metacafe.com"
+User 27: milli: 206 url: "xvideos.com"
+User 46: milli: 487 url: "bs.serving-sys.com"
+User 43: milli: 893 url: "google.com"
+User 22: milli: 904 url: "wysdtf2008.cn.alibaba.com"
+Time elapsed: 302
+1 min, 47 second
+User 83: milli: 214 url: "google.com"
+User 46: milli: 320 url: "spike.com"
+User 43: milli: 497 url: "video.baidu.com"
+User 88: milli: 519 url: "xtube.com"
+User 15: milli: 547 url: "bs.serving-sys.com"
+User 92: milli: 602 url: "blog.naver.com"
+Time elapsed: 305
+1 min, 48 second
+User 88: milli: 374 url: "aerea.football.cbssports.com"
+User 72: milli: 463 url: "mail.google.com"
+User 86: milli: 827 url: "apple.com"
+Time elapsed: 306
+1 min, 49 second
+User 92: milli: 300 url: "m.www.yahoo.com"
+User 83: milli: 473 url: "google.com"
+User 25: milli: 569 url: "beautifulagony.com"
+User 34: milli: 739 url: "c330715090202ddc.users.storage.live.com"
+Time elapsed: 308
+1 min, 50 second
+User 88: milli: 32 url: "google.com.tw"
+User 71: milli: 640 url: "openx.blindferret.com"
+User 92: milli: 722 url: "idsnews.com"
+User 30: milli: 771 url: "mlb.mlb.com"
+Time elapsed: 311
+1 min, 51 second
+User 40: milli: 87 url: "wow.inven.co.kr"
+User 27: milli: 150 url: "byfiles.storage.msn.com"
+User 69: milli: 176 url: "clickserve.cc-dt.com"
+User 55: milli: 308 url: "scores.espn.go.com"
+User 77: milli: 368 url: "eyny.com"
+User 26: milli: 509 url: "ichotelsgroup.com"
+User 39: milli: 597 url: "trumba.com"
+User 96: milli: 610 url: "pa.d.sogou.com"
+Time elapsed: 314
+1 min, 52 second
+User 92: milli: 280 url: "msn.com"
+User 57: milli: 445 url: "givealink.org"
+User 55: milli: 656 url: "songmeanings.net"
+User 35: milli: 744 url: "search.yahoo.com"
+Time elapsed: 317
+1 min, 53 second
+User 57: milli: 119 url: "parents.com"
+User 54: milli: 335 url: "google.com"
+User 44: milli: 463 url: "apple.com"
+User 92: milli: 895 url: "cb.adbureau.net"
+Time elapsed: 334
+1 min, 54 second
+User 88: milli: 302 url: "cbssports.com"
+User 54: milli: 395 url: "dell.com"
+User 87: milli: 465 url: "search.aol.com"
+User 42: milli: 519 url: "ign.com"
+User 44: milli: 658 url: "adam4adam.com"
+User 55: milli: 971 url: "tripadvisor.com"
+Time elapsed: 338
+1 min, 55 second
+User 96: milli: 362 url: "bs.serving-sys.com"
+User 14: milli: 520 url: "drugs.indiana.edu"
+User 15: milli: 573 url: "cymemo.cyworld.com"
+User 92: milli: 727 url: "news.bbc.co.uk"
+User 86: milli: 820 url: "web.ebscohost.com"
+User 30: milli: 855 url: "pagead2.googlesyndication.com"
+Time elapsed: 338
+1 min, 56 second
+User 66: milli: 19 url: "tattooinchicago.blogspot.com"
+User 39: milli: 70 url: "130.webim0316.webim.myspace.com"
+User 88: milli: 115 url: "tiffany.com"
+User 72: milli: 287 url: "google.com"
+User 92: milli: 413 url: "simon.com"
+User 24: milli: 462 url: "home.myspace.com"
+User 13: milli: 539 url: "videogamesblogger.com"
+User 14: milli: 618 url: "messaging.myspace.com"
+User 91: milli: 634 url: "search.yahoo.com"
+User 57: milli: 707 url: "givealink.org"
+User 15: milli: 727 url: "find.kbs.co.kr"
+User 47: milli: 774 url: "car.mk.co.kr"
+Time elapsed: 351
+1 min, 57 second
+User 55: milli: 37 url: "google.com"
+User 77: milli: 239 url: "washingtonpost.com"
+User 92: milli: 435 url: "ticketmaster.com"
+User 14: milli: 592 url: "google.com"
+User 24: milli: 626 url: "bs.serving-sys.com"
+User 86: milli: 922 url: "amazon.com"
+Time elapsed: 360
+1 min, 58 second
+User 34: milli: 12 url: "fnetwork1.zoosk.com"
+User 89: milli: 13 url: "google.com"
+User 11: milli: 620 url: "normalog.com"
+User 55: milli: 848 url: "r.mail.ru"
+Time elapsed: 363
+1 min, 59 second
+User 86: milli: 61 url: "search.ebscohost.com"
+User 25: milli: 406 url: "tvatnet.com"
+User 66: milli: 718 url: "google.com"
+User 69: milli: 792 url: "s6.travian.us"
+User 88: milli: 896 url: "bing.com"
+User 55: milli: 976 url: "google.com"
+User 93: milli: 977 url: "blog.naver.com"
+Time elapsed: 366
+2 min, 0 second
+User 30: milli: 444 url: "media-underground.net"
+User 11: milli: 462 url: "rpc.blogrolling.com"
+User 39: milli: 471 url: "viewmorepics.myspace.com"
+User 34: milli: 518 url: "zoosk.com"
+User 66: milli: 779 url: "tags.bluekai.com"
+User 54: milli: 819 url: "xyz.freelogs.com"
+Time elapsed: 367
+2 min, 1 second
+User 96: milli: 21 url: "nba.com"
+User 66: milli: 130 url: "google.ca"
+User 25: milli: 197 url: "apple.com"
+User 78: milli: 226 url: "deviantart.com"
+User 77: milli: 345 url: "ads.revsci.net"
+User 39: milli: 356 url: "apple.com"
+User 14: milli: 381 url: "google.com"
+User 91: milli: 396 url: "google.com"
+User 40: milli: 462 url: "stmarys.org"
+User 54: milli: 469 url: "c38.statcounter.com"
+Time elapsed: 386
+2 min, 2 second
+User 55: milli: 192 url: "nnn.novoteka.ru"
+User 78: milli: 429 url: "toolbar.google.com"
+User 66: milli: 521 url: "chat.adultfriendfinder.com"
+User 87: milli: 660 url: "apps.facebook.com"
+User 92: milli: 686 url: "cheapflights.co.uk"
+User 14: milli: 956 url: "386.webim0416.webim.myspace.com"
+Time elapsed: 387
+2 min, 3 second
+User 22: milli: 541 url: "viewmorepics.myspace.com"
+User 61: milli: 741 url: "l.yimg.com"
+User 72: milli: 754 url: "worldofwarcraft.co.kr"
+User 29: milli: 964 url: "find.galegroup.com.proxy.ulib.iupui.edu"
+Time elapsed: 388
+2 min, 4 second
+User 58: milli: 69 url: "searchservice.myspace.com"
+User 55: milli: 126 url: "search.yahoo.com"
+User 78: milli: 309 url: "123123.net"
+User 17: milli: 377 url: "blog.naver.com"
+User 91: milli: 578 url: "blog.sina.com.cn"
+User 86: milli: 760 url: "google.com"
+User 14: milli: 772 url: "widget.pulsemgr.com"
+User 92: milli: 984 url: "ad.doubleclick.net"
+Time elapsed: 389
+2 min, 5 second
+User 40: milli: 263 url: "v.youku.com"
+User 11: milli: 528 url: "iphone.dailymotion.com"
+User 26: milli: 531 url: "images.google.com"
+User 89: milli: 828 url: "southparkstudios.com"
+Time elapsed: 406
+2 min, 6 second
+User 25: milli: 286 url: "law.indiana.edu"
+User 93: milli: 347 url: "ezinearticles.com"
+User 55: milli: 386 url: "divehoian.net"
+User 47: milli: 531 url: "manager-ams.mk.co.kr"
+User 91: milli: 776 url: "pandora.com"
+User 40: milli: 916 url: "mem.brandreachsys.com"
+User 41: milli: 934 url: "livejasmin.com"
+Time elapsed: 423
+2 min, 7 second
+User 47: milli: 109 url: "nytimes.com"
+User 43: milli: 542 url: "cfs.iupui.edu"
+User 69: milli: 633 url: "msn.com"
+User 30: milli: 961 url: "ks1033.com"
+User 95: milli: 997 url: "bs.serving-sys.com"
+Time elapsed: 425
+2 min, 8 second
+User 61: milli: 46 url: "stumbleupon.com"
+User 88: milli: 137 url: "flystocks.bio.indiana.edu"
+User 30: milli: 149 url: "blogs.msdn.com"
+User 66: milli: 299 url: "photo-hub-origin.web.aol.com"
+User 42: milli: 758 url: "google.com"
+Time elapsed: 426
+2 min, 9 second
+User 11: milli: 22 url: "wonkette.com"
+User 91: milli: 69 url: "spike.com"
+User 39: milli: 101 url: "nba.com"
+User 93: milli: 176 url: "google.com.tw"
+User 72: milli: 487 url: "my.freeze.com"
+User 83: milli: 714 url: "nursingsociety.org"
+User 40: milli: 721 url: "mem.brandreachsys.com"
+User 99: milli: 881 url: "cyworld.com"
+Time elapsed: 444
+2 min, 10 second
+User 25: milli: 71 url: "a.espncdn.com"
+User 93: milli: 301 url: "pagead2.googlesyndication.com"
+User 97: milli: 874 url: "imdb.com"
+Time elapsed: 444
+2 min, 11 second
+User 40: milli: 360 url: "imdb.com"
+User 81: milli: 418 url: "aan.amazon.com"
+User 34: milli: 668 url: "292.webim0444.webim.myspace.com"
+User 88: milli: 697 url: "ad.103092804.com"
+User 92: milli: 916 url: "ad.103092804.com"
+Time elapsed: 461
+2 min, 12 second
+User 15: milli: 97 url: "megaporn.com"
+User 5: milli: 200 url: "google.com"
+User 49: milli: 501 url: "media.spicynodes.org"
+User 29: milli: 779 url: "i.cdn.turner.com"
+User 39: milli: 806 url: "burstnet.com"
+User 47: milli: 823 url: "ad.doubleclick.net"
+User 99: milli: 928 url: "search.ebscohost.com"
+User 61: milli: 969 url: "idsnews.com"
+User 40: milli: 975 url: "jackson-rathbone.com"
+Time elapsed: 493
+2 min, 13 second
+User 99: milli: 30 url: "sports.espn.go.com"
+User 29: milli: 200 url: "802.tianya.cn"
+User 61: milli: 344 url: "penciloflight.deviantart.com"
+User 34: milli: 496 url: "apple.com"
+User 39: milli: 558 url: "content.naughtyamerica.com"
+User 49: milli: 651 url: "media.spicynodes.org"
+User 22: milli: 688 url: "msn.com"
+Time elapsed: 496
+2 min, 14 second
+User 1: milli: 161 url: "weather.com"
+User 78: milli: 239 url: "penciloflight.deviantart.com"
+User 40: milli: 290 url: "mem.brandreachsys.com"
+User 49: milli: 698 url: "dygod.com"
+Time elapsed: 513
+2 min, 15 second
+User 1: milli: 231 url: "core.insightexpressai.com"
+User 15: milli: 470 url: "cymemo.cyworld.com"
+User 92: milli: 818 url: "google.com"
+User 57: milli: 825 url: "mitbbs.com"
+Time elapsed: 516
+2 min, 16 second
+User 69: milli: 469 url: "amazon.com"
+User 40: milli: 636 url: "mem.brandreachsys.com"
+User 78: milli: 837 url: "analytics.spongecell.com"
+Time elapsed: 532
+2 min, 17 second
+User 40: milli: 107 url: "mem.brandreachsys.com"
+User 49: milli: 215 url: "google.com"
+User 45: milli: 269 url: "msn.com"
+User 47: milli: 594 url: "parents.com"
+User 28: milli: 809 url: "google.com"
+User 97: milli: 995 url: "informatics.indiana.edu"
+Time elapsed: 550
+2 min, 18 second
+User 32: milli: 68 url: "by113w.bay113.mail.live.com"
+User 45: milli: 302 url: "symbolcomplete.marketwatch.com"
+User 87: milli: 960 url: "bs.serving-sys.com"
+User 40: milli: 974 url: "mem.brandreachsys.com"
+Time elapsed: 565
+2 min, 19 second
+User 99: milli: 59 url: "law.indiana.edu"
+User 78: milli: 83 url: "bs.serving-sys.com"
+User 45: milli: 128 url: "secure-us.imrworldwide.com"
+User 40: milli: 911 url: "mem.brandreachsys.com"
+User 13: milli: 918 url: "cfile218.uf.daum.net"
+Time elapsed: 582
+2 min, 20 second
+User 46: milli: 221 url: "textsfromlastnight.com"
+User 87: milli: 286 url: "g2.ykimg.com"
+User 92: milli: 354 url: "search.yahoo.com"
+User 81: milli: 359 url: "slis.indiana.edu"
+User 32: milli: 362 url: "sports.espn.go.com"
+User 55: milli: 757 url: "searchservice.myspace.com"
+User 47: milli: 983 url: "teendestruction.com"
+Time elapsed: 585
+2 min, 21 second
+User 71: milli: 156 url: "indianapolis.craigslist.org"
+User 7: milli: 261 url: "google.com"
+User 55: milli: 389 url: "193.webim0358.webim.myspace.com"
+User 24: milli: 529 url: "s.xvideos.com"
+User 27: milli: 652 url: "hulu.com"
+User 34: milli: 977 url: "ad.doubleclick.net"
+Time elapsed: 586
+2 min, 22 second
+User 24: milli: 629 url: "penciloflight.deviantart.com"
+User 37: milli: 753 url: "theonion.com"
+User 88: milli: 974 url: "waterjet.net"
+Time elapsed: 586
+2 min, 23 second
+User 40: milli: 19 url: "mem.brandreachsys.com"
+User 83: milli: 374 url: "search.yahoo.com"
+User 91: milli: 561 url: "is1.j.tv2n.net"
+User 41: milli: 813 url: "livejasmin.com"
+User 13: milli: 908 url: "sports.yahoo.com"
+Time elapsed: 603
+2 min, 24 second
+User 37: milli: 230 url: "cln.iupui.edu"
+User 54: milli: 525 url: "stumbleupon.com"
+User 28: milli: 780 url: "google.com"
+User 99: milli: 833 url: "gametrailers.com"
+User 40: milli: 940 url: "mem.brandreachsys.com"
+Time elapsed: 618
+2 min, 25 second
+User 29: milli: 22 url: "vodguide.pps.tv"
+User 49: milli: 42 url: "stumbleupon.com"
+User 34: milli: 116 url: "calm.chem.indiana.edu"
+User 24: milli: 176 url: "ups.com"
+User 40: milli: 711 url: "mem.brandreachsys.com"
+User 28: milli: 732 url: "google.com"
+User 14: milli: 739 url: "pv.778669.com"
+User 87: milli: 893 url: "static.wholikesu.net"
+User 78: milli: 959 url: "google.com"
+Time elapsed: 653
+2 min, 26 second
+User 93: milli: 200 url: "mbusa.com"
+User 28: milli: 201 url: "tag.contextweb.com"
+User 22: milli: 240 url: "secure-us.imrworldwide.com"
+User 55: milli: 335 url: "bs.serving-sys.com"
+User 61: milli: 573 url: "deviantart.com"
+User 37: milli: 952 url: "microsoft.com"
+User 24: milli: 993 url: "deviantart.com"
+Time elapsed: 655
+2 min, 27 second
+User 46: milli: 472 url: "ad.amgdgt.com"
+User 15: milli: 609 url: "sports.espn.go.com"
+User 89: milli: 813 url: "view.atdmt.com"
+User 54: milli: 924 url: "warningsigngenerator.com"
+Time elapsed: 656
+2 min, 28 second
+User 97: milli: 83 url: "dicks.com"
+User 24: milli: 102 url: "google.com"
+User 28: milli: 682 url: "idsnews.com"
+Time elapsed: 656
+2 min, 29 second
+User 91: milli: 643 url: "gourmandia.com"
+User 37: milli: 789 url: "google.com"
+User 46: milli: 857 url: "view.atdmt.com"
+Time elapsed: 657
+2 min, 30 second
+User 22: milli: 399 url: "espn-www.baynote.net"
+User 95: milli: 568 url: "www-lib.iupui.edu"
+User 89: milli: 784 url: "apps.facebook.com"
+User 40: milli: 837 url: "connect.facebook.com"
+User 58: milli: 868 url: "fls.doubleclick.net"
+Time elapsed: 673
+2 min, 31 second
+User 67: milli: 323 url: "apps.facebook.com"
+User 69: milli: 489 url: "xsell.6waves.com"
+User 63: milli: 731 url: "adserv.impactengine.com"
+Time elapsed: 675
+2 min, 32 second
+User 45: milli: 62 url: "usatoday.com"
+User 55: milli: 157 url: "givealink.org"
+User 40: milli: 187 url: "mem.brandreachsys.com"
+User 69: milli: 438 url: "s6.travian.us"
+Time elapsed: 692
+2 min, 33 second
+User 11: milli: 109 url: "normalog.com"
+User 22: milli: 187 url: "apps.renren.com"
+User 15: milli: 222 url: "auto-racing.speedtv.com"
+User 97: milli: 292 url: "brandextract.com"
+User 40: milli: 610 url: "mem.brandreachsys.com"
+Time elapsed: 710
+2 min, 34 second
+User 32: milli: 217 url: "cfile92.uf.daum.net"
+User 39: milli: 281 url: "espn.go"
+User 44: milli: 415 url: "falloutboyrock.com"
+User 40: milli: 497 url: "mem.brandreachsys.com"
+User 22: milli: 536 url: "jiayuan.com"
+User 97: milli: 681 url: "shoemall.com"
+User 34: milli: 963 url: "us.adserver.yahoo.com"
+Time elapsed: 729
+2 min, 35 second
+User 92: milli: 51 url: "viewmorepics.myspace.com"
+User 94: milli: 57 url: "renren.com"
+User 83: milli: 162 url: "google.com"
+User 40: milli: 346 url: "mem.brandreachsys.com"
+User 76: milli: 392 url: "xvideos.com"
+User 1: milli: 856 url: "google.com"
+Time elapsed: 752
+2 min, 36 second
+User 67: milli: 569 url: "mail.google.com"
+User 95: milli: 682 url: "teendestruction.com"
+User 34: milli: 709 url: "77.webim0196.webim.myspace.com"
+User 72: milli: 831 url: "tap.rubiconproject.com"
+Time elapsed: 752
+2 min, 37 second
+User 44: milli: 170 url: "falloutboyrock.com"
+User 40: milli: 764 url: "mem.brandreachsys.com"
+User 67: milli: 774 url: "askmen.com"
+Time elapsed: 768
+2 min, 38 second
+User 34: milli: 278 url: "fnetwork1.zoosk.com"
+User 40: milli: 348 url: "mem.brandreachsys.com"
+User 55: milli: 388 url: "13.webim0196.webim.myspace.com"
+User 11: milli: 448 url: "www-lib.iupui.edu"
+User 76: milli: 604 url: "hipsterrunoff.com"
+User 94: milli: 614 url: "www2.mediafire.com"
+User 89: milli: 926 url: "blogs.technet.com"
+Time elapsed: 783
+2 min, 39 second
+User 55: milli: 141 url: "profile.myspace.com"
+User 95: milli: 412 url: "stat2.corp.56.com"
+User 49: milli: 508 url: "ws.amazon.com"
+User 46: milli: 565 url: "cyworld.com"
+User 15: milli: 586 url: "wwwq37.megaporn.com"
+User 76: milli: 727 url: "xvideos.com"
+User 40: milli: 779 url: "mem.brandreachsys.com"
+User 94: milli: 858 url: "google.com"
+Time elapsed: 803
+2 min, 40 second
+User 94: milli: 239 url: "linkinghub.elsevier.com"
+User 54: milli: 328 url: "stumbleupon.com"
+User 31: milli: 825 url: "en.wikipedia.org"
+Time elapsed: 803
+2 min, 41 second
+User 44: milli: 52 url: "apple.com"
+User 49: milli: 190 url: "hotrodders.com"
+User 7: milli: 281 url: "boost.org"
+User 40: milli: 771 url: "mem.brandreachsys.com"
+Time elapsed: 819
+2 min, 42 second
+User 49: milli: 89 url: "ent.sina.com.cn"
+User 96: milli: 104 url: "wired.com"
+User 17: milli: 830 url: "nba.com"
+User 41: milli: 881 url: "en.wikipedia.org"
+Time elapsed: 820
+2 min, 43 second
+User 46: milli: 121 url: "google.com"
+User 67: milli: 229 url: "ad.doubleclick.net"
+User 40: milli: 243 url: "mem.brandreachsys.com"
+User 31: milli: 257 url: "newlyrics.gomtv.com"
+User 76: milli: 514 url: "mt1.google.com"
+User 88: milli: 781 url: "st1.freeonlineusers.com"
+User 87: milli: 847 url: "slis.indiana.edu"
+User 7: milli: 986 url: "sports-ak.espn.go.com"
+Time elapsed: 840
+2 min, 44 second
+User 95: milli: 227 url: "bs.serving-sys.com"
+User 63: milli: 307 url: "v.ku6.com"
+User 49: milli: 512 url: "ask.com"
+User 46: milli: 756 url: "search.yahoo.com"
+User 97: milli: 917 url: "media.mtvnservices.com"
+Time elapsed: 855
+2 min, 45 second
+User 5: milli: 248 url: "view.atdmt.com"
+User 47: milli: 464 url: "bs.serving-sys.com"
+User 34: milli: 573 url: "arousing.tv"
+User 49: milli: 986 url: "b24.cnzz.com"
+Time elapsed: 855
+2 min, 46 second
+User 1: milli: 34 url: "api.choicestream.com"
+User 99: milli: 52 url: "im.storm8.com"
+User 47: milli: 273 url: "nba.sports.sina.com.cn"
+User 81: milli: 299 url: "imdb.com"
+User 44: milli: 336 url: "xy6.store.qq.com"
+User 66: milli: 433 url: "msn.com"
+User 55: milli: 478 url: "usatoday.com"
+User 96: milli: 745 url: "nba.com"
+User 40: milli: 824 url: "mem.brandreachsys.com"
+User 49: milli: 908 url: "l.yimg.com"
+User 13: milli: 923 url: "core.insightexpressai.com"
+Time elapsed: 904
+2 min, 47 second
+User 30: milli: 220 url: "alumni.indiana.edu"
+User 88: milli: 403 url: "zh.wikipedia.org"
+User 40: milli: 406 url: "teendestruction.com"
+User 47: milli: 440 url: "drawn.ca"
+User 92: milli: 711 url: "scam.com"
+User 24: milli: 740 url: "cheaptickets.com"
+User 97: milli: 831 url: "ad.doubleclick.net"
+User 34: milli: 999 url: "view.atdmt.com"
+Time elapsed: 921
+2 min, 48 second
+User 61: milli: 220 url: "eyny.com"
+User 22: milli: 325 url: "search.china.alibaba.com"
+User 81: milli: 337 url: "ws.amazon.com"
+User 30: milli: 345 url: "netflix.com"
+User 40: milli: 365 url: "mem.brandreachsys.com"
+User 49: milli: 600 url: "log7.doubleverify.com"
+User 69: milli: 729 url: "pigeon1.vbanalytics.com"
+User 55: milli: 900 url: "newyork.craigslist.org"
+User 7: milli: 960 url: "mail.google.com"
+Time elapsed: 956
+2 min, 49 second
+User 28: milli: 231 url: "penciloflight.deviantart.com"
+User 15: milli: 257 url: "img.oodle.com"
+User 47: milli: 322 url: "nba.sports.sina.com.cn"
+User 41: milli: 637 url: "google.com"
+User 40: milli: 640 url: "mem.brandreachsys.com"
+User 78: milli: 787 url: "ws.amazon.com"
+User 13: milli: 942 url: "p.fulltiltpoker.com"
+Time elapsed: 1001
+2 min, 50 second
+User 22: milli: 341 url: "slis.indiana.edu"
+User 41: milli: 831 url: "google.com"
+Time elapsed: 1002
+2 min, 51 second
+User 81: milli: 380 url: "ib.adnxs.com"
+User 15: milli: 424 url: "sports.espn.go.com"
+User 47: milli: 726 url: "liberalarts.iupui.edu"
+User 25: milli: 843 url: "apple.com"
+User 45: milli: 958 url: "secure-us.imrworldwide.com"
+Time elapsed: 1003
+2 min, 52 second
+User 41: milli: 124 url: "google.cn"
+User 15: milli: 593 url: "slis.indiana.edu"
+User 22: milli: 834 url: "search.yahoo.com"
+User 47: milli: 940 url: "mt1.google.com"
+Time elapsed: 1004
+2 min, 53 second
+User 11: milli: 53 url: "is1.j.tv2n.net"
+User 46: milli: 918 url: "ask.nate.com"
+User 47: milli: 953 url: "static.doulike.us"
+User 28: milli: 989 url: "ad.doubleclick.net"
+Time elapsed: 1034
+2 min, 54 second
+User 40: milli: 24 url: "mem.brandreachsys.com"
+User 31: milli: 47 url: "242.webim0366.webim.myspace.com"
+User 28: milli: 233 url: "google.com"
+User 30: milli: 373 url: "google.com"
+User 39: milli: 464 url: "indianapublicmedia.org"
+User 80: milli: 595 url: "b.static.ak.fbcdn.net"
+User 38: milli: 684 url: "tyrashow.warnerbros.com"
+User 76: milli: 819 url: "beacon.indieclick.com"
+Time elapsed: 1082
+2 min, 55 second
+User 5: milli: 155 url: "dailymotion.com"
+User 81: milli: 194 url: "arabia.msn.com"
+User 80: milli: 562 url: "vimeo.com"
+User 47: milli: 812 url: "dell.com"
+User 40: milli: 973 url: "apple.com"
+Time elapsed: 1098
+2 min, 56 second
+User 7: milli: 28 url: "imdb.com"
+User 28: milli: 131 url: "sports.sina.com.cn"
+User 40: milli: 270 url: "mem.brandreachsys.com"
+User 20: milli: 276 url: "c.brightcove.com"
+User 95: milli: 289 url: "apps.facebook.com"
+User 80: milli: 362 url: "apple.com"
+User 34: milli: 976 url: "viewmorepics.myspace.com"
+Time elapsed: 1132
+2 min, 57 second
+User 19: milli: 9 url: "ads.revsci.net"
+User 47: milli: 20 url: "msn.com"
+User 29: milli: 52 url: "pgatour.com"
+User 30: milli: 194 url: "cfile25.uf.tistory.com"
+User 95: milli: 282 url: "msnbc.msn.com"
+User 43: milli: 505 url: "sug.video.baidu.com"
+User 24: milli: 823 url: "secure-us.imrworldwide.com"
+Time elapsed: 1134
+2 min, 58 second
+User 24: milli: 19 url: "secure-us.imrworldwide.com"
+User 37: milli: 525 url: "cnt.v.sina.com.cn"
+User 27: milli: 713 url: "80554.r.msn.com"
+User 49: milli: 980 url: "media.fastclick.net"
+Time elapsed: 1134
+2 min, 59 second
+User 54: milli: 228 url: "ktwuyw.bay.livefilestore.com"
+User 15: milli: 394 url: "google.com"
+User 34: milli: 403 url: "rivals.com"
+User 92: milli: 515 url: "flickr.com"
+User 97: milli: 672 url: "ad.doubleclick.net"
+User 40: milli: 909 url: "mem.brandreachsys.com"
+User 38: milli: 961 url: "imagecache.blastro.com"
+Time elapsed: 1164
+Metric: num_of_oks: 535, num_of_errs: 0, num_of_timeout: 0, num_of_closed: 256, num_of_visit: 535
+Metric: Browsing Time: [99, 279, 914, 769, 487, 197, 0, 1234, 598, 1724, 3073, 1283, 102, 1032, 292, 1174, 1034, 612, 1048, 4130, 1221, 684, 3026, 549, 2556, 3647, 60, 278, 358, 922, 1721, 1451, 600, 911, 1551, 86, 624, 8781, 1492, 826, 308, 504, 1038, 9352, 2180, 3170, 216, 2211, 262, 1737, 983, 1357, 617, 969, 2524, 1862, 65, 2646, 1319, 1254, 335, 796, 1444, 1072, 4361, 1149, 0, 5138, 1006, 728, 211, 1630, 813, 263, 709, 645, 708, 1995, 2769, 673, 1212, 2630, 1536, 1833, 1019, 845, 4813, 2327, 962, 1608, 2524, 1282, 2719, 9108, 1656, 1420, 918, 3343, 808, 2079, 2790, 486, 2619, 2796, 3015, 3224, 1254, 3867, 462, 12800, 8994, 3011, 3480, 1121, 3194, 1239, 303, 1455, 1594, 2610, 1157, 1779, 2817, 121, 1642, 2364, 2245, 2830, 2884, 286, 3118, 83, 1927, 1969, 1243, 458, 1292, 545, 5402, 2156, 744, 207, 1495, 661, 1983, 1555, 3475, 3955, 7713, 256, 399, 958, 2739, 160, 847, 1307, 4625, 462, 211, 3172, 2435, 4322, 528, 710, 1131, 641, 0, 2295, 1345, 3933, 1503, 0, 329]
+

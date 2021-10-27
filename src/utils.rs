@@ -9,6 +9,38 @@ use std::io::Result;
 use std::time::{Duration, Instant};
 use std::vec::Vec;
 
+/// Read the pregenerated randomness seed from file.
+pub fn rdr_read_rand_seed(num_of_users: usize, iter: usize) -> Result<Vec<i64>> {
+    let rand_seed_file = "/Users/jethros/dev/pvn/utils/rand_number/rand.json";
+    let mut rand_vec = Vec::new();
+    let file = File::open(rand_seed_file).expect("rand seed file should open read only");
+    let json_data: Value = from_reader(file).expect("file should be proper JSON");
+
+    match json_data.get("rdr") {
+        Some(rdr_data) => match rdr_data.get(&num_of_users.clone().to_string()) {
+            Some(setup_data) => match setup_data.get(iter.to_string()) {
+                Some(data) => {
+                    for x in data.as_array().unwrap() {
+                        rand_vec.push(x.as_i64().unwrap());
+                        // println!("RDR user: {:?}", x.as_i64().unwrap());
+                    }
+                }
+                None => println!(
+                    "No rand data for iter {:?} for users {:?}",
+                    iter, num_of_users
+                ),
+            },
+            None => println!("No rand data for users {:?}", num_of_users),
+        },
+        None => println!("No rdr data in the rand seed file"),
+    }
+    println!(
+        "Fetch rand seed for num_of_users: {:?}, iter: {:?}.\nrdr users: {:?}",
+        num_of_users, iter, rand_vec
+    );
+    Ok(rand_vec)
+}
+
 /// Construct the workload from the session file.
 ///
 /// https://kbknapp.github.io/doapi-rs/docs/serde/json/index.html
@@ -80,38 +112,6 @@ pub fn rdr_retrieve_users(rdr_setup: usize) -> Option<usize> {
     map.insert(6, 100);
 
     map.remove(&rdr_setup)
-}
-
-/// Read the pregenerated randomness seed from file.
-pub fn rdr_read_rand_seed(num_of_users: usize, iter: usize) -> Result<Vec<i64>> {
-    let rand_seed_file = "/home/jethros/dev/pvn/utils/rand_number/rand.json";
-    let mut rand_vec = Vec::new();
-    let file = File::open(rand_seed_file).expect("rand seed file should open read only");
-    let json_data: Value = from_reader(file).expect("file should be proper JSON");
-
-    match json_data.get("rdr") {
-        Some(rdr_data) => match rdr_data.get(&num_of_users.clone().to_string()) {
-            Some(setup_data) => match setup_data.get(iter.to_string()) {
-                Some(data) => {
-                    for x in data.as_array().unwrap() {
-                        rand_vec.push(x.as_i64().unwrap());
-                        // println!("RDR user: {:?}", x.as_i64().unwrap());
-                    }
-                }
-                None => println!(
-                    "No rand data for iter {:?} for users {:?}",
-                    iter, num_of_users
-                ),
-            },
-            None => println!("No rand data for users {:?}", num_of_users),
-        },
-        None => println!("No rdr data in the rand seed file"),
-    }
-    println!(
-        "Fetch rand seed for num_of_users: {:?}, iter: {:?}.\nrdr users: {:?}",
-        num_of_users, iter, rand_vec
-    );
-    Ok(rand_vec)
 }
 
 /// Create the browser for RDR proxy (user browsing).

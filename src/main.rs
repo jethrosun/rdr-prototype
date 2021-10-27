@@ -18,10 +18,9 @@ fn main() -> Fallible<()> {
     // The RDR proxy network function needs to maintain a list of active headless browsers. This is
     // for the purpose of simulating multi-container extension in Firefox and multiple users. We
     // also need to maintain a content cache for the bulk HTTP request and response pairs.
-    let workload_path = "/home/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_"
+    let workload_path = "/Users/jethros/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_"
         .to_owned()
-        + &iter.to_string()
-        + ".json";
+        + &iter.to_string() + ".json";
     println!("{:?}", workload_path);
     let num_of_secs = 200;
 
@@ -53,7 +52,7 @@ fn main() -> Fallible<()> {
 
     // Scheduling browsing jobs.
     // FIXME: This is not ideal as we are not actually schedule browse.
-    for cur_time in 0..200 {
+    for cur_time in 0..180 {
         if rdr_workload.contains_key(&cur_time) {
             // println!("pivot {:?}", cur_time);
             let min = cur_time / 60;
