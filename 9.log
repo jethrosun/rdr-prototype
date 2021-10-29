@@ -1,0 +1,466 @@
+Fetch rand seed for num_of_users: 10, iter: 0.
+rdr users: [8, 19, 20, 29, 37, 68, 74, 84, 92, 94]
+"/net/data/pvn/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_0.json"
+Workload is generated
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profilezqFRUY
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profileu4Ic4a
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profileqCMRIg
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profileaFf62j
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profile1pk5xz
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profiledEUSRF
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profile0xGNVB
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profilepBxZ7L
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profileBzBaNS
+Chrome will have profile: --user-data-dir=/tmp/rust-headless-chrome-profile4A52lg
+10 browsers are created 
+Timer started
+Time elapsed: 0
+Time elapsed: 0
+0 min, 2 second
+Time elapsed: 0
+0 min, 3 second
+Time elapsed: 0
+0 min, 4 second
+Time elapsed: 0
+0 min, 5 second
+Time elapsed: 0
+0 min, 6 second
+Time elapsed: 0
+0 min, 7 second
+Time elapsed: 0
+0 min, 8 second
+Time elapsed: 0
+0 min, 9 second
+Time elapsed: 0
+0 min, 10 second
+Time elapsed: 0
+0 min, 11 second
+Time elapsed: 0
+0 min, 12 second
+Time elapsed: 0
+0 min, 13 second
+Time elapsed: 0
+0 min, 14 second
+Time elapsed: 0
+0 min, 15 second
+User 29: milli: 922 url: "penciloflight.deviantart.com"
+Time elapsed: 1
+0 min, 16 second
+Time elapsed: 1
+0 min, 17 second
+User 29: milli: 101 url: "abebooks.com"
+Time elapsed: 1
+0 min, 18 second
+Time elapsed: 1
+0 min, 19 second
+Time elapsed: 1
+0 min, 20 second
+Time elapsed: 1
+0 min, 21 second
+User 29: milli: 363 url: "google.com"
+Time elapsed: 1
+0 min, 22 second
+Time elapsed: 1
+0 min, 23 second
+Time elapsed: 1
+0 min, 24 second
+Time elapsed: 1
+0 min, 25 second
+Time elapsed: 1
+0 min, 26 second
+Time elapsed: 1
+0 min, 27 second
+Time elapsed: 1
+0 min, 28 second
+Time elapsed: 1
+0 min, 29 second
+Time elapsed: 1
+0 min, 30 second
+Time elapsed: 1
+0 min, 31 second
+User 29: milli: 627 url: "learn.genetics.utah.edu"
+Time elapsed: 1
+0 min, 32 second
+Time elapsed: 1
+0 min, 33 second
+Time elapsed: 1
+0 min, 34 second
+Time elapsed: 1
+0 min, 35 second
+Time elapsed: 1
+0 min, 36 second
+Time elapsed: 1
+0 min, 37 second
+Time elapsed: 1
+0 min, 38 second
+Time elapsed: 1
+0 min, 39 second
+Time elapsed: 1
+0 min, 40 second
+Time elapsed: 1
+0 min, 41 second
+Time elapsed: 1
+0 min, 42 second
+Time elapsed: 1
+0 min, 43 second
+Time elapsed: 1
+0 min, 44 second
+Time elapsed: 1
+0 min, 45 second
+Time elapsed: 1
+0 min, 46 second
+Time elapsed: 1
+0 min, 47 second
+Time elapsed: 1
+0 min, 48 second
+Time elapsed: 1
+0 min, 49 second
+Time elapsed: 1
+0 min, 50 second
+Time elapsed: 1
+0 min, 51 second
+Time elapsed: 1
+0 min, 52 second
+Time elapsed: 1
+0 min, 53 second
+User 29: milli: 21 url: "google.cn"
+connection closed with: "google.cn"
+Time elapsed: 1
+0 min, 54 second
+User 29: milli: 98 url: "bizad.nikkeibp.co.jp"
+connection closed with: "bizad.nikkeibp.co.jp"
+Time elapsed: 16
+0 min, 55 second
+Time elapsed: 16
+0 min, 56 second
+User 92: milli: 157 url: "s0.2mdn.net"
+Time elapsed: 17
+0 min, 57 second
+Time elapsed: 17
+0 min, 58 second
+Time elapsed: 17
+0 min, 59 second
+User 92: milli: 750 url: "cdngiftsmyspace.applatform.com"
+connection closed with: "cdngiftsmyspace.applatform.com"
+Time elapsed: 17
+1 min, 0 second
+User 92: milli: 854 url: "en.wikipedia.org"
+Time elapsed: 17
+1 min, 1 second
+Time elapsed: 17
+1 min, 2 second
+Time elapsed: 17
+1 min, 3 second
+Time elapsed: 17
+1 min, 4 second
+Time elapsed: 17
+1 min, 5 second
+Time elapsed: 17
+1 min, 6 second
+Time elapsed: 17
+1 min, 7 second
+User 29: milli: 1 url: "deviantart.com"
+connection closed with: "deviantart.com"
+Time elapsed: 17
+1 min, 8 second
+Time elapsed: 17
+1 min, 9 second
+User 29: milli: 70 url: "deviantart.com"
+connection closed with: "deviantart.com"
+Time elapsed: 17
+1 min, 10 second
+User 29: milli: 990 url: "translate.google.cn"
+connection closed with: "translate.google.cn"
+Time elapsed: 17
+1 min, 11 second
+Time elapsed: 17
+1 min, 12 second
+Time elapsed: 17
+1 min, 13 second
+Time elapsed: 17
+1 min, 14 second
+User 92: milli: 570 url: "bs.serving-sys.com"
+Time elapsed: 18
+1 min, 15 second
+Time elapsed: 18
+1 min, 16 second
+Time elapsed: 18
+1 min, 17 second
+Time elapsed: 18
+1 min, 18 second
+Time elapsed: 18
+1 min, 19 second
+Time elapsed: 18
+1 min, 20 second
+Time elapsed: 18
+1 min, 21 second
+Time elapsed: 18
+1 min, 22 second
+Time elapsed: 18
+1 min, 23 second
+User 29: milli: 2 url: "stumbleupon.com"
+connection closed with: "stumbleupon.com"
+Time elapsed: 18
+1 min, 24 second
+Time elapsed: 18
+1 min, 25 second
+Time elapsed: 18
+1 min, 26 second
+Time elapsed: 18
+1 min, 27 second
+Time elapsed: 18
+1 min, 28 second
+User 94: milli: 238 url: "s7.addthis.com"
+Time elapsed: 18
+1 min, 29 second
+Time elapsed: 18
+1 min, 30 second
+Time elapsed: 18
+1 min, 31 second
+User 92: milli: 949 url: "en.wikiquote.org"
+Time elapsed: 18
+1 min, 32 second
+User 29: milli: 592 url: "ads.revsci.net"
+connection closed with: "ads.revsci.net"
+Time elapsed: 18
+1 min, 33 second
+User 94: milli: 515 url: "nba.com"
+Time elapsed: 19
+1 min, 34 second
+Time elapsed: 19
+1 min, 35 second
+User 29: milli: 566 url: "google.com"
+connection closed with: "google.com"
+Time elapsed: 19
+1 min, 36 second
+User 94: milli: 999 url: "gametrailers.com"
+Time elapsed: 19
+1 min, 37 second
+User 94: milli: 841 url: "pagead2.googlesyndication.com"
+Time elapsed: 19
+1 min, 38 second
+User 29: milli: 865 url: "pogo.com"
+connection closed with: "pogo.com"
+Time elapsed: 19
+1 min, 39 second
+Time elapsed: 19
+1 min, 40 second
+User 92: milli: 531 url: "apps.facebook.com"
+Time elapsed: 19
+1 min, 41 second
+User 29: milli: 993 url: "pn2.adserver.yahoo.com"
+connection closed with: "pn2.adserver.yahoo.com"
+Time elapsed: 19
+1 min, 42 second
+Time elapsed: 19
+1 min, 43 second
+Time elapsed: 19
+1 min, 44 second
+Time elapsed: 19
+1 min, 45 second
+Time elapsed: 19
+1 min, 46 second
+Time elapsed: 19
+1 min, 47 second
+User 92: milli: 602 url: "blog.naver.com"
+Time elapsed: 19
+1 min, 48 second
+Time elapsed: 19
+1 min, 49 second
+User 92: milli: 300 url: "m.www.yahoo.com"
+Time elapsed: 19
+1 min, 50 second
+User 92: milli: 722 url: "idsnews.com"
+connection closed with: "idsnews.com"
+Time elapsed: 19
+1 min, 51 second
+Time elapsed: 19
+1 min, 52 second
+User 92: milli: 280 url: "msn.com"
+Time elapsed: 20
+1 min, 53 second
+User 92: milli: 895 url: "cb.adbureau.net"
+connection closed with: "cb.adbureau.net"
+Time elapsed: 20
+1 min, 54 second
+Time elapsed: 20
+1 min, 55 second
+User 92: milli: 727 url: "news.bbc.co.uk"
+Time elapsed: 21
+1 min, 56 second
+User 92: milli: 413 url: "simon.com"
+Time elapsed: 21
+1 min, 57 second
+User 92: milli: 435 url: "ticketmaster.com"
+Time elapsed: 21
+1 min, 58 second
+Time elapsed: 21
+1 min, 59 second
+Time elapsed: 21
+2 min, 0 second
+Time elapsed: 21
+2 min, 1 second
+Time elapsed: 21
+2 min, 2 second
+User 92: milli: 686 url: "cheapflights.co.uk"
+Time elapsed: 21
+2 min, 3 second
+User 29: milli: 964 url: "find.galegroup.com.proxy.ulib.iupui.edu"
+connection closed with: "find.galegroup.com.proxy.ulib.iupui.edu"
+Time elapsed: 21
+2 min, 4 second
+User 92: milli: 984 url: "ad.doubleclick.net"
+Time elapsed: 21
+2 min, 5 second
+Time elapsed: 21
+2 min, 6 second
+Time elapsed: 21
+2 min, 7 second
+Time elapsed: 21
+2 min, 8 second
+Time elapsed: 21
+2 min, 9 second
+Time elapsed: 21
+2 min, 10 second
+Time elapsed: 21
+2 min, 11 second
+User 92: milli: 916 url: "ad.103092804.com"
+Time elapsed: 21
+2 min, 12 second
+User 29: milli: 779 url: "i.cdn.turner.com"
+connection closed with: "i.cdn.turner.com"
+Time elapsed: 21
+2 min, 13 second
+User 29: milli: 200 url: "802.tianya.cn"
+connection closed with: "802.tianya.cn"
+Time elapsed: 21
+2 min, 14 second
+Time elapsed: 21
+2 min, 15 second
+User 92: milli: 818 url: "google.com"
+Time elapsed: 22
+2 min, 16 second
+Time elapsed: 22
+2 min, 17 second
+Time elapsed: 22
+2 min, 18 second
+Time elapsed: 22
+2 min, 19 second
+Time elapsed: 22
+2 min, 20 second
+User 92: milli: 354 url: "search.yahoo.com"
+Time elapsed: 22
+2 min, 21 second
+Time elapsed: 22
+2 min, 22 second
+User 37: milli: 753 url: "theonion.com"
+Time elapsed: 25
+2 min, 23 second
+Time elapsed: 25
+2 min, 24 second
+User 37: milli: 230 url: "cln.iupui.edu"
+connection closed with: "cln.iupui.edu"
+Time elapsed: 25
+2 min, 25 second
+User 29: milli: 22 url: "vodguide.pps.tv"
+connection closed with: "vodguide.pps.tv"
+Time elapsed: 25
+2 min, 26 second
+User 37: milli: 952 url: "microsoft.com"
+Time elapsed: 25
+2 min, 27 second
+Time elapsed: 25
+2 min, 28 second
+Time elapsed: 25
+2 min, 29 second
+User 37: milli: 789 url: "google.com"
+connection closed with: "google.com"
+Time elapsed: 25
+2 min, 30 second
+Time elapsed: 25
+2 min, 31 second
+Time elapsed: 25
+2 min, 32 second
+Time elapsed: 25
+2 min, 33 second
+User 74: milli: 636 url: "viewmorepics.myspace.com"
+Time elapsed: 26
+2 min, 34 second
+Time elapsed: 26
+2 min, 35 second
+User 92: milli: 51 url: "viewmorepics.myspace.com"
+User 94: milli: 57 url: "renren.com"
+Time elapsed: 28
+2 min, 36 second
+User 74: milli: 537 url: "teendestruction.com"
+connection closed with: "teendestruction.com"
+User 84: milli: 719 url: "494.webim0193.webim.myspace.com"
+Time elapsed: 33
+2 min, 37 second
+Time elapsed: 33
+2 min, 38 second
+User 74: milli: 430 url: "priestforever.org"
+User 94: milli: 614 url: "www2.mediafire.com"
+Time elapsed: 34
+2 min, 39 second
+User 94: milli: 858 url: "google.com"
+connection closed with: "google.com"
+Time elapsed: 34
+2 min, 40 second
+User 94: milli: 239 url: "linkinghub.elsevier.com"
+Time elapsed: 34
+2 min, 41 second
+Time elapsed: 34
+2 min, 42 second
+User 74: milli: 876 url: "news.sina.com.cn"
+Time elapsed: 34
+2 min, 43 second
+Time elapsed: 34
+2 min, 44 second
+User 84: milli: 218 url: "ads.specificmedia.com"
+Time elapsed: 36
+2 min, 45 second
+Time elapsed: 36
+2 min, 46 second
+Time elapsed: 36
+2 min, 47 second
+User 92: milli: 711 url: "scam.com"
+Time elapsed: 38
+2 min, 48 second
+Time elapsed: 38
+2 min, 49 second
+Time elapsed: 38
+2 min, 50 second
+Time elapsed: 38
+2 min, 51 second
+Time elapsed: 38
+2 min, 52 second
+Time elapsed: 38
+2 min, 53 second
+User 84: milli: 65 url: "ads.sixapart.com"
+connection closed with: "ads.sixapart.com"
+User 74: milli: 282 url: "ads.specificmedia.com"
+Time elapsed: 42
+2 min, 54 second
+Time elapsed: 42
+2 min, 55 second
+Time elapsed: 42
+2 min, 56 second
+User 20: milli: 276 url: "c.brightcove.com"
+Time elapsed: 44
+2 min, 57 second
+User 19: milli: 9 url: "ads.revsci.net"
+connection closed with: "ads.revsci.net"
+User 29: milli: 52 url: "pgatour.com"
+connection closed with: "pgatour.com"
+Time elapsed: 44
+2 min, 58 second
+User 37: milli: 525 url: "cnt.v.sina.com.cn"
+connection closed with: "cnt.v.sina.com.cn"
+Time elapsed: 45
+2 min, 59 second
+User 92: milli: 515 url: "flickr.com"
+Time elapsed: 45
+Metric: num_of_oks: 39, num_of_errs: 0, num_of_timeout: 0, num_of_closed: 25, num_of_visit: 39
+Metric: Browsing Time: [1152, 168, 30, 561, 0, 0, 858, 0, 127, 0, 0, 0, 81, 0, 449, 76, 0, 422, 0, 10, 40, 0, 229, 0, 10, 131, 0, 732, 0, 1005, 15, 397, 15, 0, 121, 15, 0, 0, 635, 198, 2444, 0, 0, 382, 0, 1508, 1412, 3500, 714, 0, 81, 488, 2289, 1246, 4532, 1960, 0, 0, 158]
+
