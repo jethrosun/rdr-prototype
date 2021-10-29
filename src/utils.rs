@@ -124,6 +124,7 @@ pub fn browser_create() -> Fallible<Browser> {
 
     let timeout = Duration::new(1000, 0);
 
+    // .user_data_dir(Some("/Users/jethros/data/inspector".to_string()))
     let options = LaunchOptionsBuilder::default()
         .headless(true)
         .idle_browser_timeout(timeout)
@@ -197,6 +198,7 @@ pub fn rdr_scheduler_ng(
                 },
                 Err(e) => match e {
                     ConnectionClosed => {
+                        println!("connection closed with: {:?}", url);
                         num_of_closed += 1;
                         num_of_visit += 1;
                     }
