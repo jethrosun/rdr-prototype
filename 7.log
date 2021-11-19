@@ -1,0 +1,370 @@
+No rand data for users 60
+Fetch rand seed for num_of_users: 60, iter: 0.
+rdr users: []
+"rdr_pvn_workload.json"
+Workload is generated
+workload: {71: [], 48: [], 172: [], 32: [], 152: [], 164: [], 41: [], 139: [], 14: [], 79: [], 87: [], 2: [], 151: [], 162: [], 64: [], 160: [], 95: [], 25: [], 42: [], 92: [], 125: [], 119: [], 117: [], 163: [], 89: [], 161: [], 37: [], 72: [], 124: [], 93: [], 49: [], 121: [], 55: [], 90: [], 36: [], 114: [], 56: [], 143: [], 149: [], 19: [], 54: [], 150: [], 168: [], 171: [], 1: [], 40: [], 107: [], 65: [], 5: [], 126: [], 176: [], 6: [], 68: [], 75: [], 10: [], 94: [], 106: [], 110: [], 145: [], 88: [], 137: [], 52: [], 84: [], 111: [], 69: [], 138: [], 53: [], 83: [], 26: [], 63: [], 13: [], 175: [], 18: [], 8: [], 81: [], 178: [], 80: [], 105: [], 29: [], 140: [], 112: [], 61: [], 74: [], 58: [], 47: [], 174: [], 132: [], 179: [], 177: [], 73: [], 30: [], 127: [], 141: [], 27: [], 82: [], 147: [], 70: [], 15: [], 7: [], 46: [], 91: [], 115: [], 16: [], 148: [], 154: [], 158: [], 142: [], 169: [], 33: [], 57: [], 170: [], 116: [], 44: [], 11: [], 28: [], 86: [], 131: [], 43: [], 38: [], 66: [], 104: [], 17: [], 62: [], 123: [], 135: [], 34: [], 21: [], 128: [], 136: [], 67: [], 109: [], 118: [], 78: [], 144: [], 9: [], 166: [], 98: [], 39: [], 59: [], 102: [], 108: [], 100: [], 4: [], 45: [], 22: [], 96: [], 20: [], 85: [], 130: [], 153: [], 103: [], 134: [], 156: [], 157: [], 165: [], 129: [], 155: [], 122: [], 159: [], 23: [], 113: [], 12: [], 35: [], 31: [], 101: [], 146: [], 173: [], 60: [], 51: [], 77: [], 97: [], 76: [], 99: [], 120: [], 167: [], 3: [], 50: [], 24: [], 133: []}
+60 browsers are created 
+Timer started
+Time elapsed: 0
+0 min, 1 second
+Time elapsed: 0
+0 min, 2 second
+Time elapsed: 0
+0 min, 3 second
+Time elapsed: 0
+0 min, 4 second
+Time elapsed: 0
+0 min, 5 second
+Time elapsed: 0
+0 min, 6 second
+Time elapsed: 0
+0 min, 7 second
+Time elapsed: 0
+0 min, 8 second
+Time elapsed: 0
+0 min, 9 second
+Time elapsed: 0
+0 min, 10 second
+Time elapsed: 0
+0 min, 11 second
+Time elapsed: 0
+0 min, 12 second
+Time elapsed: 0
+0 min, 13 second
+Time elapsed: 0
+0 min, 14 second
+Time elapsed: 0
+0 min, 15 second
+Time elapsed: 0
+0 min, 16 second
+Time elapsed: 0
+0 min, 17 second
+Time elapsed: 0
+0 min, 18 second
+Time elapsed: 0
+0 min, 19 second
+Time elapsed: 0
+0 min, 20 second
+Time elapsed: 0
+0 min, 21 second
+Time elapsed: 0
+0 min, 22 second
+Time elapsed: 0
+0 min, 23 second
+Time elapsed: 0
+0 min, 24 second
+Time elapsed: 0
+0 min, 25 second
+Time elapsed: 0
+0 min, 26 second
+Time elapsed: 0
+0 min, 27 second
+Time elapsed: 0
+0 min, 28 second
+Time elapsed: 0
+0 min, 29 second
+Time elapsed: 0
+0 min, 30 second
+Time elapsed: 0
+0 min, 31 second
+Time elapsed: 0
+0 min, 32 second
+Time elapsed: 0
+0 min, 33 second
+Time elapsed: 0
+0 min, 34 second
+Time elapsed: 0
+0 min, 35 second
+Time elapsed: 0
+0 min, 36 second
+Time elapsed: 0
+0 min, 37 second
+Time elapsed: 0
+0 min, 38 second
+Time elapsed: 0
+0 min, 39 second
+Time elapsed: 0
+0 min, 40 second
+Time elapsed: 0
+0 min, 41 second
+Time elapsed: 0
+0 min, 42 second
+Time elapsed: 0
+0 min, 43 second
+Time elapsed: 0
+0 min, 44 second
+Time elapsed: 0
+0 min, 45 second
+Time elapsed: 0
+0 min, 46 second
+Time elapsed: 0
+0 min, 47 second
+Time elapsed: 0
+0 min, 48 second
+Time elapsed: 0
+0 min, 49 second
+Time elapsed: 0
+0 min, 50 second
+Time elapsed: 0
+0 min, 51 second
+Time elapsed: 0
+0 min, 52 second
+Time elapsed: 0
+0 min, 53 second
+Time elapsed: 0
+0 min, 54 second
+Time elapsed: 0
+0 min, 55 second
+Time elapsed: 0
+0 min, 56 second
+Time elapsed: 0
+0 min, 57 second
+Time elapsed: 0
+0 min, 58 second
+Time elapsed: 0
+0 min, 59 second
+Time elapsed: 0
+1 min, 0 second
+Time elapsed: 0
+1 min, 1 second
+Time elapsed: 0
+1 min, 2 second
+Time elapsed: 0
+1 min, 3 second
+Time elapsed: 0
+1 min, 4 second
+Time elapsed: 0
+1 min, 5 second
+Time elapsed: 0
+1 min, 6 second
+Time elapsed: 0
+1 min, 7 second
+Time elapsed: 0
+1 min, 8 second
+Time elapsed: 0
+1 min, 9 second
+Time elapsed: 0
+1 min, 10 second
+Time elapsed: 0
+1 min, 11 second
+Time elapsed: 0
+1 min, 12 second
+Time elapsed: 0
+1 min, 13 second
+Time elapsed: 0
+1 min, 14 second
+Time elapsed: 0
+1 min, 15 second
+Time elapsed: 0
+1 min, 16 second
+Time elapsed: 0
+1 min, 17 second
+Time elapsed: 0
+1 min, 18 second
+Time elapsed: 0
+1 min, 19 second
+Time elapsed: 0
+1 min, 20 second
+Time elapsed: 0
+1 min, 21 second
+Time elapsed: 0
+1 min, 22 second
+Time elapsed: 0
+1 min, 23 second
+Time elapsed: 0
+1 min, 24 second
+Time elapsed: 0
+1 min, 25 second
+Time elapsed: 0
+1 min, 26 second
+Time elapsed: 0
+1 min, 27 second
+Time elapsed: 0
+1 min, 28 second
+Time elapsed: 0
+1 min, 29 second
+Time elapsed: 0
+1 min, 30 second
+Time elapsed: 0
+1 min, 31 second
+Time elapsed: 0
+1 min, 32 second
+Time elapsed: 0
+1 min, 33 second
+Time elapsed: 0
+1 min, 34 second
+Time elapsed: 0
+1 min, 35 second
+Time elapsed: 0
+1 min, 36 second
+Time elapsed: 0
+1 min, 37 second
+Time elapsed: 0
+1 min, 38 second
+Time elapsed: 0
+1 min, 39 second
+Time elapsed: 0
+1 min, 40 second
+Time elapsed: 0
+1 min, 41 second
+Time elapsed: 0
+1 min, 42 second
+Time elapsed: 0
+1 min, 43 second
+Time elapsed: 0
+1 min, 44 second
+Time elapsed: 0
+1 min, 45 second
+Time elapsed: 0
+1 min, 46 second
+Time elapsed: 0
+1 min, 47 second
+Time elapsed: 0
+1 min, 48 second
+Time elapsed: 0
+1 min, 49 second
+Time elapsed: 0
+1 min, 50 second
+Time elapsed: 0
+1 min, 51 second
+Time elapsed: 0
+1 min, 52 second
+Time elapsed: 0
+1 min, 53 second
+Time elapsed: 0
+1 min, 54 second
+Time elapsed: 0
+1 min, 55 second
+Time elapsed: 0
+1 min, 56 second
+Time elapsed: 0
+1 min, 57 second
+Time elapsed: 0
+1 min, 58 second
+Time elapsed: 0
+1 min, 59 second
+Time elapsed: 0
+2 min, 0 second
+Time elapsed: 0
+2 min, 1 second
+Time elapsed: 0
+2 min, 2 second
+Time elapsed: 0
+2 min, 3 second
+Time elapsed: 0
+2 min, 4 second
+Time elapsed: 0
+2 min, 5 second
+Time elapsed: 0
+2 min, 6 second
+Time elapsed: 0
+2 min, 7 second
+Time elapsed: 0
+2 min, 8 second
+Time elapsed: 0
+2 min, 9 second
+Time elapsed: 0
+2 min, 10 second
+Time elapsed: 0
+2 min, 11 second
+Time elapsed: 0
+2 min, 12 second
+Time elapsed: 0
+2 min, 13 second
+Time elapsed: 0
+2 min, 14 second
+Time elapsed: 0
+2 min, 15 second
+Time elapsed: 0
+2 min, 16 second
+Time elapsed: 0
+2 min, 17 second
+Time elapsed: 0
+2 min, 18 second
+Time elapsed: 0
+2 min, 19 second
+Time elapsed: 0
+2 min, 20 second
+Time elapsed: 0
+2 min, 21 second
+Time elapsed: 0
+2 min, 22 second
+Time elapsed: 0
+2 min, 23 second
+Time elapsed: 0
+2 min, 24 second
+Time elapsed: 0
+2 min, 25 second
+Time elapsed: 0
+2 min, 26 second
+Time elapsed: 0
+2 min, 27 second
+Time elapsed: 0
+2 min, 28 second
+Time elapsed: 0
+2 min, 29 second
+Time elapsed: 0
+2 min, 30 second
+Time elapsed: 0
+2 min, 31 second
+Time elapsed: 0
+2 min, 32 second
+Time elapsed: 0
+2 min, 33 second
+Time elapsed: 0
+2 min, 34 second
+Time elapsed: 0
+2 min, 35 second
+Time elapsed: 0
+2 min, 36 second
+Time elapsed: 0
+2 min, 37 second
+Time elapsed: 0
+2 min, 38 second
+Time elapsed: 0
+2 min, 39 second
+Time elapsed: 0
+2 min, 40 second
+Time elapsed: 0
+2 min, 41 second
+Time elapsed: 0
+2 min, 42 second
+Time elapsed: 0
+2 min, 43 second
+Time elapsed: 0
+2 min, 44 second
+Time elapsed: 0
+2 min, 45 second
+Time elapsed: 0
+2 min, 46 second
+Time elapsed: 0
+2 min, 47 second
+Time elapsed: 0
+2 min, 48 second
+Time elapsed: 0
+2 min, 49 second
+Time elapsed: 0
+2 min, 50 second
+Time elapsed: 0
+2 min, 51 second
+Time elapsed: 0
+2 min, 52 second
+Time elapsed: 0
+2 min, 53 second
+Time elapsed: 0
+2 min, 54 second
+Time elapsed: 0
+2 min, 55 second
+Time elapsed: 0
+2 min, 56 second
+Time elapsed: 0
+2 min, 57 second
+Time elapsed: 0
+2 min, 58 second
+Time elapsed: 0
+2 min, 59 second
+Time elapsed: 0
+Metric: num_of_oks: 0, num_of_errs: 0, num_of_timeout: 0, num_of_closed: 0, num_of_visit: 0
+Metric: Browsing Time: []
+

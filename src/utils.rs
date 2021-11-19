@@ -1,5 +1,4 @@
 //! Utils functions for the PVN RDR NF.
-use crate::unresolvable::curate_unresolvable_records;
 use failure::Fallible;
 use headless_chrome::{Browser, LaunchOptionsBuilder};
 use serde_json::{from_reader, Value};
@@ -44,7 +43,6 @@ pub fn rdr_read_rand_seed(num_of_users: usize, iter: usize) -> Result<Vec<i64>> 
 }
 
 /// Construct the workload from the session file.
-///
 /// https://kbknapp.github.io/doapi-rs/docs/serde/json/index.html
 pub fn rdr_load_workload(
     file_path: String,
@@ -56,31 +54,40 @@ pub fn rdr_load_workload(
 
     let file = File::open(file_path).expect("file should open read only");
     let json_data: Value = from_reader(file).expect("file should be proper JSON");
+    // println!("DEBUG {:?}", json_data);
+    println!("DEBUG {:?}", rdr_users);
 
     for sec in 0..num_of_secs {
         let mut millis: Vec<(u64, String, i64)> = Vec::new();
 
         let urls_now = match json_data.get(sec.to_string()) {
-            Some(val) => val,
+            Some(val) => {
+                // println!("DEBUG {:?}", val);
+                val
+            },
             None => continue,
         };
+        // println!("DEBUG {:?}", urls_now);
         for user in &rdr_users {
             let urls = match urls_now.get(user.to_string()) {
-                Some(val) => val.as_array(),
+                Some(val) => {
+                    // println!("DEBUG {:?}", val);
+                    val.as_array()
+                }
                 None => continue,
             };
 
-            let broken_urls = curate_unresolvable_records();
+            // let broken_urls = curate_unresolvable_records();
 
-            if broken_urls.contains(urls.unwrap()[1].as_str().unwrap()) {
-                continue;
-            } else {
-                millis.push((
+            // if broken_urls.contains(urls.unwrap()[1].as_str().unwrap()) {
+            //     continue;
+            // } else {
+            millis.push((
                     urls.unwrap()[0].as_u64().unwrap(),
                     urls.unwrap()[1].as_str().unwrap().to_string(),
                     *user as i64,
-                ));
-            }
+            ));
+            // }
         }
         millis.sort();
 
