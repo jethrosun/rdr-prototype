@@ -9,7 +9,7 @@ mod unresolvable;
 mod utils;
 
 fn main() -> Fallible<()> {
-    let num_of_users = 10;
+    let num_of_users = 60;
     let iter = 0;
     let rdr_users = rdr_read_rand_seed(num_of_users, iter).unwrap();
 
