@@ -55,7 +55,7 @@ pub fn rdr_load_workload(
     let file = File::open(file_path).expect("file should open read only");
     let json_data: Value = from_reader(file).expect("file should be proper JSON");
     // println!("DEBUG {:?}", json_data);
-    println!("DEBUG {:?}", rdr_users);
+    // println!("DEBUG {:?}", rdr_users);
 
     for sec in 0..num_of_secs {
         let mut millis: Vec<(u64, String, i64)> = Vec::new();

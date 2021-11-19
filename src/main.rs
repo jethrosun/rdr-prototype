@@ -9,7 +9,7 @@ mod unresolvable;
 mod utils;
 
 fn main() -> Fallible<()> {
-    let num_of_users = 60;
+    let num_of_users = 40;
     let iter = 0;
     let rdr_users = rdr_read_rand_seed(num_of_users, iter).unwrap();
 
@@ -23,13 +23,13 @@ fn main() -> Fallible<()> {
     //     + &iter.to_string() + ".json";
     // let workload_path = "/net/data/pvn/dev/pvn/utils/workloads/rdr_pvn_workloads/rdr_pvn_workload_5.json";
     let workload_path = "rdr_pvn_workload.json";
-    println!("{:?}", workload_path);
+    // println!("{:?}", workload_path);
     let num_of_secs = 180;
 
     let mut rdr_workload =
         rdr_load_workload(workload_path.to_string(), num_of_secs, rdr_users.clone()).unwrap();
     println!("Workload is generated",);
-    println!("workload: {:?}", rdr_workload);
+    // println!("workload: {:?}", rdr_workload);
 
     // Browser list.
     let mut browser_list: HashMap<i64, Browser> = HashMap::new();
