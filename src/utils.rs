@@ -140,8 +140,8 @@ pub fn browser_create() -> Fallible<Browser> {
         .build()
         .expect("Couldn't find appropriate Chrome binary.");
     let browser = Browser::new(options)?;
-    // let tab = browser.wait_for_initial_tab()?;
-    // tab.set_default_timeout(std::time::Duration::from_secs(100));
+    let tab = browser.wait_for_initial_tab()?;
+    tab.set_default_timeout(std::time::Duration::from_secs(200));
 
     // println!("Browser created",);
     Ok(browser)
