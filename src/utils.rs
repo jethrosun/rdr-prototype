@@ -10,8 +10,8 @@ use std::vec::Vec;
 
 /// Read the pregenerated randomness seed from file.
 pub fn rdr_read_rand_seed(num_of_users: usize, iter: usize) -> Result<Vec<i64>> {
-    let rand_seed_file = "/Users/jethros/dev/pvn/utils/rand_number/rand.json";
-    // let rand_seed_file = "/net/data/pvn/dev/pvn/utils/rand_number/rand.json";
+    // let rand_seed_file = "/Users/jethros/dev/pvn/utils/rand_number/rand.json";
+    let rand_seed_file = "/net/data/pvn/dev/pvn/utils/rand_number/rand.json";
 
     let mut rand_vec = Vec::new();
     let file = File::open(rand_seed_file).expect("rand seed file should open read only");
@@ -141,7 +141,7 @@ pub fn browser_create() -> Fallible<Browser> {
         .expect("Couldn't find appropriate Chrome binary.");
     let browser = Browser::new(options)?;
     let tab = browser.wait_for_initial_tab()?;
-    tab.set_default_timeout(std::time::Duration::from_secs(2));
+    // tab.set_default_timeout(std::time::Duration::from_secs(2));
 
     // println!("Browser created",);
     Ok(browser)
@@ -154,8 +154,7 @@ pub fn simple_user_browse(
     _user: &i64,
 ) -> Fallible<(usize, u128)> {
     let now = Instant::now();
-    let tabs = current_browser.get_tabs().lock().unwrap();
-    let current_tab = tabs.iter().next().unwrap();
+    let current_tab = current_browser.wait_for_initial_tab()?;
     let http_hostname = "http://".to_string() + &hostname;
 
     current_tab.navigate_to(&http_hostname)?;
