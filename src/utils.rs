@@ -1,10 +1,10 @@
 //! Utils functions for the PVN RDR NF.
 use failure::Fallible;
-use headless_chrome::{Browser, LaunchOptionsBuilder};
+use headless_chrome::{Browser, LaunchOptions};
 use serde_json::{from_reader, Value};
 use std::collections::HashMap;
 use std::fs::File;
-use std::io::Result;
+use anyhow::Result;
 use std::time::{Duration, Instant};
 use std::vec::Vec;
 
@@ -127,20 +127,22 @@ pub fn rdr_retrieve_users(rdr_setup: usize) -> Option<usize> {
 ///
 /// FIXME: Instead of using the particular forked branch we want to eventually use the official
 /// headless chrome create but set those parameters correctly here.
-pub fn browser_create() -> Fallible<Browser> {
+pub fn browser_create() -> Result<Browser> {
     // /usr/bin/chromedriver
     // /usr/bin/chromium-browser
 
     let timeout = Duration::new(1000, 0);
 
     // .user_data_dir(Some("/Users/jethros/data/inspector".to_string()))
-    let options = LaunchOptionsBuilder::default()
+    let options = LaunchOptions::default_builder()
         .headless(true)
         .idle_browser_timeout(timeout)
         .build()
         .expect("Couldn't find appropriate Chrome binary.");
     let browser = Browser::new(options)?;
-    let tab = browser.wait_for_initial_tab()?;
+    let version_info = browser.get_version()?;
+    println!("User-Agent is `{}`", version_info.user_agent);
+    // let tab = browser.wait_for_initial_tab()?;
     // tab.set_default_timeout(std::time::Duration::from_secs(2));
 
     // println!("Browser created",);
@@ -152,7 +154,7 @@ pub fn simple_user_browse(
     current_browser: &Browser,
     hostname: &str,
     _user: &i64,
-) -> Fallible<(usize, u128)> {
+) -> Result<(usize, u128)> {
     let now = Instant::now();
     let current_tab = current_browser.wait_for_initial_tab()?;
     let http_hostname = "http://".to_string() + &hostname;
