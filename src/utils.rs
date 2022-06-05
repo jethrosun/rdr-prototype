@@ -1,10 +1,11 @@
 //! Utils functions for the PVN RDR NF.
+use anyhow::Result;
 use failure::Fallible;
 use headless_chrome::{Browser, LaunchOptions};
 use serde_json::{from_reader, Value};
 use std::collections::HashMap;
 use std::fs::File;
-use anyhow::Result;
+use std::sync::Arc;
 use std::time::{Duration, Instant};
 use std::vec::Vec;
 
@@ -64,7 +65,7 @@ pub fn rdr_load_workload(
             Some(val) => {
                 // println!("DEBUG {:?}", val);
                 val
-            },
+            }
             None => continue,
         };
         // println!("DEBUG {:?}", urls_now);
@@ -83,9 +84,9 @@ pub fn rdr_load_workload(
             //     continue;
             // } else {
             millis.push((
-                    urls.unwrap()[0].as_u64().unwrap(),
-                    urls.unwrap()[1].as_str().unwrap().to_string(),
-                    *user as i64,
+                urls.unwrap()[0].as_u64().unwrap(),
+                urls.unwrap()[1].as_str().unwrap().to_string(),
+                *user as i64,
             ));
             // }
         }
@@ -157,8 +158,13 @@ pub fn simple_user_browse(
 ) -> Result<(usize, u128)> {
     let now = Instant::now();
     let current_tab = current_browser.wait_for_initial_tab()?;
-    let http_hostname = "http://".to_string() + &hostname;
 
+    current_tab.enable_request_interception(Arc::new(|_transport, _session_id, _params| {
+        println!("request!");
+        headless_chrome::browser::tab::RequestPausedDecision::Continue(None)
+    }))?;
+
+    let http_hostname = "http://".to_string() + &hostname;
     current_tab.navigate_to(&http_hostname)?;
 
     Ok((1, now.elapsed().as_millis()))
