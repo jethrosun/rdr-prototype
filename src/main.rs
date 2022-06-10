@@ -1,5 +1,5 @@
-extern crate tiny_http;
 extern crate anyhow;
+extern crate tiny_http;
 
 use failure::Fallible;
 use headless_chrome::Browser;

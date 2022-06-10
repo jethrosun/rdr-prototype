@@ -156,7 +156,14 @@ pub fn simple_user_browse(
     _user: &i64,
 ) -> Result<(usize, u128)> {
     let now = Instant::now();
-    let current_tab = current_browser.wait_for_initial_tab()?;
+    let current_tab = match current_browser.wait_for_initial_tab() {
+        Ok(t) =>  t,
+    Err(e) => {
+println!("fetching init tab failed with {:?}", e);
+current_browser.new_tab()?
+    }
+
+    };
     let http_hostname = "http://".to_string() + &hostname;
 
     current_tab.navigate_to(&http_hostname)?;
